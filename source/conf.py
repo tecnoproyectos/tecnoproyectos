@@ -14,6 +14,7 @@ project = 'Tecno Proyectos'
 author = 'Equipo de Tecno Proyectos'
 copyright = '%s, %s' % (time.strftime("%Y"), author)
 release = time.strftime("%Y")
+version = release
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -33,6 +34,11 @@ templates_path = ['_templates']
 exclude_patterns = []
 
 numfig = True
+numfig_format = {
+    'figure': 'Figura %s',
+    'table': 'Tabla %s',
+    'code-block': 'Código %s',
+}    
 
 language = 'es_es'
 

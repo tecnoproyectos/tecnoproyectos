@@ -12,6 +12,7 @@ Tecno Proyectos
 
 .. toctree::
    :maxdepth: 2
+   :titlesonly:
    :caption: Contenidos:
    
    arduino-ft.rst

@@ -3,7 +3,6 @@
 :author: Carlos Félix Pardo Martín
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
-:tocdepth: 1
 
 .. _test:
 
@@ -18,8 +17,8 @@ Sphinx.
 `Documentación de reStructuredText para Sphinx.
 <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`__
 
-
-.. contents:: Índice de contenidos:
+.. 
+   .. contents:: Índice de contenidos:
    :local:
    :depth: 2
    :class: this-will-duplicate-information-and-it-is-still-useful-here
@@ -83,19 +82,22 @@ Tabla en forma de lista:
 
 .. list-table:: tabla en forma de lista
    :name: tabla-lista
-   :widths: 20 40 40
    :header-rows: 1
+   :widths: auto
    :align: center
 
    * - Encabezado 1
      - Encabezado 2
      - Encabezado 3
+     - Encabezado 4
    * - Fila 1, col 1
      - Fila 1, col 2
      - Fila 1, col 3
+     - Fila 1, col 4
    * - Fila 2, col 1
      - Fila 2, col 2
      - Fila 2, col 3
+     - Fila 2, col 4
 
 
 Hipervínculos

@@ -12,7 +12,7 @@ Guía de Arduino del profesor Francisco Trigueros.
 
 .. toctree::
    :maxdepth: 1
-   :numbered:
+   :numbered: 1
 
    arduino-ft-primeros-pasos.rst
    arduino-ft-protoboard.rst

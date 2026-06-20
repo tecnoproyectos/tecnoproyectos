@@ -9,9 +9,24 @@ h2 { font-size: 1.8rem !important; margin-top: 4rem !important; }
 h3 { font-size: 1.4rem !important; margin-top: 4rem !important; }
 .admonition .admonition-content {font-size: var(--font-size--normal) !important;}
 html body .admonition {font-size: var(--font-size--normal) !important;}
-
 html body .admonition .admonition-content, html body .admonition p {
 font-size: var(--font-size--normal) !important;}
-
 html body .admonition .admonition-title {
 font-size: var(--font-size--normal) !important;}
+
+caption .caption-number::after, figcaption .caption-number::after {
+content:": " !important;}
+
+
+.table-wrapper {
+width:max-content !important;
+max-width:100% !important;
+margin-left:auto !important;
+margin-right:auto !important;
+display:block;
+}
+
+.table-wrapper table.docutils {
+width:auto !important;
+margin:0 !important;
+}
