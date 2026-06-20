@@ -1,4 +1,7 @@
 build/
 internal/
+
+!venv/
 *.pyc
+__pycache__/
 
