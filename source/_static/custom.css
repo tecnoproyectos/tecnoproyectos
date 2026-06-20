@@ -10,12 +10,15 @@ h3 { font-size: 1.4rem !important; margin-top: 4rem !important; }
 .admonition .admonition-content {font-size: var(--font-size--normal) !important;}
 html body .admonition {font-size: var(--font-size--normal) !important;}
 html body .admonition .admonition-content, html body .admonition p {
-font-size: var(--font-size--normal) !important;}
+font-size: var(--font-size--normal) !important;
+}
 html body .admonition .admonition-title {
-font-size: var(--font-size--normal) !important;}
+font-size: var(--font-size--normal) !important;
+}
 
 caption .caption-number::after, figcaption .caption-number::after {
-content:": " !important;}
+content:": " !important;
+}
 
 
 .table-wrapper {
@@ -30,3 +33,28 @@ display:block;
 width:auto !important;
 margin:0 !important;
 }
+
+/* list of links in footer */
+ul.link-list {
+padding:0 0 12px 0;
+margin:0;
+list-style:none;
+}
+
+ul.link-list li {
+display: inline-block;
+padding: 0 0 0 4px;
+margin: 4px 0;
+border-left: 1px solid;
+}
+
+ul.link-list li a {
+padding: 4px;
+}
+
+.link-list li:first-child {
+border-left: none;
+padding-left: 0;
+}
+
+.custom-footer {padding-bottom: 32px;}

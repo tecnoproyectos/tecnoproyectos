@@ -17,12 +17,6 @@ Sphinx.
 `Documentación de reStructuredText para Sphinx.
 <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`__
 
-.. 
-   .. contents:: Índice de contenidos:
-   :local:
-   :depth: 2
-   :class: this-will-duplicate-information-and-it-is-still-useful-here
-
 
 Párrafos
 --------
@@ -196,3 +190,44 @@ documentación gracias al lenguaje LaTeX:
 .. math::
 
    x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+
+
+
+Glosario de términos
+--------------------
+
+.. glossary::
+
+   Sphinx
+      Generador de documentación de código abierto escrito en **Python**.
+      Convierte archivos de texto plano (usualmente en formato 
+      *reStructuredText* o *Markdown*) en sitios web HTML estáticos,
+      manuales en PDF, ePub y otros formatos.
+      Es la herramienta estándar de la industria para documentar
+      proyectos en el ecosistema Python.
+
+   Furo
+      Tema que define el aspecto visual y la estructura estética de la
+      documentación generada por Sphinx. Es limpio, minimalista y 
+      adaptable (*responsive*) diseñado específicamente para 
+      proyectos de documentación de Sphinx. 
+      Destaca por ofrecer navegación fluida tanto en pantallas móviles
+      como de escritorio y soporte nativo para modos claro/oscuro.
+
+   Python
+      Lenguaje de programación de alto nivel, interpretado y
+      multiparadigma. Es ampliamente conocido por su sintaxis limpia y
+      legible, y funciona como la base tecnológica sobre la cual está
+      construido y se ejecuta todo el sistema de Sphinx.
+
+
+.. index:: reStructuredText
+
+El lenguaje reStructuredText
+----------------------------
+Es un :index:`lenguaje de marcado ligero <reStructuredText>` diseñado 
+específicamente para la comunidad de **Python**. Su objetivo principal
+es facilitar la creación de documentos técnicos legibles tanto en su
+formato de texto plano de origen como una vez procesados y compilados
+por herramientas como **Sphinx**.
+

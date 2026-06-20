@@ -30,7 +30,6 @@ imgmath_dvisvgm_args = ['--no-fonts', '--bbox=2pt']
 source_suffix = '.rst'
 source_encoding = 'utf-8-sig'
 master_doc = 'content'
-templates_path = ['_templates']
 exclude_patterns = []
 
 numfig = True
@@ -42,7 +41,7 @@ numfig_format = {
 
 language = 'es_es'
 
-templates_path = ['_custom/templates']
+templates_path = ['_templates']
 html_additional_pages = {
     'index': 'index.html',
 }
@@ -51,6 +50,7 @@ html_additional_pages = {
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
+html_show_sphinx = False
 html_title = project
 
 html_static_path = ['_static']
