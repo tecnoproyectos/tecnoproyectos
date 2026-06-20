@@ -22,7 +22,7 @@ extensions = [
     'sphinx.ext.imgmath',
 ]
 
-imgmath_font_size = 16
+imgmath_font_size = 18
 imgmath_image_format = 'svg'
 imgmath_dvisvgm_args = ['--no-fonts', '--bbox=2pt']
 
@@ -47,6 +47,7 @@ html_additional_pages = {
 
 html_title = project
 
+html_static_path = ['_static']
 html_theme_path = []
 html_theme = 'furo'
 html_theme_options = {
@@ -170,4 +171,4 @@ def add_rst_meta_tags(app, pagename, templatename, context, doctree):
 def setup(app):
     app.set_translator('html', PatchedHTMLTranslator)
     app.connect('html-page-context', add_rst_meta_tags)
-
+    app.add_css_file('custom.css')

@@ -1,0 +1,17 @@
+:root {
+  --font-size--normal: 18px; 
+  --font-size--small: 85%;
+  --font-size--small--2: 85%;
+}
+html {font-size: 18px !important; }
+h1 { font-size: 2.2rem !important; }
+h2 { font-size: 1.8rem !important; margin-top: 4rem !important; }
+h3 { font-size: 1.4rem !important; margin-top: 4rem !important; }
+.admonition .admonition-content {font-size: var(--font-size--normal) !important;}
+html body .admonition {font-size: var(--font-size--normal) !important;}
+
+html body .admonition .admonition-content, html body .admonition p {
+font-size: var(--font-size--normal) !important;}
+
+html body .admonition .admonition-title {
+font-size: var(--font-size--normal) !important;}

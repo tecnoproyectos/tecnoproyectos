@@ -3,7 +3,7 @@
 :author: Francisco Trigueros
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
-:tocdepth: 1
+:tocdepth: 2
 
 
 Guía Arduino
@@ -11,7 +11,7 @@ Guía Arduino
 Guía de Arduino del profesor Francisco Trigueros.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :numbered:
 
    arduino-ft-primeros-pasos.rst

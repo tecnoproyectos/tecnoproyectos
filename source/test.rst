@@ -19,6 +19,12 @@ Sphinx.
 <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`__
 
 
+.. contents:: Índice de contenidos:
+   :local:
+   :depth: 2
+   :class: this-will-duplicate-information-and-it-is-still-useful-here
+
+
 Párrafos
 --------
 Párrafo con texto *resaltado*, texto **resaltado fuerte** y texto en
@@ -173,3 +179,18 @@ Consistencia
    Asigna siempre el mismo tipo de contenido al mismo bloque para que
    el estudiante asocie el color con el tipo de mensaje de forma
    automática.
+
+
+
+Fórmulas
+--------
+El generador de páginas estáticas Sphinx permite añadir fórmulas a la
+documentación gracias al lenguaje LaTeX:
+
+.. math::
+
+   ax^2 + bx + c = 0
+
+.. math::
+
+   x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}

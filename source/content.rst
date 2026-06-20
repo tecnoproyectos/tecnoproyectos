@@ -6,8 +6,9 @@
 
 .. _content:
 
+***************
 Tecno Proyectos
-===============
+***************
 
 .. toctree::
    :maxdepth: 2
