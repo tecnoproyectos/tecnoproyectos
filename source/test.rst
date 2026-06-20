@@ -1,6 +1,6 @@
-:date: 2026-06-19
+﻿:date: 2026-06-19
 :modified: 2026-06-19
-:author: Carlos Pardo Martín
+:author: Carlos Félix Pardo Martín
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
 :tocdepth: 1
@@ -12,7 +12,8 @@ Página de test
 Esta es una página que sirve de ejemplo de la mayoría de las funciones
 útiles del lenguaje reStructuredText para Sphinx.
 Con esta página se puede aprender a utilizar este lenguaje y se puede
-comprobar el funcionamiento de los estilos aplicados por el tema de Sphinx.
+comprobar el funcionamiento de los estilos aplicados por el tema Furo de
+Sphinx.
 
 `Documentación de reStructuredText para Sphinx.
 <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`__
@@ -150,3 +151,25 @@ Duis aute irure dolor in reprehenderit in voluptate velit
 esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
 cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
 est laborum.
+
+
+Advertencias
+------------
+
+.. tip::
+   Esto es un consejo o truco que facilita el aprendizaje.
+   Ayuda al estudiante a trabajar de forma más eficiente.
+
+.. note::
+   Esto es una aclaración, dato curioso o recordatorio importante.
+   También se puede utilizar para conectar un tema con otro.
+
+
+.. warning::
+   Esta advertencia se usa para alertar sobre fallos típicos, 
+   malentendidos o acciones que pueden estropear algo.
+
+Consistencia
+   Asigna siempre el mismo tipo de contenido al mismo bloque para que
+   el estudiante asocie el color con el tipo de mensaje de forma
+   automática.
