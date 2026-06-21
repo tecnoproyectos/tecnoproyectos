@@ -27,7 +27,7 @@ imgmath_font_size = 18
 imgmath_image_format = 'svg'
 imgmath_dvisvgm_args = ['--no-fonts', '--bbox=2pt']
 
-source_suffix = '.rst'
+source_suffix = {'.rst': 'restructuredtext'}
 source_encoding = 'utf-8-sig'
 master_doc = 'content'
 exclude_patterns = []
@@ -49,11 +49,17 @@ html_additional_pages = {
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-
 html_show_sphinx = False
 html_title = project
 
+html_context = {
+    'metatags': ('<link rel="icon" sizes="192x192" href="_static/favicon-192.png" type="image/png">')
+}
+
+html_extra_path = ['_custom/extra']
+
 html_static_path = ['_static']
+html_favicon = '_custom/extra/favicon.ico'
 html_theme_path = []
 html_theme = 'furo'
 html_theme_options = {
@@ -181,6 +187,7 @@ def add_rst_meta_tags(app, pagename, templatename, context, doctree):
 
     if creation_year:
         context['meta']['creation_year'] = creation_year
+
 
 # Conectar las funciones al evento
 def setup(app):

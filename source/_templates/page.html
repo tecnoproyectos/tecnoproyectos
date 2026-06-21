@@ -1,5 +1,10 @@
 {% extends "!page.html" %}
 
+{% block extrahead %}
+    {{ super() }}
+    <link rel="icon" sizes="192x192" href="/favicon-192.png" type="image/png">
+{% endblock %}
+
 {% block footer %}
 <footer class="custom-footer">
   <div class="related-pages">
