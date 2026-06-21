@@ -56,11 +56,14 @@ html_context = {
     'metatags': ('<link rel="icon" sizes="192x192" href="_static/favicon-192.png" type="image/png">')
 }
 
+html_logo = '_static/favicon.png'
+
 html_extra_path = ['_custom/extra']
 
 html_static_path = ['_static']
+
 html_favicon = '_custom/extra/favicon.ico'
-html_theme_path = []
+
 html_theme = 'furo'
 html_theme_options = {
 }

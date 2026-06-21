@@ -70,3 +70,8 @@ margin: 36px 0 24px 0 !important;
 width: 100% !important;
 height: 1px !important;
 }
+
+.sidebar-brand img {
+max-width: 48px;
+height: auto;
+}

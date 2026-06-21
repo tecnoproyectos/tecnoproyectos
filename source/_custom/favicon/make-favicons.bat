@@ -15,5 +15,7 @@ SET optipng=\bin\imagetools\optipng.exe
 
 copy /Y favicon.ico ..\extra\
 copy /Y favicon-192.png ..\extra\
+copy /Y favicon.png ..\..\_static\
+
 
 pause
