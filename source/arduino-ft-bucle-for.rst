@@ -14,9 +14,9 @@ VÍDEO: `Bucles for() en Arduino
 Ejemplo de **repetir 5 veces** con el bucle ``for()``,
 que podríamos interpretarlo como: 
 
-  * Comenzando con i igual a 1
-  * Repetir mientras i sea menor o igual a 5
-  * Aumentando i de uno en uno (i++)
+* Comenzando con i igual a 1
+* Repetir mientras i sea menor o igual a 5
+* Aumentando i de uno en uno (i++)
 
 .. code-block:: arduino
    :linenos:

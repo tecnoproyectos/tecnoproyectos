@@ -20,11 +20,12 @@ VÍDEO: `PWM en Arduino para regular la intensidad de brillo de un LED
       :align: center
    
 
-:index:`PWM` o Pulse Wide Modulation (modulación de ancho de pulso)
+:index:`PWM` (Pulse Wide Modulation o Modulación de Ancho de Pulso)
    Es una técnica que se utiliza para simular valores de distinta
    intensidad analógicos mediante pulsos o "parpadeos" de la señal:
    
    .. figure:: arduino-ft/arduino-09.png
+      :width: 800px
       :align: center
 
 Código para encender un LED conectado en el pin 9 con una intensidad de

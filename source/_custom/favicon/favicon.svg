@@ -32,9 +32,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="1.4378367"
-     inkscape:cx="313.31792"
-     inkscape:cy="302.19009"
+     inkscape:zoom="1.0167041"
+     inkscape:cx="171.14124"
+     inkscape:cy="458.83557"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -70,20 +70,20 @@
        rx="40"
        ry="39.999992"
        inkscape:export-filename="favicon.png"
-       inkscape:export-xdpi="600"
-       inkscape:export-ydpi="600" />
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:#a2bdd7;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:2.28557;stroke-opacity:1"
-       d="m 65.000002,101 h 10 V 65.999998 h 15 v -10 H 50.000001 v 10 h 15.000001 z"
+       d="m 66.000002,100 h 10 V 64.999998 h 15 v -10 H 51.000001 v 10 h 15.000001 z"
        id="path2"
        sodipodi:nodetypes="ccccccccc" />
     <path
        id="path3"
        style="fill:#a2bdd7;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:2.28557;stroke-opacity:1"
-       d="m 80.99989,71.999923 v 44.999837 h 9.999907 v -14.9996 h 10.000423 c 20,0 20.00001,-30.000237 0,-30.000237 z" />
+       d="m 81.99989,70.999923 v 44.999837 h 9.999907 v -14.9996 h 10.000423 c 20,0 20.00001,-30.000237 0,-30.000237 z" />
     <path
        style="fill:#ffffc9;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:2.28557;stroke-opacity:1"
-       d="m 91.000002,81.999998 v 9.999999 H 102 c 7,0 7,-9.999999 0.0566,-9.999999 H 90.999972 Z"
+       d="m 92.000002,80.999998 v 9.999999 H 103 c 7,0 7,-9.999999 0.0566,-9.999999 H 91.999972 Z"
        id="path4"
        sodipodi:nodetypes="ccsscc" />
   </g>
