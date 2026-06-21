@@ -8,9 +8,8 @@
 
 Primeros pasos con Arduino
 ==========================
-
 .. figure:: arduino-ft/arduino-01.png
-   :width: 240px
+   :width: 480px
    :align: right
 
 Comienza visualizando el vídeo del enlace mientras practicas con el kit
@@ -39,5 +38,3 @@ Ejemplo de programa básico. Encender y apagar el LED integrado:
      delay(300);             // Retardo de 300 milisegundos
    }
 
-.. figure:: arduino-ft/arduino-02.png
-   :align: center

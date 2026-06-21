@@ -16,11 +16,12 @@ VIDEO: `Conectar un LED a Arduino
 
 Tarea Parpadeo LED
 ------------------
-.. figure:: arduino-ft/arduino-03.png
-   :width: 240px
-   :align: right
+Monta el circuito de la figura:
 
-Monta el circuito de la figura y realiza el programa:
+.. figure:: arduino-ft/arduino-03.png
+   :align: center
+
+Realiza el programa:
 
 * Encender y apagar el LED 4 veces estando encendido 400 ms y
   apagado 250 ms
@@ -31,5 +32,5 @@ Después prueba a ir cambiando los tiempos de encendido y apagado.
 Sería el código equivalente a:
 
 .. figure:: arduino-ft/arduino-04.png
-   :width: 240px
-   :align: left
+   :width: 280px
+

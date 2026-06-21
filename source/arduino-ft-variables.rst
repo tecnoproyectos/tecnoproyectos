@@ -23,9 +23,10 @@ VÍDEO: `Variables con Arduino IDE
 
 Tarea Variables
 ---------------
-.. figure:: arduino-ft/arduino-05.png
-   :width: 240px
-   :align: right
+Monta el circuito de la figura:
+
+.. figure:: arduino-ft/arduino-03.png
+   :align: center
 
 Realiza el mismo circuito y mismo programa de la tarea anterior,
 pero usa las siguientes variables:
@@ -42,4 +43,3 @@ Sería el código equivalente al siguiente programa:
 
 .. figure:: arduino-ft/arduino-06.png
    :width: 320px
-   :align: left

@@ -17,3 +17,6 @@ Guía de Arduino del profesor Francisco Trigueros.
    arduino-ft-primeros-pasos.rst
    arduino-ft-protoboard.rst
    arduino-ft-variables.rst
+   arduino-ft-bucle-for.rst
+   arduino-ft-salidas-pwm.rst
+   
