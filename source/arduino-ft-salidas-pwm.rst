@@ -54,5 +54,5 @@ variables y el bucle ``for( )``.
 
 Sería el código equivalente a:
 
-.. figure:: arduino-ft/arduino-07.png
+.. figure:: arduino-ft/arduino-10.png
    :width: 320px

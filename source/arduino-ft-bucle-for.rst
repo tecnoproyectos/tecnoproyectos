@@ -55,5 +55,5 @@ Monta el circuito de la figura:
 
 Realiza el siguiente programa con el código equivalente a:
 
-.. figure:: arduino-ft/arduino-10.png
+.. figure:: arduino-ft/arduino-07.png
    :width: 420px
