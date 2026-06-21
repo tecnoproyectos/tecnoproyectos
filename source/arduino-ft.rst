@@ -19,4 +19,12 @@ Guía de Arduino del profesor Francisco Trigueros.
    arduino-ft-variables.rst
    arduino-ft-bucle-for.rst
    arduino-ft-salidas-pwm.rst
-   
+
+
+
+:download:`Guía de Arduino con lecciones y prácticas. Formato PDF.
+<arduino-ft/arduino-ft-guia.pdf>`
+
+:download:`Guía de Arduino con lecciones y prácticas. Formato editable ODT.
+<arduino-ft/arduino-ft-guia.odt>`
+
