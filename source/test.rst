@@ -52,8 +52,11 @@ Lista no numerada:
 * Segundo
 * Tercero
 
-Término
-  Descripción del término.
+Término uno
+  Descripción del término uno.
+  
+Término dos
+  Descripción del término dos.
   
   Que puede tener varios párrafos.
 
