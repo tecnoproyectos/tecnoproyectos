@@ -10,7 +10,7 @@ Primeros pasos con Arduino
 ==========================
 .. figure:: arduino-ft/arduino-01.png
    :width: 480px
-   :align: right
+   :align: center
 
 Comienza visualizando el vídeo del enlace mientras practicas con el kit
 de Arduino o el simulador de circuitos online TinkerCAD.

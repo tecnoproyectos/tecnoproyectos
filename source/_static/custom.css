@@ -75,3 +75,7 @@ height: 1px !important;
 max-width: 48px;
 height: auto;
 }
+
+.rubric {margin-top: 3rem;}
+
+.footnote-reference {font-size: var(--font-size--small);}

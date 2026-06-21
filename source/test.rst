@@ -171,11 +171,32 @@ Advertencias
    Esta advertencia se usa para alertar sobre fallos típicos, 
    malentendidos o acciones que pueden estropear algo.
 
+.. hint::
+   :collapsible: closed
+   
+   Esta sugerencia o pista sirve para guiar al estudiante hacia la
+   solución. Estimula el pensamiento crítico sin dar la respuesta
+   directamente.
+   Además se muestra inicialmente cerrada para no dar pistas antes
+   de que el estudiante lo pida expresamente.
+
+
 Consistencia
    Asigna siempre el mismo tipo de contenido al mismo bloque para que
    el estudiante asocie el color con el tipo de mensaje de forma
    automática.
 
+
+Notas a pie de página
+---------------------
+Este texto necesita una aclaración mediante una nota al pie de página
+con numeración automática [#f1]_. 
+
+También puedes enlazar a otra nota a pie de página usando un nombre
+identificativo o etiqueta [#nota_nombre]_.
+
+Por otro lado, Sphinx es la herramienta estándar para generar
+documentación de proyectos asociados a Python [#]_.
 
 
 Fórmulas
@@ -231,3 +252,14 @@ es facilitar la creación de documentos técnicos legibles tanto en su
 formato de texto plano de origen como una vez procesados y compilados
 por herramientas como **Sphinx**.
 
+
+
+
+.. rubric:: Notas:
+
+.. [#f1] Esta es la explicación de la primera nota al pie, numerada
+   automáticamente.
+.. [#nota_nombre] Esta nota se asocia mediante el texto de la etiqueta,
+   pero Sphinx le asignará el número correlativo correcto.
+.. [#] Sphinx transforma archivos reStructuredText en HTML, PDF y otros
+   formatos.
