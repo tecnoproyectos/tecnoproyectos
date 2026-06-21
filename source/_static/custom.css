@@ -57,4 +57,16 @@ border-left: none;
 padding-left: 0;
 }
 
-.custom-footer {padding-bottom: 32px;}
+.custom-footer {
+padding-bottom: 32px;
+font-size: var(--font-size--normal);
+}
+
+.custom-footer hr, hr {
+display: block !important;
+border: 0 !important;
+border-top: 1px solid #ccc !important;
+margin: 36px 0 24px 0 !important;
+width: 100% !important;
+height: 1px !important;
+}

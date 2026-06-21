@@ -148,30 +148,39 @@ def add_rst_meta_tags(app, pagename, templatename, context, doctree):
         "mainEntityOfPage": canonical_url,
     }
 
-    # 5. Inyectar etiquetas <meta> para en HTML
+    # 5. Inyectar etiquetas <meta> para HTML
     if 'license_url' in rst_meta:
         schema_data["license"] = rst_meta.get("license_url") 
 
     if 'image' in rst_meta:
         schema_data["image"] = [ 'https://tecnoproyectos.github.io/_images/' + rst_meta.get("image") ] 
 
+    creation_year = ''
+
     if 'date' in rst_meta:
         published_date = rst_meta.get("date") + 'T12:00:00+01:00'
         schema_data["datePublished"] = published_date
         context['metatags'] += f'<meta property="article:published_time" content="{published_date}" />\n'
+        creation_year = rst_meta.get("date").split('-')[0].strip()
 
     if 'modified' in rst_meta:
         modified_date = rst_meta.get('modified') + 'T12:00:00+01:00'
         schema_data["dateModified"] = modified_date
         context['metatags'] += f'<meta property="article:modified_time" content="{modified_date}" />\n'
+
+        modified_year = rst_meta.get("modified").split('-')[0].strip()
+        if creation_year and creation_year != modified_year:
+            creation_year = creation_year + '-' + modified_year
     
-    # 4. Inyectar el script en los metatags de la página
+    # Inyectar el script en los metatags de la página
     schema_script = f"\n<script type=\"application/ld+json\">\n{json.dumps(schema_data, indent=2, ensure_ascii=False)}\n</script>\n"
     if 'metatags' in context:
         context['metatags'] += schema_script
     else:
         context['metatags'] = schema_script
 
+    if creation_year:
+        context['meta']['creation_year'] = creation_year
 
 # Conectar las funciones al evento
 def setup(app):
