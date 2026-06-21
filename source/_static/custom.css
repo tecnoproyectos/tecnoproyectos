@@ -79,3 +79,6 @@ height: auto;
 .rubric {margin-top: 3rem;}
 
 .footnote-reference {font-size: var(--font-size--small);}
+
+.field-list dt, .option-list dt, dl.footnote dt, dl.glossary dt,
+dl.simple dt, dl:not([class]) dt {font-weight:600; margin-top: 1rem;}
