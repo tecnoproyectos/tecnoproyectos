@@ -48,11 +48,11 @@ Tarea Bucle for()
 -----------------
 Monta el circuito de la figura:
 
-.. figure:: _images/arduino-03.png
+.. figure:: _images/arduino-ft-03.png
    :align: center
 
 
 Realiza el siguiente programa con el código equivalente a:
 
-.. figure:: _images/arduino-07.png
+.. figure:: _images/arduino-ft-07.png
    :width: 420px

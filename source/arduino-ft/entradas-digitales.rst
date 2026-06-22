@@ -14,7 +14,7 @@ VÍDEO: `Pulsadores, entradas digitales en Arduino
 La conexión más sencilla usando el modo PULLUP INTERNO sería
 (se podría usar cualquier pin digital, no tiene por qué ser el 8):
 
-.. figure:: _images/arduino-03.png
+.. figure:: _images/arduino-ft-03.png
    :width: 290px
    :align: center
 
@@ -60,7 +60,7 @@ Tarea Pulsadores AND
 VÍDEO: `if, else, AND y OR, variables booleanas y constantes
 <https://www.youtube.com/watch?v=mHiiZT8c-t8>`__
 
-.. figure:: _images/arduino-15.png
+.. figure:: _images/arduino-ft-15.png
    :width: 480px
    :align: center
 
@@ -81,7 +81,7 @@ resistencia de 220Ω.
 
 El programa sería similar al siguiente:
 
-.. figure:: _images/arduino-16.png
+.. figure:: _images/arduino-ft-16.png
    :width: 641px
    :align: center
 
@@ -98,6 +98,6 @@ un LED y una resistencia de 220Ω.
 
 El programa sería similar al siguiente:
 
-.. figure:: _images/arduino-17.png
+.. figure:: _images/arduino-ft-17.png
    :width: 641px
    :align: center

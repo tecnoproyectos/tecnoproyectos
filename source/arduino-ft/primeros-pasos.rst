@@ -7,7 +7,7 @@
 
 Primeros pasos con Arduino
 ==========================
-.. figure:: _images/arduino-01.png
+.. figure:: _images/arduino-ft-01.png
    :width: 480px
    :align: center
 

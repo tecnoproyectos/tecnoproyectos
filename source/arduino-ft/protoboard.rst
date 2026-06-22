@@ -17,7 +17,7 @@ Tarea Parpadeo LED
 ------------------
 Monta el circuito de la figura:
 
-.. figure:: _images/arduino-03.png
+.. figure:: _images/arduino-ft-03.png
    :align: center
 
 Realiza el programa:
@@ -30,6 +30,6 @@ Después prueba a ir cambiando los tiempos de encendido y apagado.
 
 Sería el código equivalente a:
 
-.. figure:: _images/arduino-04.png
+.. figure:: _images/arduino-ft-04.png
    :width: 280px
 

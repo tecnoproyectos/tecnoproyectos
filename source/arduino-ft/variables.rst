@@ -24,7 +24,7 @@ Tarea Variables
 ---------------
 Monta el circuito de la figura:
 
-.. figure:: _images/arduino-03.png
+.. figure:: _images/arduino-ft-03.png
    :align: center
 
 Realiza el mismo circuito y mismo programa de la tarea anterior,
@@ -40,5 +40,5 @@ verás cómo es más rápido ahora usando las variables.
 
 Sería el código equivalente al siguiente programa:
 
-.. figure:: _images/arduino-06.png
+.. figure:: _images/arduino-ft-06.png
    :width: 320px

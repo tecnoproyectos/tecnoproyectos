@@ -10,19 +10,19 @@ Potenciómetro
 Los potenciómetros son resistencias variables. Las ajustamos al hacer
 girar su mando, aunque también las hay deslizables.
 
-.. figure:: _images/arduino-27.png
+.. figure:: _images/arduino-ft-27.png
    :width: 165px
    :align: center
    
    Potenciómetro.
 
-.. figure:: _images/arduino-28.png
+.. figure:: _images/arduino-ft-28.png
    :width: 165px
    :align: center
    
    Resistencia ajustable.
    
-.. figure:: _images/arduino-29.png
+.. figure:: _images/arduino-ft-29.png
    :width: 330px
    :align: center
    
@@ -34,7 +34,7 @@ VÍDEO: `Potenciómetro. Conexión y programación en Arduino
 
 Conexión básica a Arduino:
 
-.. figure:: _images/arduino-30.png
+.. figure:: _images/arduino-ft-30.png
    :width: 430px
    :align: center
 
@@ -79,13 +79,13 @@ Tarea regulador de luz
 Realiza un circuito que permita ajustar el nivel de luz de un LED
 mediante un potenciómetro:
 
-.. figure:: _images/arduino-31.png
+.. figure:: _images/arduino-ft-31.png
    :width: 458px
    :align: center
 
 El programa debe ser equivalente al siguiente en bloques:
 
-.. figure:: _images/arduino-32.png
+.. figure:: _images/arduino-ft-32.png
    :width: 683px
    :align: center
 

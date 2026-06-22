@@ -11,7 +11,7 @@ Servomotores
 VÍDEO: `Servomotores en Arduino. Guía básica
 <https://www.youtube.com/watch?v=kE_ou58E7Hw>`__
 
-.. figure:: _images/arduino-24.png
+.. figure:: _images/arduino-ft-24.png
    :width: 300px
    :align: center
 
@@ -25,7 +25,7 @@ Puede girar de 0º a 180º.
 La conexión básica sería como en la imagen, teniendo que conectar
 **el cable naranja a cualquier salida PWM**.
 
-.. figure:: _images/arduino-25.png
+.. figure:: _images/arduino-ft-25.png
    :width: 360px
    :align: center
 
@@ -65,7 +65,7 @@ limpiaparabrisas de un coche:
 
 Aquí tienes el programa con bloques que puedes usar como guía:
 
-.. figure:: _images/arduino-26.png
+.. figure:: _images/arduino-ft-26.png
    :width: 480px
    :align: center
 

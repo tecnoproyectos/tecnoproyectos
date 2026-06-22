@@ -36,13 +36,13 @@ Tarea pedir nivel de brillo
 ---------------------------
 Monta el circuito de la figura:
 
-.. figure:: _images/arduino-03.png
+.. figure:: _images/arduino-ft-03.png
    :align: center
 
 realiza un programa en Arduino IDE que haga el algoritmo de los bloques
 siguientes:
 
-.. figure:: _images/arduino-12.png
+.. figure:: _images/arduino-ft-12.png
    :width: 765px
 
 
@@ -54,5 +54,5 @@ el número, el LED parpadeará ese número de veces.
 
 Si necesitas ayuda, puedes guiarte con el siguiente programa de bloques:
 
-.. figure:: _images/arduino-13.png
+.. figure:: _images/arduino-ft-13.png
    :width: 964px

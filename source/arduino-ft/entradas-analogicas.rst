@@ -7,7 +7,7 @@
 
 Entradas analógicas
 ===================
-.. figure:: _images/arduino-18.png
+.. figure:: _images/arduino-ft-18.png
    :width: 153px
    :align: right
 
@@ -18,11 +18,11 @@ Entradas analógicas
 
 La conexión eléctrica forma un divisor de tensión:
 
-.. figure:: _images/arduino-19.png
+.. figure:: _images/arduino-ft-19.png
    :width: 600px
    :align: center
 
-.. figure:: _images/arduino-20.png
+.. figure:: _images/arduino-ft-20.png
    :width: 320px
    :align: center
 
@@ -51,7 +51,7 @@ Existen módulos LDR de 3 pines con potenciómetro en los que no hace falta
 conectar la resistencia porque ya la lleva incorporada, además de un
 potenciómetro para calibrarla.
 
-.. figure:: _images/arduino-21.png
+.. figure:: _images/arduino-ft-21.png
    :width: 320px
    :align: center
 
@@ -72,7 +72,7 @@ Monta el siguiente circuito con Arduino y siguiendo las instrucciones
 del vídeo realiza un programa para visualizar en el monitor serie cómo
 detecta la LDR el nivel de luz.
 
-.. figure:: _images/arduino-22.png
+.. figure:: _images/arduino-ft-22.png
    :width: 320px
    :align: center
 
@@ -95,6 +95,6 @@ directa sobre la LDR de la linterna del móvil.
 Necesitarás dos resitencias de 220Ω para los LEDs y otra de 10kΩ que va
 junto a la LDR.
 
-.. figure:: _images/arduino-23.png
+.. figure:: _images/arduino-ft-23.png
    :width: 320px
    :align: center

@@ -14,7 +14,7 @@ VÍDEO: `PWM en Arduino para regular la intensidad de brillo de un LED
    No todos los pines digitales se pueden usar con PWM,
    solamente los que se indican con una "onda":
    
-   .. figure:: _images/arduino-08.png
+   .. figure:: _images/arduino-ft-08.png
       :width: 480px
       :align: center
    
@@ -23,7 +23,7 @@ VÍDEO: `PWM en Arduino para regular la intensidad de brillo de un LED
    Es una técnica que se utiliza para simular valores de distinta
    intensidad analógicos mediante pulsos o "parpadeos" de la señal:
    
-   .. figure:: _images/arduino-09.png
+   .. figure:: _images/arduino-ft-09.png
       :width: 800px
       :align: center
 
@@ -40,7 +40,7 @@ Tarea PWM brillo
 ----------------
 Monta el circuito de la figura:
 
-.. figure:: _images/arduino-03.png
+.. figure:: _images/arduino-ft-03.png
    :align: center
 
 Realiza el mismo programa que el de las tareas anteriores,
@@ -53,5 +53,5 @@ variables y el bucle ``for( )``.
 
 Sería el código equivalente a:
 
-.. figure:: _images/arduino-10.png
+.. figure:: _images/arduino-ft-10.png
    :width: 420px
