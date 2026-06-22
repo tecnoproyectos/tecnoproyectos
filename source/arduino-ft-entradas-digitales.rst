@@ -75,7 +75,7 @@ con un LED.
 Monta el circuito de la figura con dos pulsadores, un LED y una
 resistencia de 220Ω.
 
-.. tip:: 
+.. hint::
    Para sacar un 10. Si en vez de con 1 LED lo haces con 3 LEDs que se
    enciendan secuencialmente, tendrás un 10 en la práctica.
 
