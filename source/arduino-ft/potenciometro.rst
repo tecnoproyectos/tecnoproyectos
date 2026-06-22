@@ -10,19 +10,19 @@ Potenciómetro
 Los potenciómetros son resistencias variables. Las ajustamos al hacer
 girar su mando, aunque también las hay deslizables.
 
-.. figure:: _images/arduino-ft-27.png
+.. figure:: _images/arduino-ft-27.jpg
    :width: 165px
    :align: center
    
    Potenciómetro.
 
-.. figure:: _images/arduino-ft-28.png
+.. figure:: _images/arduino-ft-28.jpg
    :width: 165px
    :align: center
    
    Resistencia ajustable.
    
-.. figure:: _images/arduino-ft-29.png
+.. figure:: _images/arduino-ft-29.jpg
    :width: 330px
    :align: center
    

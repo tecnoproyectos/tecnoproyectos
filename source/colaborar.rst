@@ -29,6 +29,13 @@ Normas de edición
    Por ejemplo imágenes o archivos pdf: arduino-ft-01.png, 
    arduino-ft-guia.pdf
 
+#. Puedes fijarte en cómo está escrito un proyecto ya existente para
+   tomarlo como referencia para escribir el tuyo.
+   
+   Por ejemplo te puede servir de modelo el proyecto de `Guía de Arduino
+   <https://github.com/tecnoproyectos/tecnoproyectos/tree/main/source/arduino-ft>`__
+   situado en la carpeta ``sources/arduino-ft`` del repositorio.
+
 #. El primer archivo de contenidos dentro de la carpeta de un proyecto 
    debe llamarse index.rst y debe contener una lista con todos los 
    archivos de ese proyecto.

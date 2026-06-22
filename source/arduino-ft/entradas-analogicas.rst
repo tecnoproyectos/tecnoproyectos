@@ -51,7 +51,7 @@ Existen módulos LDR de 3 pines con potenciómetro en los que no hace falta
 conectar la resistencia porque ya la lleva incorporada, además de un
 potenciómetro para calibrarla.
 
-.. figure:: _images/arduino-ft-21.png
+.. figure:: _images/arduino-ft-21.jpg
    :width: 320px
    :align: center
 
