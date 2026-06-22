@@ -13,24 +13,24 @@ Guía de Arduino del profesor Francisco Trigueros.
    :maxdepth: 1
    :numbered: 1
 
-   arduino-ft-primeros-pasos.rst
-   arduino-ft-protoboard.rst
-   arduino-ft-variables.rst
-   arduino-ft-bucle-for.rst
-   arduino-ft-salidas-pwm.rst
-   arduino-ft-serial-recibir.rst
-   arduino-ft-serial-enviar.rst
-   arduino-ft-entradas-digitales.rst
-   arduino-ft-entradas-analogicas.rst
-   arduino-ft-servomotores.rst
-   arduino-ft-potenciometro.rst
+   primeros-pasos.rst
+   protoboard.rst
+   variables.rst
+   bucle-for.rst
+   salidas-pwm.rst
+   serial-recibir.rst
+   serial-enviar.rst
+   entradas-digitales.rst
+   entradas-analogicas.rst
+   servomotores.rst
+   potenciometro.rst
    
 
 :download:`Guía de Arduino con lecciones y prácticas. Formato PDF.
-<arduino-ft/arduino-ft-guia.pdf>`
+<arduino-ft-guia.pdf>`
 
 :download:`Guía de Arduino con lecciones y prácticas. Formato editable ODT.
-<arduino-ft/arduino-ft-guia.odt>`
+<arduino-ft-guia.odt>`
 
 
 .. note::

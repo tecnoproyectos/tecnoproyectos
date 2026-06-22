@@ -48,11 +48,11 @@ Tarea visualiza el nivel de brillo
 ----------------------------------
 Monta el circuito de la figura:
 
-.. figure:: arduino-ft/arduino-03.png
+.. figure:: _images/arduino-03.png
    :align: center
 
 Realiza el programa Brillo_sube_baja, pero visualizando la intensidad de
 brillo en el monitor serie:
 
-.. figure:: arduino-ft/arduino-11.png
+.. figure:: _images/arduino-11.png
    :width: 480px

@@ -15,7 +15,7 @@ Tecno Proyectos
    :titlesonly:
    :caption: Contenidos:
    
-   arduino-ft.rst
+   arduino-ft/index.rst
 
    test.rst
 
