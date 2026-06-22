@@ -3,7 +3,6 @@
 :author: Francisco Trigueros
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
-:tocdepth: 2
 
 
 Guía Arduino
@@ -19,8 +18,13 @@ Guía de Arduino del profesor Francisco Trigueros.
    arduino-ft-variables.rst
    arduino-ft-bucle-for.rst
    arduino-ft-salidas-pwm.rst
-
-
+   arduino-ft-serial-recibir.rst
+   arduino-ft-serial-enviar.rst
+   arduino-ft-entradas-digitales.rst
+   arduino-ft-entradas-analogicas.rst
+   arduino-ft-servomotores.rst
+   arduino-ft-potenciometro.rst
+   
 
 :download:`Guía de Arduino con lecciones y prácticas. Formato PDF.
 <arduino-ft/arduino-ft-guia.pdf>`
@@ -28,3 +32,9 @@ Guía de Arduino del profesor Francisco Trigueros.
 :download:`Guía de Arduino con lecciones y prácticas. Formato editable ODT.
 <arduino-ft/arduino-ft-guia.odt>`
 
+
+.. note::
+   Esta guía de Arduino ha sido creada por Francisco Trigueros y
+   ha sido corregida y adaptada al formato web por
+   Carlos Félix Pardo Martín.
+   
