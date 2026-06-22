@@ -7,7 +7,7 @@
 
 Salidas PWM
 ===========
-VÍDEO: `PWM en Arduino para regular la intensidad de brillo de un LED
+|icono-video| VÍDEO: `PWM en Arduino para regular la intensidad de brillo de un LED
 <https://www.youtube.com/watch?v=_EqMkNmlm1Q>`__
 
 .. note::
@@ -55,3 +55,9 @@ Sería el código equivalente a:
 
 .. figure:: _images/arduino-ft-10.png
    :width: 420px
+
+
+
+.. |icono-video| image:: _images/arduino-ft-video.png
+   :alt: Icono de vídeo de YouTube
+   :height: 32px

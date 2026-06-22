@@ -16,7 +16,7 @@ de Arduino o el simulador de circuitos online TinkerCAD.
 De momento no tienes que entregar ninguna tarea.
 
 
-VÍDEO: `Primer programa con Arduino IDE y simulador de TinkerCAD
+|icono-video| VÍDEO: `Primer programa con Arduino IDE y simulador de TinkerCAD
 <https://www.youtube.com/watch?v=QmZUwqoM6y8>`__
 
 
@@ -37,3 +37,9 @@ Ejemplo de programa básico. Encender y apagar el LED integrado:
      delay(300);             // Retardo de 300 milisegundos
    }
 
+
+
+
+.. |icono-video| image:: _images/arduino-ft-video.png
+   :alt: Icono de vídeo de YouTube
+   :height: 32px

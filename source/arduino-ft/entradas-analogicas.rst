@@ -65,7 +65,7 @@ Pines y su conexión a la placa Arduino:
 Tarea LDR monitor
 -----------------
 
-VÍDEO: `Entradas digitales en Arduino. LDR y monitor serie
+|icono-video| VÍDEO: `Entradas digitales en Arduino. LDR y monitor serie
 <https://www.youtube.com/watch?v=Vd1G-iW1Jx8>`__
 
 Monta el siguiente circuito con Arduino y siguiendo las instrucciones
@@ -80,7 +80,7 @@ detecta la LDR el nivel de luz.
 Tarea Sensor de luz LEDs
 ------------------------
 
-VÍDEO: `Arduino: Sensor de luz con LEDs
+|icono-video| VÍDEO: `Arduino: Sensor de luz con LEDs
 <https://www.youtube.com/watch?v=_TE2JDuPRSs>`__
 
 Monta el circuito de la imagen y realiza el programa de un sensor de luz
@@ -98,3 +98,9 @@ junto a la LDR.
 .. figure:: _images/arduino-ft-23.png
    :width: 320px
    :align: center
+
+
+
+.. |icono-video| image:: _images/arduino-ft-video.png
+   :alt: Icono de vídeo de YouTube
+   :height: 32px

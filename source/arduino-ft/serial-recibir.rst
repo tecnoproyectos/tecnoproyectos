@@ -8,7 +8,7 @@
 Comunicación serie I
 ====================
 
-VÍDEO: `Arduino nos envía mensajes (comunicación serial)
+|icono-video| VÍDEO: `Arduino nos envía mensajes (comunicación serial)
 <https://www.youtube.com/watch?v=x2IdOeIPhRY>`__
 
 Vamos a comunicarnos con Arduino. Primero vamos a ver cómo Arduino nos va
@@ -56,3 +56,9 @@ brillo en el monitor serie:
 
 .. figure:: _images/arduino-ft-11.png
    :width: 480px
+
+
+
+.. |icono-video| image:: _images/arduino-ft-video.png
+   :alt: Icono de vídeo de YouTube
+   :height: 32px

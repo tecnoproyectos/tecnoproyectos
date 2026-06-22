@@ -29,7 +29,7 @@ girar su mando, aunque también las hay deslizables.
    Símbolos del potenciómetro.
    
 
-VÍDEO: `Potenciómetro. Conexión y programación en Arduino
+|icono-video| VÍDEO: `Potenciómetro. Conexión y programación en Arduino
 <https://www.youtube.com/watch?v=bA1hnIIX6Iw>`__
 
 Conexión básica a Arduino:
@@ -95,3 +95,9 @@ Tarea potenciómetro servo
 Realiza la práctica que se visualiza `al final del vídeo
 <https://www.youtube.com/watch?v=Z_TcgRC4zvk&t=332s>`__
 en la que un potenciómetro se usa para mover un servomotor.
+
+
+
+.. |icono-video| image:: _images/arduino-ft-video.png
+   :alt: Icono de vídeo de YouTube
+   :height: 32px

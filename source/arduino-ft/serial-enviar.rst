@@ -8,7 +8,7 @@
 Comunicación serie II
 =====================
 
-VÍDEO: `Comunicación serial: enviando información a Arduino
+|icono-video| VÍDEO: `Comunicación serial: enviando información a Arduino
 <https://www.youtube.com/watch?v=FmVy-vH9oqY>`__
 
 Para esperar hasta que Arduino reciba nuestro mensaje:
@@ -56,3 +56,9 @@ Si necesitas ayuda, puedes guiarte con el siguiente programa de bloques:
 
 .. figure:: _images/arduino-ft-13.png
    :width: 964px
+
+
+
+.. |icono-video| image:: _images/arduino-ft-video.png
+   :alt: Icono de vídeo de YouTube
+   :height: 32px

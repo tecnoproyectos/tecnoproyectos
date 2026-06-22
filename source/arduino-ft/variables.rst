@@ -16,7 +16,7 @@ llamada pinLED, usamos el comando:
 
    int pinLED = 13;
 
-VÍDEO: `Variables con Arduino IDE
+|icono-video| VÍDEO: `Variables con Arduino IDE
 <https://www.youtube.com/watch?v=safEHD4d2Q4>`__
 
 
@@ -42,3 +42,9 @@ Sería el código equivalente al siguiente programa:
 
 .. figure:: _images/arduino-ft-06.png
    :width: 320px
+
+
+
+.. |icono-video| image:: _images/arduino-ft-video.png
+   :alt: Icono de vídeo de YouTube
+   :height: 32px

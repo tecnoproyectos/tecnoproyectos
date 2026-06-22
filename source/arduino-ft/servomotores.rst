@@ -8,7 +8,7 @@
 Servomotores
 ============
 
-VÍDEO: `Servomotores en Arduino. Guía básica
+|icono-video| VÍDEO: `Servomotores en Arduino. Guía básica
 <https://www.youtube.com/watch?v=kE_ou58E7Hw>`__
 
 .. figure:: _images/arduino-ft-24.jpg
@@ -69,3 +69,8 @@ Aquí tienes el programa con bloques que puedes usar como guía:
    :width: 480px
    :align: center
 
+
+
+.. |icono-video| image:: _images/arduino-ft-video.png
+   :alt: Icono de vídeo de YouTube
+   :height: 32px

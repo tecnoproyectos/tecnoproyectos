@@ -7,7 +7,7 @@
 
 Bucle for()
 ===========
-VÍDEO: `Bucles for() en Arduino
+|icono-video| VÍDEO: `Bucles for() en Arduino
 <https://www.youtube.com/watch?v=BBouhq2HR10>`__
 
 Ejemplo de **repetir 5 veces** con el bucle ``for()``,
@@ -56,3 +56,10 @@ Realiza el siguiente programa con el código equivalente a:
 
 .. figure:: _images/arduino-ft-07.png
    :width: 420px
+
+
+
+
+.. |icono-video| image:: _images/arduino-ft-video.png
+   :alt: Icono de vídeo de YouTube
+   :height: 32px

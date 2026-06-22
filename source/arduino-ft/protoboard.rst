@@ -9,7 +9,7 @@ Protoboard y conexión de componentes
 ====================================
 Visualiza el siguiente vídeo.
 
-VIDEO: `Conectar un LED a Arduino 
+|icono-video| VÍDEO: `Conectar un LED a Arduino 
 <https://www.youtube.com/watch?v=67rZCWYDjNk>`__
 
 
@@ -33,3 +33,7 @@ Sería el código equivalente a:
 .. figure:: _images/arduino-ft-04.png
    :width: 280px
 
+
+.. |icono-video| image:: _images/arduino-ft-video.png
+   :alt: Icono de vídeo de YouTube
+   :height: 32px

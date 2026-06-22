@@ -8,7 +8,7 @@
 Entradas digitales
 ==================
 
-VÍDEO: `Pulsadores, entradas digitales en Arduino
+|icono-video| VÍDEO: `Pulsadores, entradas digitales en Arduino
 <https://www.youtube.com/watch?v=0Ple_lD5zLo>`__
 
 La conexión más sencilla usando el modo PULLUP INTERNO sería
@@ -57,7 +57,7 @@ monitor serie:
 Tarea Pulsadores AND
 --------------------
 
-VÍDEO: `if, else, AND y OR, variables booleanas y constantes
+|icono-video| VÍDEO: `if, else, AND y OR, variables booleanas y constantes
 <https://www.youtube.com/watch?v=mHiiZT8c-t8>`__
 
 .. figure:: _images/arduino-ft-15.png
@@ -101,3 +101,9 @@ El programa sería similar al siguiente:
 .. figure:: _images/arduino-ft-17.png
    :width: 641px
    :align: center
+
+
+
+.. |icono-video| image:: _images/arduino-ft-video.png
+   :alt: Icono de vídeo de YouTube
+   :height: 32px
