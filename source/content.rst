@@ -17,5 +17,6 @@ Tecno Proyectos
    
    arduino-ft/index.rst
 
+   colaborar.rst
    test.rst
 
