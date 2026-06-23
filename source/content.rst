@@ -16,6 +16,7 @@ Tecno Proyectos
    :caption: Contenidos:
    
    arduino-ft/index.rst
+   freecad-ft/index.rst
 
    colaborar.rst
    test.rst
