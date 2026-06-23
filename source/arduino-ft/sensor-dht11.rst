@@ -5,9 +5,9 @@
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
 
 
-Sensor DTH11
+Sensor DHT11
 ============
-El sensor DTH11 es un sensor de temperatura y de humedad relativa del
+El sensor DHT11 es un sensor de temperatura y de humedad relativa del
 aire ambiente.
 
 .. figure:: _images/arduino-ft-39.jpg

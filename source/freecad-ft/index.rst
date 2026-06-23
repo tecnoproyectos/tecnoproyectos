@@ -7,6 +7,11 @@
 
 Guía FreeCAD
 ============
+
+.. figure:: _images/freecad-ft-28.png
+   :width: 480px
+   :align: center
+
 Guía de FreeCAD del profesor Francisco Trigueros.
 
 .. toctree::
