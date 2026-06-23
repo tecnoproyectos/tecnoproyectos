@@ -66,6 +66,7 @@ rangos. Por ejemplo para remapear una lectura analógica que está en un
 rango de 0-1023 a un nivel de salida PWM que está en un rango 0-255.
 
 Ejemplo:
+
 .. code-block:: arduino
 
    brillo = map(valorPotenciometro, 0, 1023, 0, 255);
