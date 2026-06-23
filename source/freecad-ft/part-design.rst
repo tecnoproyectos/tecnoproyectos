@@ -26,7 +26,7 @@ Modela un bloque de construcción como el de la figura:
    :align: center
 
 .. figure:: _images/freecad-ft-41.png
-   :width: 640px
+   :width: 800px
    :align: center
 
 
