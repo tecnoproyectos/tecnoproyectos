@@ -85,6 +85,19 @@ El programa sería similar al siguiente:
    :width: 641px
    :align: center
 
+La instrucción señalada con la flecha roja se convierte en el siguiente
+código:
+
+.. code-block:: arduino
+   :emphasize-lines: 1
+
+   if (valorPulsador1 == 1 && valorPulsador2 == 1) {
+     digitalWrite(pinLed, HIGH);
+   }
+   else {
+     digitalWrite(pinLed, LOW);
+   }
+
 
 Tarea Pulsadores OR
 -------------------
@@ -101,6 +114,19 @@ El programa sería similar al siguiente:
 .. figure:: _images/arduino-ft-17.png
    :width: 641px
    :align: center
+
+La instrucción señalada con la flecha roja se convierte en el siguiente
+código:
+
+.. code-block:: arduino
+   :emphasize-lines: 1
+
+   if (valorPulsador1 == 1 || valorPulsador2 == 1) {
+     digitalWrite(pinLed, HIGH);
+   }
+   else {
+     digitalWrite(pinLed, LOW);
+   }
 
 
 

@@ -25,6 +25,16 @@ Guía de Arduino del profesor Francisco Trigueros.
    servomotores.rst
    potenciometro.rst
    
+   variables-tipos.rst
+   variables-texto.rst
+   variables-ambitos.rst
+   variables-leer.rst
+   constantes.rst
+   
+   sensor-ultrasonico.rst
+   pantalla-lcd.rst
+   sensor-dht11.rst
+   
 
 :download:`Guía de Arduino con lecciones y prácticas. Formato PDF.
 <arduino-ft-guia.pdf>`

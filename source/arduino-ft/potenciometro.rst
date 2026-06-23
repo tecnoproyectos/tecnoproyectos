@@ -43,6 +43,7 @@ La instrucción para leer la entrada analógica será la estándar:
 
 .. code-block:: arduino
    :linenos:
+   :emphasize-lines: 9
 
    int valorPotenciometro;
    int pinPotenciometro = A0;
@@ -60,7 +61,7 @@ La instrucción para leer la entrada analógica será la estándar:
 
 Función :index:`map()`
 ----------------------
-La **función ``map( )``** en Arduino permite remapear un número desde
+La **función map()** en Arduino permite remapear un número desde
 un rango a otro. Es útil para hacer equivalencias entre diferentes
 rangos. Por ejemplo para remapear una lectura analógica que está en un
 rango de 0-1023 a un nivel de salida PWM que está en un rango 0-255.
