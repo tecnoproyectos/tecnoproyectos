@@ -174,10 +174,10 @@ Advertencias
    Esto es una aclaración, dato curioso o recordatorio importante.
    También se puede utilizar para conectar un tema con otro.
 
-.. admonition:: Título de la caja de advertencia
+.. admonition:: Título de la caja personalizado
 
    Esta advertencia genérica tiene un título que se puede modificar
-   a voluntad.
+   a voluntad, de forma personalizada.
 
 .. warning::
    Esta advertencia se usa para alertar sobre fallos típicos, 
@@ -189,8 +189,10 @@ Advertencias
    Esta sugerencia o pista sirve para guiar al estudiante hacia la
    solución. Estimula el pensamiento crítico sin dar la respuesta
    directamente.
-   Además se muestra inicialmente cerrada para no dar pistas antes
-   de que el estudiante lo pida expresamente.
+   
+   Puede mostrarse inicialmente cerrada para no dar pistas antes
+   de que el estudiante lo pida expresamente, con la opción
+   ``:collapsible: closed``.
 
 
 Consistencia
