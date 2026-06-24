@@ -29,15 +29,9 @@ Normas de edición
    Por ejemplo imágenes o archivos pdf: arduino-ft-01.png, 
    arduino-ft-guia.pdf
 
-#. Puedes fijarte en cómo está escrito un proyecto ya existente para
-   tomarlo como referencia para escribir el tuyo.
-   
-   Por ejemplo te puede servir de modelo el proyecto de `Guía de Arduino
-   <https://github.com/tecnoproyectos/tecnoproyectos/tree/main/source/arduino-ft>`__
-   situado en la carpeta ``sources/arduino-ft`` del repositorio.
 
 #. El primer archivo de contenidos dentro de la carpeta de un proyecto 
-   debe llamarse index.rst y debe contener una lista con todos los 
+   debe llamarse **index.rst** y debe contener una lista con todos los 
    archivos de ese proyecto.
    
    No está permitido hacer subniveles. Todos los archivos del proyecto
@@ -45,6 +39,20 @@ Normas de edición
 
    Si necesitas separar proyectos, será necesario crear un proyecto nuevo
    con un nuevo nombre.
+
+#. Los diferentes archivos de reStructuredText (\*.rst) de un proyecto
+   deben nombrarse con palabras separadas por guiones altos que describan
+   lo mejor posible el contenido del archivo.
+   Se puede utilizar desde una palabra hasta tres palabras como máximo.
+   
+   Ejemplos: pantalla-lcd.rst, entradas-analogicas.rst, disenio-papel.rst
+   
+   No utilices tildes, eñes o diéresis ya que eso crearía problemas con
+   las páginas html generadas. La letra 'ñ' se puede sustituir por las
+   letras 'ni' y las tildes y diéresis no se ponen.
+   
+   Intenta no numerar los archivos, porque las numeraciones se desordenan
+   al añadir contenido o al reordenar el contenido existente.
 
 #. La codificación de los archivos rst deberá ser UTF-8 con BOM para que
    pueda soportar la edición de caracteres internacionales.
@@ -76,7 +84,36 @@ Normas de edición
    proyecto y poder ver todos los archivos a la vez sin tener que navegar
    por subdirectorios.
 
-#. Las imágenes no deben tener un tamaño mayor de 500 kilobytes.
+#. Puedes fijarte en cómo está escrito un proyecto ya existente para
+   tomarlo como referencia para escribir el tuyo.
+   
+   Por ejemplo te puede servir de modelo el proyecto de `Guía de Arduino
+   <https://github.com/tecnoproyectos/tecnoproyectos/tree/main/source/arduino-ft>`__
+   situado en la carpeta ``sources/arduino-ft`` del repositorio.
+
+
+Fotografías e imágenes
+----------------------
+#. Se recomienda utilizar solo dos formatos de imagen:
+
+   * **JPG**: para fotografías o imágenes con degradados y multitud de
+     colores.
+   * **PNG**: para el resto de imágenes como capturas de pantalla, gráficos
+     imágenes prediseñadas, capturas de texto, etc.
+     
+   Ante la duda, lo mejor es guardar la imagen en **formato PNG**, puesto
+   que este formato no pierde calidad y se puede convertir fácilmente a JPG
+   posteriormente, mientras que las imágenes JPG pierden calidad y no
+   pueden convertirse posteriormente a PNG porque ocupan un tamaño
+   excesivo.
+
+#. El tamaño de las imágenes debe ser suficientemente grande como para que
+   la imagen no pierda detalles, pero no innecesariamente grande para que 
+   el archivo no ocupe un tamaño excesivo.
+     
+#. Los archivos de fotografías e imágenes no deben tener un tamaño mayor
+   de 500 kilobytes.
+
    Si hay imágenes de gran tamaño se recomienda crear un repositorio nuevo
    en GitHub para almacenarlas.
    Después se copiarán solo las imágenes imprescindibles en formato de
@@ -104,6 +141,30 @@ Normas de edición
       for img in *.jpg; do
          magick "$img" -resize "1200x1200>" -quality 90 -strip "${img%.jpg}-1200.jpg"
       done
+
+
+Ciclo de trabajo con GitHub
+---------------------------
+Los pasos a seguir para poder aportar contenidos utilizando la plataforma
+GitHub son los siguientes:
+
+#. Crear una cuenta personal en GitHub
+#. Clonar en la cuenta personal todo el proyecto de Tecno Proyectos
+   desde esta dirección:
    
+   https://github.com/tecnoproyectos/tecnoproyectos
+
+#. Asegurarse de que el proyecto personal está sincronizado con el botón
+   ``Sync fork`` para que recibamos en el repositorio propio todos los
+   últimos cambios que se hayan producido en el proyecto principal.
+
+#. Realizar los cambios en un subdirectorio propio, dentro del directorio
+   source.
    
-   
+   Por ejemplo: añadir un archivo en /source/freecad-ft
+
+#. Abrir un pull-request con el botón ``Contribute`` y clicando
+   ``Open pull request`` para enviar los cambios realizados al 
+   proyecto principal.
+
+#. Volver al punto 3 y repetir el proceso.
