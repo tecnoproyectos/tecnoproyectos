@@ -1,18 +1,17 @@
 ﻿:date: 2026-06-22
-:modified: 2026-06-22
+:modified: 2026-06-24
 :author: Carlos Félix Pardo Martín
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
 
 
-Colaboración con el proyecto
-============================
-En esta página se explicará cómo colaborar con este proyecto a través
-de GitHub y qué normas seguir para mantener el estilo de la web homogéneo.
-
-
 Normas de edición
------------------
+=================
+Estas son las normas para editar los contenidos de la página web con 
+el lenguaje reStructuredText.
+Puedes aprender a utilizar este lenguaje de marcado con 
+la :ref:`página de ejemplo de reStructuredText <restructuredtext>`.
+
 #. Todos los archivos de un proyecto deben estar contenidos en una carpeta
    con nombre del proyecto y las iniciales del creador.
   
@@ -90,81 +89,3 @@ Normas de edición
    Por ejemplo te puede servir de modelo el proyecto de `Guía de Arduino
    <https://github.com/tecnoproyectos/tecnoproyectos/tree/main/source/arduino-ft>`__
    situado en la carpeta ``sources/arduino-ft`` del repositorio.
-
-
-Fotografías e imágenes
-----------------------
-#. Se recomienda utilizar solo dos formatos de imagen:
-
-   * **JPG**: para fotografías o imágenes con degradados y multitud de
-     colores.
-   * **PNG**: para el resto de imágenes como capturas de pantalla, gráficos
-     imágenes prediseñadas, capturas de texto, etc.
-     
-   Ante la duda, lo mejor es guardar la imagen en **formato PNG**, puesto
-   que este formato no pierde calidad y se puede convertir fácilmente a JPG
-   posteriormente, mientras que las imágenes JPG pierden calidad y no
-   pueden convertirse posteriormente a PNG porque ocupan un tamaño
-   excesivo.
-
-#. El tamaño de las imágenes debe ser suficientemente grande como para que
-   la imagen no pierda detalles, pero no innecesariamente grande para que 
-   el archivo no ocupe un tamaño excesivo.
-     
-#. Los archivos de fotografías e imágenes no deben tener un tamaño mayor
-   de 500 kilobytes.
-
-   Si hay imágenes de gran tamaño se recomienda crear un repositorio nuevo
-   en GitHub para almacenarlas.
-   Después se copiarán solo las imágenes imprescindibles en formato de
-   tamaño y calidad reducidas en el proyecto para que el tamaño total de
-   todo el sitio web se mantenga contenido.
-   
-   La herramienta estándar para reducir el tamaño y calidad de las
-   imágenes es `ImageMagick <https://imagemagick.org/download/>`__
-   
-   La línea de comandos para reducir el tamaño de una imagen es::
-      
-      magick  image.jpg  -resize "1200x1200>" -quality 90 -strip   image-1200.jpg
-   
-   
-   Donde image.jpg es la imagen original a reducir y 1200 es el tamaño en
-   pixels de ancho o de alto (la mayor de las dos) de la imagen de salida.
-   
-   Para reducir a la vez el tamaño de muchas imágenes se utilizará la
-   línea de comandos para Windows::
-   
-      for %i in (*.jpg) do magick "%i" -resize "1200x1200>" -quality 90 -strip "%~ni-1200.jpg"
-
-   O su equivalente en Linux::
-
-      for img in *.jpg; do
-         magick "$img" -resize "1200x1200>" -quality 90 -strip "${img%.jpg}-1200.jpg"
-      done
-
-
-Ciclo de trabajo con GitHub
----------------------------
-Los pasos a seguir para poder aportar contenidos utilizando la plataforma
-GitHub son los siguientes:
-
-#. Crear una cuenta personal en GitHub
-#. Clonar en la cuenta personal todo el proyecto de Tecno Proyectos
-   desde esta dirección:
-   
-   https://github.com/tecnoproyectos/tecnoproyectos
-
-#. Asegurarse de que el proyecto personal está sincronizado con el botón
-   ``Sync fork`` para que recibamos en el repositorio propio todos los
-   últimos cambios que se hayan producido en el proyecto principal.
-
-#. Realizar los cambios en un subdirectorio propio, dentro del directorio
-   source.
-   
-   Por ejemplo: añadir un archivo en /source/freecad-ft
-
-#. Abrir un pull-request con el botón ``Contribute`` y clicando
-   ``Open pull request`` para enviar los cambios realizados al 
-   proyecto principal.
-
-#. Volver al punto 3 y repetir el proceso.

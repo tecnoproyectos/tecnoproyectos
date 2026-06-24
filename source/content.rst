@@ -22,6 +22,5 @@ Colección de proyectos de Tecnología para el aula de Secundaria.
    freecad-ft/index
    javascript-eg/index
 
-   colaborar.rst
-   test.rst
+   colaborar-cp/index
 
