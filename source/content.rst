@@ -10,10 +10,6 @@
 Tecno Proyectos
 ***************
 
-.. figure:: _static/favicon.png
-   :width: 48px
-
-
 Colección de proyectos de Tecnología para el aula de Secundaria.
 
 

@@ -76,6 +76,16 @@ max-width: 48px;
 height: auto;
 }
 
+.brand-container {
+display: flex;
+align-items: center;
+gap: 12px;
+text-decoration: none;
+}
+.brand-logo {height: 24px; width: auto;}
+
+
+
 .rubric {margin-top: 3rem;}
 
 .footnote-reference {font-size: var(--font-size--small);}
