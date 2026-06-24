@@ -1,5 +1,5 @@
 ﻿:date: 2026-06-22
-:modified: 2026-06-22
+:modified: 2026-06-24
 :author: Francisco Trigueros
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
@@ -43,6 +43,7 @@ realiza un programa en Arduino IDE que haga el algoritmo de los bloques
 siguientes:
 
 .. figure:: _images/arduino-ft-12.png
+   :align: center
    :width: 765px
 
 
@@ -55,6 +56,7 @@ el número, el LED parpadeará ese número de veces.
 Si necesitas ayuda, puedes guiarte con el siguiente programa de bloques:
 
 .. figure:: _images/arduino-ft-13.png
+   :align: center
    :width: 964px
 
 

@@ -1,5 +1,5 @@
 ﻿:date: 2026-06-21
-:modified: 2026-06-21
+:modified: 2026-06-24
 :author: Francisco Trigueros
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
@@ -56,6 +56,7 @@ Realiza el siguiente programa con el código equivalente a:
 
 .. figure:: _images/arduino-ft-07.png
    :width: 420px
+   :align: center
 
 
 

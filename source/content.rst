@@ -10,13 +10,21 @@
 Tecno Proyectos
 ***************
 
+.. figure:: _static/favicon.png
+   :width: 48px
+
+
+Colección de proyectos de Tecnología para el aula de Secundaria.
+
+
 .. toctree::
    :maxdepth: 2
    :titlesonly:
    :caption: Contenidos:
    
-   arduino-ft/index.rst
-   freecad-ft/index.rst
+   arduino-ft/index
+   freecad-ft/index
+   javascript-eg/index
 
    colaborar.rst
    test.rst

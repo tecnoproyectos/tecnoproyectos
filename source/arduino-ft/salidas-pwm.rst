@@ -1,5 +1,5 @@
 ﻿:date: 2026-06-21
-:modified: 2026-06-21
+:modified: 2026-06-24
 :author: Francisco Trigueros
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
@@ -54,6 +54,7 @@ variables y el bucle ``for( )``.
 Sería el código equivalente a:
 
 .. figure:: _images/arduino-ft-10.png
+   :align: center
    :width: 420px
 
 

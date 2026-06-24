@@ -20,6 +20,21 @@ Guía de FreeCAD del profesor Francisco Trigueros.
 
    freecad-instalar.rst
    part-design.rst
+   lapicero-personalizado.rst
+   llavero-personalizado.rst
+   puente-autoportante.rst
+   arco-medio-punto.rst
+   repeticion-piezas.rst
+   herramienta-espesor.rst
+   herramienta-huecos.rst
+   repeticion-polar.rst
+   llavero-articulado.rst
+   tangencias-simetrias.rst
+   polilinea-barrido.rst
+   figuras-revolucion.rst
+   variables.rst
+   ensamble.rst
+   plano-vivienda.rst
    
 
 :download:`Guía de FreeCAD con lecciones y prácticas. Formato editable ODT.

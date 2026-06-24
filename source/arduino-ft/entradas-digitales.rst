@@ -11,15 +11,16 @@ Entradas digitales
 |icono-video| VÍDEO: `Pulsadores, entradas digitales en Arduino
 <https://www.youtube.com/watch?v=0Ple_lD5zLo>`__
 
-La conexión más sencilla usando el modo PULLUP INTERNO sería
-(se podría usar cualquier pin digital, no tiene por qué ser el 8):
+La conexión más sencilla usando el modo PULLUP INTERNO sería la siguiente
+(se puede usar cualquier pin digital, no tiene por qué ser el 8):
 
-.. figure:: _images/arduino-ft-03.png
-   :width: 290px
+.. figure:: _images/arduino-ft-14.png
+   :width: 640px
    :align: center
 
+
 Las instrucciones básicas para los pulsadores en modo PULLUP INTERNO
-serían:
+son:
 
 .. code-block:: arduino
    :linenos:
@@ -33,13 +34,15 @@ serían:
    }
    
    void loop() {
-     // En PULLUP invertimos el valor con ! (NOT)
+     // En PULLUP invertimos el valor con ! (función NOT)
      valorPulsador = !digitalRead(pinPulsador);
    }
 
 .. note:: 
    El signo ! antes de digitalRead se usa para invertir el valor digital:
-   de 0 se transforma en 1 y el 1 se transforma en 0.
+
+   * El 0 se transforma en 1 
+   * El 1 se transforma en 0
 
 
 Tarea Pulsador_monitor

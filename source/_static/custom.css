@@ -82,3 +82,16 @@ height: auto;
 
 .field-list dt, .option-list dt, dl.footnote dt, dl.glossary dt,
 dl.simple dt, dl:not([class]) dt {font-weight:600; margin-top: 1rem;}
+
+
+article .align-default {
+text-align: left !important;
+}
+div.figure,
+figure.align-default, 
+img.align-default {
+display:block;
+margin-left: 0;
+margin-right: auto;
+margin-bottom: 1rem;
+}

@@ -1,5 +1,5 @@
 ﻿:date: 2026-06-20
-:modified: 2026-06-20
+:modified: 2026-06-24
 :author: Francisco Trigueros
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
@@ -31,6 +31,7 @@ Después prueba a ir cambiando los tiempos de encendido y apagado.
 Sería el código equivalente a:
 
 .. figure:: _images/arduino-ft-04.png
+   :align: center
    :width: 280px
 
 
