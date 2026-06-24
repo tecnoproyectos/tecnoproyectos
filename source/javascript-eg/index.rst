@@ -15,7 +15,7 @@ que reaccionan al ratón y al teclado.
 
 .. toctree::
    :maxdepth: 1
-   :numbered:
+   :numbered: 1
    :caption: Prácticas con p5.js
 
    disenio-papel
