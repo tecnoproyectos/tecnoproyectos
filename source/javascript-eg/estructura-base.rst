@@ -13,7 +13,7 @@ El bucle de dibujo
 ------------------
 
 Todo programa en p5.js tiene dos funciones principales que ya estarán
-escritas cuando abras el editor:
+escritas cuando abras el `editor p5js <https://editor.p5js.org/>`_:
 
 .. code-block:: javascript
 
@@ -47,8 +47,9 @@ dos números son el ancho y el alto en píxeles:
      background(220); // fondo gris claro
    }
 
-Escribe esto en el editor y pulsa el botón ▶ (Play). Deberías ver un
-rectángulo gris. Si lo ves, ¡todo funciona correctamente!
+Escribe esto en el `editor p5js <https://editor.p5js.org/>`_ y pulsa el
+botón ▶ (Play). Deberías ver un rectángulo gris.
+Si lo ves, ¡todo funciona correctamente!
 
 
 .. admonition:: ¿Qué hace background()?
