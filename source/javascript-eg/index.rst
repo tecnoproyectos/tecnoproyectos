@@ -31,4 +31,4 @@ que reaccionan al ratón y al teclado.
 
 .. note::
    Esta guía de p5.js ha sido creada por
-   Esther Gordo
+   Esther Gordo.
