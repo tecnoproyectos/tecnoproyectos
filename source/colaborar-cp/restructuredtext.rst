@@ -170,13 +170,14 @@ est laborum.
 Advertencias
 ------------
 
-.. tip::
-   Esto es un consejo o truco que facilita el aprendizaje.
-   Ayuda al estudiante a trabajar de forma más eficiente.
-
 .. note::
    Esto es una aclaración, dato curioso o recordatorio importante.
    También se puede utilizar para conectar un tema con otro.
+
+.. admonition:: Título de la caja de advertencia
+
+   Esta advertencia genérica tiene un título que se puede modificar
+   a voluntad.
 
 .. warning::
    Esta advertencia se usa para alertar sobre fallos típicos, 
@@ -190,11 +191,6 @@ Advertencias
    directamente.
    Además se muestra inicialmente cerrada para no dar pistas antes
    de que el estudiante lo pida expresamente.
-
-.. admonition:: Título de la caja de advertencia
-
-   Esta advertencia genérica tiene un título a medida, que se puede
-   modificar.
 
 
 Consistencia
