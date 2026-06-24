@@ -8,16 +8,20 @@
 
 El lenguaje reStructuredText
 ============================
-El lenguaje reStructuredText (abreviado como reST) es un lenguaje de
+El lenguaje **reStructuredText** (abreviado como reST) es un lenguaje de
 marcado ligero y fácil de leer, diseñado para escribir documentos
 técnicos, manuales y páginas web a partir de archivos de texto plano.
 
 Esta es una página que sirve de ejemplo y resumen de la mayoría de las
 funciones útiles del lenguaje **reStructuredText** para Sphinx.
+Para ver el texto fuente de esta página debes clicar en el icono del ojo
+situado arriba a la derecha.
 
 Con esta página se puede aprender a utilizar este lenguaje de marcado
 y se puede comprobar el funcionamiento de los estilos aplicados por el
 tema Furo de Sphinx.
+
+Para saber más sobre reStructuredText:
 
 * `Documentación de reStructuredText para Sphinx.
   <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`__
