@@ -14,6 +14,7 @@ para aprender a programar con p5.js creando composiciones visuales
 que reaccionan al ratón y al teclado.
 
 .. toctree::
+   :titlesonly:
    :maxdepth: 1
    :numbered: 1
    :caption: Prácticas con p5.js

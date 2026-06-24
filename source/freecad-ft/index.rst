@@ -15,6 +15,7 @@ Guía FreeCAD
 Guía de FreeCAD del profesor Francisco Trigueros.
 
 .. toctree::
+   :titlesonly:
    :maxdepth: 1
    :numbered: 1
 

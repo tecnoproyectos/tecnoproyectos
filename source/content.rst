@@ -14,7 +14,7 @@ Colección de proyectos de Tecnología para el aula de Secundaria.
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :titlesonly:
    :caption: Contenidos:
    

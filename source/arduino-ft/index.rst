@@ -10,8 +10,10 @@ Guía Arduino
 Guía de Arduino del profesor Francisco Trigueros.
 
 .. toctree::
+   :titlesonly:
    :maxdepth: 1
    :numbered: 1
+
 
    primeros-pasos.rst
    protoboard.rst

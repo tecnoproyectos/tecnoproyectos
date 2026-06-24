@@ -12,6 +12,7 @@ proyecto, abierto a cualquier profesor de Tecnología que desee aportar
 contenidos.
 
 .. toctree:: 
+   :titlesonly:
    :maxdepth: 1
    :numbered: 1
 
