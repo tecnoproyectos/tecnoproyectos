@@ -12,80 +12,113 @@ el lenguaje reStructuredText.
 Puedes aprender a utilizar este lenguaje de marcado con 
 la :ref:`página de ejemplo de reStructuredText <restructuredtext>`.
 
-#. Todos los archivos de un proyecto deben estar contenidos en una carpeta
-   con nombre del proyecto y las iniciales del creador.
-  
-   Por ejemplo: arduino-ft, scratch-cpm, puente-fam
-  
-   Si tienes dudas, contacta con el administrador de la web para que 
-   te asigne un directorio en el que comenzar a añadir contenidos.
 
-#. Todas las imágenes y archivos descargables deben empezar por el mismo
-   nombre de la carpeta en el que están contenidas. De esta forma ningún
-   archivo de todo el proyecto tendrá un nombre coincidente con el de 
-   otro proyecto distinto.
+Carpeta de proyecto
+-------------------
+Todos los archivos de un proyecto deben estar contenidos en una carpeta
+con nombre del proyecto y las iniciales del creador.
+  
+Por ejemplo: arduino-ft, scratch-cpm, puente-fam
+  
+Si tienes dudas, contacta con el administrador de la web para que 
+te asigne un directorio en el que comenzar a añadir contenidos.
+
+
+Imágenes y documentos
+---------------------
+Todas las imágenes y archivos descargables deben empezar por el mismo
+nombre de la carpeta en el que están contenidas. De esta forma ningún
+archivo de todo el proyecto tendrá un nombre coincidente con el de 
+otro proyecto distinto.
       
-   Por ejemplo imágenes o archivos pdf: arduino-ft-01.png, 
-   arduino-ft-guia.pdf
+Por ejemplo imágenes o archivos pdf: arduino-ft-01.png, arduino-ft-guia.pdf
+
+Página de índice
+----------------
+El primer archivo de contenidos dentro de la carpeta de un proyecto 
+debe llamarse **index.rst** y debe contener una lista con todos los 
+archivos de ese proyecto.
+   
+No está permitido hacer subniveles. Todos los archivos del proyecto
+deben colgar del archivo principal index.rst.
+
+Si necesitas separar proyectos, será necesario crear un proyecto nuevo
+con un nuevo nombre.
 
 
-#. El primer archivo de contenidos dentro de la carpeta de un proyecto 
-   debe llamarse **index.rst** y debe contener una lista con todos los 
-   archivos de ese proyecto.
+Nombre de las páginas
+---------------------
+Los diferentes archivos de reStructuredText (\*.rst) de un proyecto,
+que luego se convertirán en una página web, deben nombrarse con palabras
+separadas por guiones altos que describan lo mejor posible el contenido
+del archivo.
+Se puede utilizar desde una palabra hasta tres palabras como máximo.
    
-   No está permitido hacer subniveles. Todos los archivos del proyecto
-   deben colgar del archivo principal index.rst.
+Ejemplos: pantalla-lcd.rst, entradas-analogicas.rst, disenio-papel.rst
+   
+No utilices tildes, eñes o diéresis ya que eso crearía problemas con
+las páginas html generadas. La letra 'ñ' se puede sustituir por las
+letras 'ni' y las tildes y diéresis no se ponen.
+   
+Intenta no numerar los archivos, porque las numeraciones se desordenan
+al añadir contenido o al reordenar el contenido existente.
 
-   Si necesitas separar proyectos, será necesario crear un proyecto nuevo
-   con un nuevo nombre.
 
-#. Los diferentes archivos de reStructuredText (\*.rst) de un proyecto
-   deben nombrarse con palabras separadas por guiones altos que describan
-   lo mejor posible el contenido del archivo.
-   Se puede utilizar desde una palabra hasta tres palabras como máximo.
+Codificación de los archivos
+----------------------------
+La codificación de los archivos de texto \*.rst deberá ser UTF-8
+con BOM para que pueda soportar la edición de caracteres internacionales.
    
-   Ejemplos: pantalla-lcd.rst, entradas-analogicas.rst, disenio-papel.rst
-   
-   No utilices tildes, eñes o diéresis ya que eso crearía problemas con
-   las páginas html generadas. La letra 'ñ' se puede sustituir por las
-   letras 'ni' y las tildes y diéresis no se ponen.
-   
-   Intenta no numerar los archivos, porque las numeraciones se desordenan
-   al añadir contenido o al reordenar el contenido existente.
+Se pueden utilizar emojis en el texto, pero al traducir la página web a
+formato PDF, la mayoría se perderán.
 
-#. La codificación de los archivos rst deberá ser UTF-8 con BOM para que
-   pueda soportar la edición de caracteres internacionales.
-   
-   Se pueden utilizar emojis en el texto, pero al traducir la página web a
-   formato PDF, la mayoría se perderán.
 
-#. Es necesario añadir metadatos en la cabecera para indicar quién es el
-   autor del proyecto y qué licencia usa.
-   Para dar coherencia a todo el sitio web y permitir la utilización de
-   imágenes de Wikimedia y de herramientas como Fritzing, se recomienda
-   encarecidamente mantener la licencia Creative Commons
-   Attribution-ShareAlike 4.0.
+Metadatos
+---------
+Es necesario añadir metadatos en la cabecera para indicar quién es el
+autor del proyecto y qué licencia usa.
+Para dar coherencia a todo el sitio web y permitir la utilización de
+imágenes de Wikimedia y de herramientas como Fritzing, se recomienda
+encarecidamente mantener la licencia Creative Commons
+Attribution-ShareAlike 4.0.
    
-   Los metadatos básicos de cabecera de todos los archivos rst serán::
+Los metadatos básicos de cabecera de todos los archivos rst serán::
    
-      :date: 2026-06-22    (fecha de creación en formato año-mes-dia)
-      :modified: 2026-06-22   (fecha de última modificación en formato año-mes-dia)
-      :author: Nombre y apellido(s) del autor
-      :license: Creative Commons Attribution-ShareAlike 4.0 International
-      :license_url: https://creativecommons.org/licenses/by-sa/4.0/
+   :date: 2026-06-22    (fecha de creación en formato año-mes-dia)
+   :modified: 2026-06-22   (fecha de última modificación en formato año-mes-dia)
+   :author: Nombre y apellido(s) del autor
+   :license: Creative Commons Attribution-ShareAlike 4.0 International
+   :license_url: https://creativecommons.org/licenses/by-sa/4.0/
 
-#. Se recomienda mantener todos los archivos rst en el directorio raíz del 
-   proyecto y las imágenes en el subdirectorio _images.
-   
-   Se puede crear otro directorio más para las descargas: _downloads
-   
-   Se recomienda no crear más subdirectorios para mantener limpio el 
-   proyecto y poder ver todos los archivos a la vez sin tener que navegar
-   por subdirectorios.
 
-#. Puedes fijarte en cómo está escrito un proyecto ya existente para
-   tomarlo como referencia para escribir el tuyo.
+Subdirectorios
+--------------
+Se recomienda mantener todos los archivos rst en el directorio raíz del 
+proyecto y las imágenes en el subdirectorio _images.
    
-   Por ejemplo te puede servir de modelo el proyecto de `Guía de Arduino
-   <https://github.com/tecnoproyectos/tecnoproyectos/tree/main/source/arduino-ft>`__
-   situado en la carpeta ``sources/arduino-ft`` del repositorio.
+Se puede crear otro subdirectorio más para las descargas: _downloads
+   
+Se recomienda no crear más subdirectorios para mantener limpio el 
+proyecto y poder ver todos los archivos a la vez sin tener que navegar
+por subdirectorios.
+
+
+Extensión de página
+-------------------
+Cada página de contenidos debería tener una extensión tal, que se pueda 
+estudiar y realizar sus ejercicios en una sesión de clase.
+
+Si es necesario separar contenidos para diferenciarlos (por ejemplo
+separar circuitos en serie de circuitos en paralelo) lo ideal es que 
+cada página contenga sus propios ejercicios y tareas y que se puedan 
+hacer como mucho tres páginas por sesión de clase.
+
+
+Ejemplos
+--------
+Puedes fijarte en cómo está escrito un proyecto ya existente para
+tomarlo como referencia para escribir el tuyo.
+   
+Por ejemplo te puede servir de modelo el proyecto de `Guía de Arduino
+<https://github.com/tecnoproyectos/tecnoproyectos/tree/main/source/arduino-ft>`__
+situado en la carpeta ``sources/arduino-ft`` del repositorio.
