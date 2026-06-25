@@ -51,6 +51,8 @@ distribución Debian y sus distribuciones derivadas (Ubuntu, MAX, etc).
 
   ``sudo apt install imagemagick``
 
+
+
 Herramientas en Windows
 -----------------------
 
@@ -61,32 +63,44 @@ Herramientas en Windows
   Instalar para todos los usuarios en el directorio
   c:/Archivos de programa/Python314
 
-* **Sphinx**: generador de documentación que compila los ficheros fuente
-  para convertirlos en html estático, epub o pdf.
-  
-  abrir la linea de comandos cmd y escribir las siguientes líneas:
-  
-  ``set PATH="c:/Archivos de programa/Python314/";%PATH%``
-  ``python.exe -m pip install sphinx``
-
-* **Furo**: es el tema de Sphinx. Sirve para definir el estilo de la página
-  web (tipos de letra, tamaños, separaciones entre elementos, etc.)
-  
-  abrir la linea de comandos cmd y escribir las siguientes líneas:
-  
-  ``set PATH="c:/Archivos de programa/Python314/";%PATH%``
-  ``python.exe -m pip install furo``
-
 
 * **Cygwin**: paquete que emula en Windows el comportamiento de Linux
-  y añade herramientas Unix como make o bash.
+  y añade herramientas Unix como make o bash, necesarias para compilar.
 
   Descarga el archivo de instalación para Windows:
   https://www.cygwin.com/install.html
   
   Instala el programa, añadiendo el paquete make, que no viene añadido
   por defecto.
+
+
+* **Entorno virtual de Python**: Es el entorno local de herramientas de
+  Python.
   
+  Comenzamos por borrar el directorio venv actual.
+  
+  Ejecutamos las siguientes instrucciones desde la consola de comandos::
+  
+     ``set PATH="c:/Archivos de programa/Python314/";%PATH%``
+     
+     ``python.exe -m venv venv``
+
+  
+* **Sphinx**: generador de documentación que compila los ficheros fuente
+  para convertirlos en html estático, epub o pdf.
+  
+  Abrimos la linea de comandos ejecutando ``_bash.bat`` y escribimos:
+  
+  ``python.exe -m pip install sphinx``
+
+
+* **Furo**: es el tema de Sphinx. Sirve para definir el estilo de la página
+  web (tipos de letra, tamaños, separaciones entre elementos, etc.)
+  
+  Abrimos la linea de comandos ejecutando ``_bash.bat`` y escribimos:
+  
+  ``python.exe -m pip install furo``
+
 
 * **MikTeX**: paquete del lenguaje LaTeX para generación de fórmulas
   con Sphinx.
@@ -97,13 +111,6 @@ Herramientas en Windows
   Renombra el archivo de instalación a miktex-portable.exe
   
   Instala el archivo en el directorio C:/Bin/miktex
-
-
-* **Git**: gestor de versiones. Es la herramienta de control de revisiones
-  de Linux y la que trabaja por debajo del servicio GitHub.
-
-  https://git-scm.com/install/windows
-
 
 
 Compilando el proyecto
