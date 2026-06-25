@@ -1,5 +1,5 @@
 ﻿:date: 2026-06-22
-:modified: 2026-06-24
+:modified: 2026-06-26
 :author: Carlos Félix Pardo Martín
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
@@ -32,6 +32,7 @@ archivo de todo el proyecto tendrá un nombre coincidente con el de
 otro proyecto distinto.
       
 Por ejemplo imágenes o archivos pdf: arduino-ft-01.png, arduino-ft-guia.pdf
+
 
 Página de índice
 ----------------
@@ -103,10 +104,29 @@ proyecto y poder ver todos los archivos a la vez sin tener que navegar
 por subdirectorios.
 
 
+Títulos
+-------
+Se recomienda realizar un solo título principal en cada página, subrayado
+con caracteres de igual ``======```.
+
+Se pueden añadir subtítulos secundarios, subrayados con caracteres de resta
+``------``.
+
+De forma excepcional se pueden añadir subtítulos de nivel tres, subrayados
+con caracteres de acentos circunflejos ``^^^^^^``, aunque se desaconseja
+utilizar tantos niveles en una sola página.
+
+Los títulos deben ser breves para que los menús de navegación no se
+saturen con frases largas. Lo ideal es utilizar una, dos o tres palabras
+descriptivas y aportar una explicación mayor en el texto a continuación
+del título.
+
+
 Extensión de página
 -------------------
-Cada página de contenidos debería tener una extensión tal, que se pueda 
-estudiar y realizar sus ejercicios en una sesión de clase.
+Cada página de contenidos debería tener una extensión tal que se pueda 
+estudiar y realizar sus ejercicios en una sesión de clase
+(alrededor de 50 minutos).
 
 Si es necesario separar contenidos para diferenciarlos (por ejemplo
 separar circuitos en serie de circuitos en paralelo) lo ideal es que 
@@ -119,6 +139,7 @@ Ejemplos
 Puedes fijarte en cómo está escrito un proyecto ya existente para
 tomarlo como referencia para escribir el tuyo.
    
-Por ejemplo te puede servir de modelo el proyecto de `Guía de Arduino
-<https://github.com/tecnoproyectos/tecnoproyectos/tree/main/source/arduino-ft>`__
-situado en la carpeta ``sources/arduino-ft`` del repositorio.
+Por ejemplo te puede servir de modelo estas mismas páginas que explican
+`Cómo colaborar
+<https://github.com/tecnoproyectos/tecnoproyectos/tree/main/source/colaborar-cp>`__
+situado en la carpeta ``sources/colaborar-cp`` del repositorio.

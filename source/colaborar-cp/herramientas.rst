@@ -15,6 +15,7 @@ pero si es recomendable para que puedas compilar el proyecto en tu propio
 ordenador y comprobar que todo lo escrito funciona correctamente antes de
 enviarlo al repositorio principal, ahorrando trabajo a los administradores.
 
+
 Herramientas en Linux
 ---------------------
 A continuación aparece la lista de herramientas necesarias para la
@@ -29,7 +30,8 @@ distribución Debian y sus distribuciones derivadas (Ubuntu, MAX, etc).
 
   ``sudo apt install python3-sphinx``
 
-* **Furo**:
+* **Furo**: es el tema de Sphinx. Sirve para definir el estilo de la página
+  web (tipos de letra, tamaños, separaciones entre elementos, etc.)
   
   ``apt install python3-furo``
 
@@ -48,6 +50,60 @@ distribución Debian y sus distribuciones derivadas (Ubuntu, MAX, etc).
   del proyecto a mano cuando sea necesario.
 
   ``sudo apt install imagemagick``
+
+Herramientas en Windows
+-----------------------
+
+* **Python**: lenguaje de programación que utiliza el proyecto.
+  
+  https://www.python.org/downloads/latest/python3.14/
+  
+  Instalar para todos los usuarios en el directorio
+  c:/Archivos de programa/Python314
+
+* **Sphinx**: generador de documentación que compila los ficheros fuente
+  para convertirlos en html estático, epub o pdf.
+  
+  abrir la linea de comandos cmd y escribir las siguientes líneas:
+  
+  ``set PATH="c:/Archivos de programa/Python314/";%PATH%``
+  ``python.exe -m pip install sphinx``
+
+* **Furo**: es el tema de Sphinx. Sirve para definir el estilo de la página
+  web (tipos de letra, tamaños, separaciones entre elementos, etc.)
+  
+  abrir la linea de comandos cmd y escribir las siguientes líneas:
+  
+  ``set PATH="c:/Archivos de programa/Python314/";%PATH%``
+  ``python.exe -m pip install furo``
+
+
+* **Cygwin**: paquete que emula en Windows el comportamiento de Linux
+  y añade herramientas Unix como make o bash.
+
+  Descarga el archivo de instalación para Windows:
+  https://www.cygwin.com/install.html
+  
+  Instala el programa, añadiendo el paquete make, que no viene añadido
+  por defecto.
+  
+
+* **MikTeX**: paquete del lenguaje LaTeX para generación de fórmulas
+  con Sphinx.
+
+  Descarga el archivo de instalación para Windows:
+  https://miktex.org/download
+  
+  Renombra el archivo de instalación a miktex-portable.exe
+  
+  Instala el archivo en el directorio C:/Bin/miktex
+
+
+* **Git**: gestor de versiones. Es la herramienta de control de revisiones
+  de Linux y la que trabaja por debajo del servicio GitHub.
+
+  https://git-scm.com/install/windows
+
 
 
 Compilando el proyecto

@@ -1,5 +1,5 @@
 ﻿:date: 2026-06-22
-:modified: 2026-06-24
+:modified: 2026-06-26
 :author: Carlos Félix Pardo Martín
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
@@ -18,8 +18,8 @@ GitHub son los siguientes:
    https://github.com/tecnoproyectos/tecnoproyectos
 
 #. Asegurarse de que el proyecto personal está sincronizado con el botón
-   ``Sync fork`` para que recibamos en el repositorio propio todos los
-   últimos cambios que se hayan producido en el proyecto principal.
+   ``Sync fork`` para recibir en el repositorio propio todos los
+   últimos cambios que se hayan producido en el repositorio principal.
 
 #. Si no lo has hecho ya, crear una rama nueva para trabajar en ella.
    Todas las modificaciones se realizarán en la rama nueva para que no
