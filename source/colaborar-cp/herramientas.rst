@@ -81,9 +81,8 @@ Herramientas en Windows
   
   Ejecutamos las siguientes instrucciones desde la consola de comandos::
   
-     ``set PATH="c:/Archivos de programa/Python314/";%PATH%``
-     
-     ``python.exe -m venv venv``
+     set PATH="c:/Archivos de programa/Python314/";%PATH%
+     python.exe -m venv venv``
 
   
 * **Sphinx**: generador de documentación que compila los ficheros fuente
