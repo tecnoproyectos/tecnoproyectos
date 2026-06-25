@@ -4,8 +4,12 @@
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
 
-La estructura base
-==================
+Esctructura: setup() y draw()
+=============================
+.. parsed-literal::
+  
+  Paso 2/8 de práctica 1 "Lienzo interactivo"
+
 En esta práctica veremos cómo usar las funciones setup() y draw().
 
 

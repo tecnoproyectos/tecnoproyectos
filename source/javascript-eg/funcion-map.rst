@@ -6,6 +6,9 @@
 
 La función map()
 ================
+.. parsed-literal::
+  
+  Paso 5/8 de práctica 1 "Lienzo interactivo"
 
 Concepto: map()
 ----------------

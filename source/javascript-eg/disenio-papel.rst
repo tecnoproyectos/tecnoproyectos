@@ -6,6 +6,10 @@
 
 Diseño en papel
 ===============
+.. parsed-literal::
+  
+  Paso 1/8 de práctica 1 "Lienzo interactivo" 
+
 Antes de escribir una sola línea de código, coge papel y lápiz.
 Esta fase es importante: te ayudará a pensar qué quieres hacer antes de
 preocuparte por la sintaxis.

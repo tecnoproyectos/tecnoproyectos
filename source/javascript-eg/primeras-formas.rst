@@ -4,8 +4,11 @@
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
 
-Primeras formas
-===============
+Formas en 2D
+============
+.. parsed-literal::
+  
+  Paso 3/8 de práctica 1 "Lienzo interactivo"
 
 El sistema de coordenadas
 -------------------------

@@ -6,6 +6,10 @@
 
 Entrega y reto extra
 ====================
+.. parsed-literal::
+  
+  Paso 8/8 de práctica 1 "Lienzo interactivo"
+  
 Con todo lo que has aprendido, es el momento de tomar tus propias
 decisiones. Aquí tienes la estructura mínima que debe tener tu versión:
 

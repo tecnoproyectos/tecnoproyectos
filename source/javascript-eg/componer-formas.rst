@@ -6,6 +6,10 @@
 
 Componer más de una forma
 =========================
+.. parsed-literal::
+  
+  Paso 7/8 de práctica 1 "Lienzo interactivo"
+  
 Hasta ahora tenemos una forma que reacciona al ratón. Vamos a añadir formas
 secundarias para crear una composición. Aquí es donde entra en juego tu
 decisión estética personal.
