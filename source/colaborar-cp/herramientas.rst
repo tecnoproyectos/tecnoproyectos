@@ -69,8 +69,10 @@ Herramientas en Windows
   Descarga el archivo de instalación para Windows:
   https://www.cygwin.com/install.html
   
-  Instala el programa, añadiendo el paquete make, que no viene añadido
-  por defecto.
+  Instala el programa en el directorio ``c:/bin/cygwin64``
+  
+  Recuerda añadir el paquete make, que no viene añadido por defecto
+  en la instalación estandar.
 
 
 * **Entorno virtual de Python**: Es el entorno local de herramientas de
@@ -104,11 +106,11 @@ Herramientas en Windows
   con Sphinx.
 
   Descarga el archivo de instalación para Windows:
-  https://miktex.org/download
+  `miktex.org/download <https://miktex.org/download>`__
   
   Renombra el archivo de instalación a miktex-portable.exe
   
-  Instala el archivo en el directorio C:/Bin/miktex
+  Instala MikTeX en el directorio ``c:/bin/miktex``
 
 
 Compilando el proyecto

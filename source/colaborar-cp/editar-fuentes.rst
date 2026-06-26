@@ -114,6 +114,11 @@ se puedan visualizar sin problemas en una pantalla estrecha.
 
 Títulos
 -------
+Los títulos deben ser **breves** para que los menús de navegación no se
+saturen con frases largas. Lo ideal es utilizar una, dos o tres palabras
+descriptivas y aportar una explicación mayor en el texto a continuación
+del título.
+
 Se recomienda escribir **un solo título principal** al comienzo de cada
 página, subrayado con caracteres de igual::
 
@@ -137,11 +142,6 @@ porque puede generar confusión::
    ^^^^^^^^^^^^^^^^^^^^^^
    Se desaconseja utilizar tantos niveles de títulos en una página.
    Es preferible separar los contenidos en páginas diferentes.
-
-Los títulos deben ser breves para que los menús de navegación no se
-saturen con frases largas. Lo ideal es utilizar una, dos o tres palabras
-descriptivas y aportar una explicación mayor en el texto a continuación
-del título.
 
 
 Extensión de página
