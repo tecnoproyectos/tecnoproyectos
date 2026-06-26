@@ -74,6 +74,14 @@ Se pueden utilizar emojis en el texto, pero al traducir la página web a
 formato PDF, la mayoría se perderán.
 
 
+Columnas por línea
+------------------
+Los archivos reStructuredText se pueden escribir con cualquier número de
+columnas por cada línea de texto, pero se recomienda utilizar un límite
+práctico de **75 columnas por línea** como máximo para que las líneas
+se puedan visualizar sin problemas en una pantalla estrecha.
+
+
 Metadatos
 ---------
 Es necesario añadir metadatos en la cabecera para indicar quién es el

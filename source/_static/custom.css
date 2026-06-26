@@ -105,3 +105,13 @@ margin-left: 0;
 margin-right: auto;
 margin-bottom: 1rem;
 }
+
+.external-app {
+position: relative;
+max-width: 800px;
+padding-bottom: 60%;
+padding-top: 36px;
+height: 0;
+overflow: hidden;
+margin: 24px 0 24px 0;
+}

@@ -227,6 +227,28 @@ documentación gracias al lenguaje LaTeX:
    x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 
 
+Aplicaciones embebidas
+----------------------
+En reStructuredText se puede añadir contenido html que sirva para incluir
+aplicaciones JavaScript embebidas, como simuladores.
+
+Simulador de circuitos:
+
+.. raw:: html
+
+   <div class="external-app">
+   <iframe src="/circuits/index.html?startCircuit=empty.txt"></iframe>
+   </div>
+
+
+Simulador neumático:
+
+.. raw:: html
+
+   <div class="external-app">
+   <iframe src="/neumatic/index.html?loadFile=double-52-piloted.txt"></iframe>
+   </div>
+
 
 Glosario de términos
 --------------------

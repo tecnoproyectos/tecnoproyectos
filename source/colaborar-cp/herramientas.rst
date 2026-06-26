@@ -52,7 +52,6 @@ distribución Debian y sus distribuciones derivadas (Ubuntu, MAX, etc).
   ``sudo apt install imagemagick``
 
 
-
 Herramientas en Windows
 -----------------------
 
@@ -82,7 +81,7 @@ Herramientas en Windows
   Ejecutamos las siguientes instrucciones desde la consola de comandos::
   
      set PATH="c:/Archivos de programa/Python314/";%PATH%
-     python.exe -m venv venv``
+     python.exe -m venv venv
 
   
 * **Sphinx**: generador de documentación que compila los ficheros fuente
