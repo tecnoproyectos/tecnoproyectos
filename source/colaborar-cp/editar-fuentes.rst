@@ -115,14 +115,30 @@ se puedan visualizar sin problemas en una pantalla estrecha.
 Títulos
 -------
 Se recomienda realizar un solo título principal en cada página, subrayado
-con caracteres de igual ``======```.
+con caracteres de igual::
 
-Se pueden añadir subtítulos secundarios, subrayados con caracteres de resta
-``------``.
+   Título principal
+   ================
 
-De forma excepcional se pueden añadir subtítulos de nivel tres, subrayados
-con caracteres de acentos circunflejos ``^^^^^^``, aunque se desaconseja
-utilizar tantos niveles en una sola página.
+
+Se pueden añadir subtítulos secundarios, subrayados con caracteres de
+resta::
+
+   Títulos secundarios
+   -------------------
+   Se pueden hacer muchos títulos secundarios en una página
+   para organizar todo el contenido.
+
+
+De forma excepcional se pueden añadir subtítulos de tercer nivel,
+subrayados con caracteres de acentos circunflejos, aunque se desaconseja
+porque puede generar confusión::
+
+   Título de tercer nivel
+   ^^^^^^^^^^^^^^^^^^^^^^
+   Se desaconseja utilizar tantos niveles de títulos en una página.
+   Es preferible separar el contenidos en páginas diferentes.
+
 
 Los títulos deben ser breves para que los menús de navegación no se
 saturen con frases largas. Lo ideal es utilizar una, dos o tres palabras
