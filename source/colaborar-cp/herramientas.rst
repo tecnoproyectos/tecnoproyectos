@@ -116,7 +116,9 @@ Herramientas en Windows
 Compilando el proyecto
 ----------------------
 Para compilar el proyecto y obtener los archivos html estáticos que 
-forman la página web es necesario ir al directorio del proyecto y escribir:
+forman la página web es necesario ir al directorio del proyecto
+abrir la linea de comandos (ejecutando ``_bash.bat`` en Windows)
+y escribir:
 
 ``make html``
 
