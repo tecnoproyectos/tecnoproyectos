@@ -65,6 +65,18 @@ Intenta no numerar los archivos, porque las numeraciones se desordenan
 al añadir contenido o al reordenar el contenido existente.
 
 
+Subdirectorios
+--------------
+Se recomienda mantener todos los archivos \*.rst en el directorio raíz del 
+proyecto y las imágenes en el subdirectorio _images.
+   
+Se puede crear otro subdirectorio más para las descargas: _downloads
+   
+Se recomienda no crear más subdirectorios para mantener limpio el 
+proyecto y poder ver todos los archivos a la vez sin tener que navegar
+por subdirectorios.
+
+
 Codificación de los archivos
 ----------------------------
 La codificación de los archivos de texto \*.rst deberá ser UTF-8
@@ -72,14 +84,6 @@ con BOM para que pueda soportar la edición de caracteres internacionales.
    
 Se pueden utilizar emojis en el texto, pero al traducir la página web a
 formato PDF, la mayoría se perderán.
-
-
-Columnas por línea
-------------------
-Los archivos reStructuredText se pueden escribir con cualquier número de
-columnas por cada línea de texto, pero se recomienda utilizar un límite
-práctico de **75 columnas por línea** como máximo para que las líneas
-se puedan visualizar sin problemas en una pantalla estrecha.
 
 
 Metadatos
@@ -100,16 +104,12 @@ Los metadatos básicos de cabecera de todos los archivos rst serán::
    :license_url: https://creativecommons.org/licenses/by-sa/4.0/
 
 
-Subdirectorios
---------------
-Se recomienda mantener todos los archivos rst en el directorio raíz del 
-proyecto y las imágenes en el subdirectorio _images.
-   
-Se puede crear otro subdirectorio más para las descargas: _downloads
-   
-Se recomienda no crear más subdirectorios para mantener limpio el 
-proyecto y poder ver todos los archivos a la vez sin tener que navegar
-por subdirectorios.
+Caracteres por línea
+--------------------
+Los archivos reStructuredText se pueden escribir con cualquier número de
+columnas por cada línea de texto, pero se recomienda utilizar un límite
+práctico de **75 caracteres por línea** como máximo para que las líneas
+se puedan visualizar sin problemas en una pantalla estrecha.
 
 
 Títulos
