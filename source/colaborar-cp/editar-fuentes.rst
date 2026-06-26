@@ -114,11 +114,12 @@ se puedan visualizar sin problemas en una pantalla estrecha.
 
 Títulos
 -------
-Se recomienda realizar **un solo título principal** en cada página,
-al comienzo de la página y subrayado con caracteres de igual::
+Se recomienda escribir **un solo título principal** al comienzo de cada
+página, subrayado con caracteres de igual::
 
    Título principal
    ================
+   Solo se escribe uno al comienzo de la página.
 
 Se pueden añadir subtítulos secundarios, subrayados con caracteres de
 resta::
