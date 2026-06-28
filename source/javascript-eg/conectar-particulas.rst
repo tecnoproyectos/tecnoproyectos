@@ -37,68 +37,38 @@ la primera partícula (``i``), y el interior recorre la segunda (``j``).
 En lenguaje natural: «para cada partícula i, compruebo su distancia con
 cada partícula j»:
 
-.. code-block:: javascript
+.. figure::
+  _images/javascript-eg-07.png
+  :width: 400px
+  :align: center
 
-   let dMin = 100; // distancia máxima para trazar una línea
-
-   for (let i = 0; i < nb; i = i + 1) {
-     for (let j = 0; j < nb; j = j + 1) {
-       let d = dist(px[i], py[i], px[j], py[j]);
-       if (d < dMin) {
-         line(px[i], py[i], px[j], py[j]);
-       }
-     }
-   }
 
 Este bloque va dentro de ``draw()``, después del bucle que mueve y
 dibuja las partículas.
+
+.. Note::
+   Vigila dónde declarar la variable dMin. 
+   
+
+.. Admonition::
+   Revisa no dibujar la línea entre una partícula y ella misma. Si ``i`` y ``j``
+   son iguales, no dibujes nada. Para eso usamos un ``if``:
+
+   .. code-block:: javascript
+
+      if (i != j && d < dMin) {
+        line(px[i], py[i], px[j], py[j]);
+      }
+
 
 
 El programa completo
 ---------------------
 
-.. code-block:: javascript
+.. figure:: _images/javascript-eg-08.png
+  :width: 600px
+  :align: center
 
-   let nb   = 50;
-   let px   = [];
-   let py   = [];
-   let pvx  = [];
-   let pvy  = [];
-   let dMin = 100;
-
-   function setup() {
-     createCanvas(windowWidth, windowHeight);
-     for (let i = 0; i < nb; i = i + 1) {
-       px[i]  = width / 2;
-       py[i]  = height / 2;
-       pvx[i] = random(-3, 3);
-       pvy[i] = random(-3, 3);
-     }
-   }
-
-   function draw() {
-     background(255);
-     // Mover y dibujar partículas
-     noStroke();
-     fill(0);
-     for (let i = 0; i < nb; i = i + 1) {
-       px[i] = px[i] + pvx[i];
-       py[i] = py[i] + pvy[i];
-       if (px[i] < 0 || px[i] > width)  { pvx[i] = -pvx[i]; }
-       if (py[i] < 0 || py[i] > height) { pvy[i] = -pvy[i]; }
-       circle(px[i], py[i], 6);
-     }
-     // Conectar partículas cercanas
-     stroke(0);
-     for (let i = 0; i < nb; i = i + 1) {
-       for (let j = 0; j < nb; j = j + 1) {
-         let d = dist(px[i], py[i], px[j], py[j]);
-         if (d < dMin) {
-           line(px[i], py[i], px[j], py[j]);
-         }
-       }
-     }
-   }
 
 .. admonition:: Nota de rendimiento
 

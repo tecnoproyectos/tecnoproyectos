@@ -27,7 +27,7 @@ quedan con un aspecto completamente distinto:
    stroke(255);
 
 Para añadir color a las partículas puedes usar el modo HSB que viste en
-`Paso 6/8 — Cambio de color <cambio-color.html>`_. Asigna a cada
+`Paso 6/8 (práctica1 Lienzo interactivo) — Cambio de color <cambio-color.html>`_. Asigna a cada
 partícula un tono aleatorio al inicializarla y úsalo al dibujarla.
 
 Haz que las líneas sean más transparentes cuanto mayor sea la distancia
@@ -38,6 +38,8 @@ entre las partículas. El cuarto parámetro de ``stroke()`` es el alfa
 
    stroke(0, map(d, 0, dMin, 200, 0));
 
+.. warning::
+  Vigila dónde colocar cada línea de código
 
 Movimiento autónomo
 --------------------
@@ -46,6 +48,11 @@ Puedes usar ``frameCount`` con ``sin()`` para hacer que las partículas
 «palpiten», variando su tamaño de forma cíclica. Es el mismo recurso que
 viste en `Paso 8/8 — Entrega y reto extra <entrega.html>`_ de la
 práctica 1:
+
+.. figure::
+  _images/javascript-eg-09.png
+  :width: 600px
+  :align: center
 
 .. code-block:: javascript
 
@@ -68,16 +75,11 @@ Añade la función ``keyPressed()`` para que al pulsar una tecla todas las
 partículas vuelvan al centro con velocidades nuevas, como si se
 regeneraran:
 
-.. code-block:: javascript
+.. figure::
+  _images/javascript-eg-10.png
+  :width: 400px
+  :align: center
 
-   function keyPressed() {
-     for (let i = 0; i < nb; i = i + 1) {
-       px[i]  = width / 2;
-       py[i]  = height / 2;
-       pvx[i] = random(-3, 3);
-       pvy[i] = random(-3, 3);
-     }
-   }
 
 Mientras no se pulse ninguna tecla, las partículas siguen moviéndose
 con normalidad. Al pulsar cualquier tecla, se reinician desde el centro.
@@ -90,7 +92,7 @@ Cuando tu composición esté terminada:
 
 * Guarda el proyecto en el editor (necesitas cuenta para guardarlo online).
 * Copia el enlace del proyecto (botón Share en el editor).
-* Entrega el enlace respondiendo a las preguntas de la ficha:
+* Entrega el enlace respondiendo a las preguntas de esta ficha:
 
 .. list-table::
    :widths: 40 60

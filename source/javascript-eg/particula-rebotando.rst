@@ -33,32 +33,11 @@ La partícula tiene cuatro variables: su posición (``x``, ``y``) y su
 velocidad (``vx``, ``vy``). En cada fotograma sumamos la velocidad a la
 posición, y la partícula se desplaza:
 
-.. code-block:: javascript
+.. figure:: _images/javascript-eg-02.png
+  :width: 600px
+  :align: center
 
-   // Variables globales: posición y velocidad de una partícula
-   let x, y;
-   let vx, vy;
 
-   function setup() {
-     createCanvas(windowWidth, windowHeight);
-     // Posición inicial: centro del lienzo
-     x = width / 2;
-     y = height / 2;
-     // Velocidad inicial aleatoria (entre -3 y 3 píxeles por fotograma)
-     vx = random(-3, 3);
-     vy = random(-3, 3);
-   }
-
-   function draw() {
-     background(255);
-     // Mover la partícula sumando la velocidad a la posición
-     x = x + vx;
-     y = y + vy;
-     // Dibujar la partícula
-     noStroke();
-     fill(0);
-     circle(x, y, 6);
-   }
 
 Ejecuta el código. Verás una partícula que sale disparada en una
 dirección aleatoria... y desaparece por el borde. Necesitamos que rebote.
@@ -70,23 +49,15 @@ El rebote con if
 Para que la partícula rebote invertimos su velocidad cuando toca un borde.
 Si sale por la derecha (``x > width``), ``vx`` se vuelve negativa y la
 partícula empieza a moverse hacia la izquierda. Es como una pelota que
-choca contra una pared:
+choca contra una pared. 
 
-.. code-block:: javascript
+Para conseguir esto, necesitas este bloque de código.
+¿Dónde lo colocarías?:
 
-   function draw() {
-     background(255);
-     // Mover
-     x = x + vx;
-     y = y + vy;
-     // Rebotar al tocar los bordes
-     if (x < 0 || x > width)  { vx = -vx; }
-     if (y < 0 || y > height) { vy = -vy; }
-     // Dibujar
-     noStroke();
-     fill(0);
-     circle(x, y, 6);
-   }
+.. figure:: _images/javascript-eg-03.png
+  :width: 400px
+  :align: center
+
 
 Ahora la partícula rebota indefinidamente sin salirse del lienzo.
 

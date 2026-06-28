@@ -35,13 +35,9 @@ Para guardar la posición y velocidad de 50 partículas usaremos
 **cuatro arrays paralelos**: uno para cada dato. El índice ``i``
 identifica a la misma partícula en todos ellos:
 
-.. code-block:: javascript
-
-   let nb  = 50; // número de partículas
-   let px  = []; // posición x de cada partícula
-   let py  = []; // posición y
-   let pvx = []; // velocidad horizontal
-   let pvy = []; // velocidad vertical
+.. figure:: _images/javascript-eg-04.png
+  :width: 400px
+  :align: center
 
 
 El bucle for: inicializar todas las partículas
@@ -51,17 +47,11 @@ El bucle ``for`` recorre los índices de 0 a ``nb - 1`` y ejecuta el
 código interior una vez por partícula. Lo usamos en ``setup()`` para
 dar valores iniciales a los cuatro arrays:
 
-.. code-block:: javascript
+.. figure:: _images/javascript-eg-05.png
+  :width: 400px
+  :align: center
 
-   function setup() {
-     createCanvas(windowWidth, windowHeight);
-     for (let i = 0; i < nb; i = i + 1) {
-       px[i]  = width / 2;
-       py[i]  = height / 2;
-       pvx[i] = random(-3, 3);
-       pvy[i] = random(-3, 3);
-     }
-   }
+
 
 
 El bucle for en draw(): mover y dibujar
@@ -70,20 +60,10 @@ El bucle for en draw(): mover y dibujar
 El mismo patrón se repite en ``draw()``: recorremos todas las partículas
 para moverlas, hacerlas rebotar y dibujarlas:
 
-.. code-block:: javascript
+.. figure:: _images/javascript-eg-06.png
+  :width: 400px
+  :align: center
 
-   function draw() {
-     background(255);
-     noStroke();
-     fill(0);
-     for (let i = 0; i < nb; i = i + 1) {
-       px[i] = px[i] + pvx[i];
-       py[i] = py[i] + pvy[i];
-       if (px[i] < 0 || px[i] > width)  { pvx[i] = -pvx[i]; }
-       if (py[i] < 0 || py[i] > height) { pvy[i] = -pvy[i]; }
-       circle(px[i], py[i], 6);
-     }
-   }
 
 .. admonition:: El bucle for aparece dos veces, con el mismo patrón
 
