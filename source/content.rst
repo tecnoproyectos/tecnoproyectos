@@ -23,4 +23,5 @@ Colección de proyectos de Tecnología para el aula de Secundaria.
    javascript-eg/index
 
    colaborar-cp/index
+   enlaces-cp/index
 

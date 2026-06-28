@@ -63,18 +63,6 @@ Herramientas en Windows
   c:/Archivos de programa/Python314
 
 
-* **Cygwin**: paquete que emula en Windows el comportamiento de Linux
-  y añade herramientas Unix como make o bash, necesarias para compilar.
-
-  Descarga el archivo de instalación para Windows:
-  https://www.cygwin.com/install.html
-  
-  Instala el programa en el directorio ``c:/bin/cygwin64``
-  
-  Recuerda añadir el paquete make, que no viene añadido por defecto
-  en la instalación estandar.
-
-
 * **Entorno virtual de Python**: Es el entorno local de herramientas de
   Python.
   
