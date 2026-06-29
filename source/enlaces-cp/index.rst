@@ -14,5 +14,6 @@ de diferentes páginas web.
    :maxdepth: 1
    :numbered: 1
 
-   procomun
+   procomun.rst
+   otros.rst
    
