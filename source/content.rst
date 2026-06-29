@@ -23,5 +23,8 @@ Colección de proyectos de Tecnología para el aula de Secundaria.
    javascript-eg/index
 
    colaborar-cp/index
+   
+   Test de Tecnología <https://tecnoproyectos.github.io/test/>
+   
    enlaces-cp/index
 
