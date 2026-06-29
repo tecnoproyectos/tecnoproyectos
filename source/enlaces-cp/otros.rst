@@ -61,3 +61,32 @@ consultar una gran variedad de guías de aprendizaje, recursos para el
 aula y contenidos de formación continua.
 
 `Librería CATEDU. <https://libros.catedu.es/>`__
+
+
+Khan Academy
+------------
+Khan Academy es una organización sin fines de lucro fundada en 2006 por
+el educador estadounidense Salman Khan. Su objetivo es ofrecer educación
+gratuita y de alta calidad para cualquier persona y en cualquier lugar.
+
+Funciona como una plataforma de aprendizaje en línea que permite a los
+usuarios estudiar a su propio ritmo mediante una combinación de lecciones
+interactivas.
+
+Los contenidos relacionados con la materia de Tecnología son los
+siguientes:
+
+* `Ingeniería eléctrica.
+  <https://es.khanacademy.org/science/electrical-engineering>`__
+
+* `Programación de computadoras.
+  <https://es.khanacademy.org/computing/computer-programming>`__
+
+* `Ciencias de la computación.
+  <https://es.khanacademy.org/computing/computer-science>`__
+
+* `Hora del código.
+  <https://es.khanacademy.org/hourofcode>`__
+
+* `Animación digital.
+  <https://es.khanacademy.org/computing/pixar>`__
