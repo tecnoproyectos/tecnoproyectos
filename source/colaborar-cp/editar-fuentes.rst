@@ -51,15 +51,15 @@ Nombre de las páginas
 ---------------------
 Los diferentes archivos de reStructuredText (\*.rst) de un proyecto,
 que luego se convertirán en una página web, deben nombrarse con palabras
-separadas por guiones altos que describan lo mejor posible el contenido
-del archivo.
+en minúsculas separadas por guiones altos que describan lo mejor posible
+el contenido del archivo.
 Se puede utilizar desde una palabra hasta tres palabras como máximo.
    
-Ejemplos: pantalla-lcd.rst, entradas-analogicas.rst, disenio-papel.rst
+Ejemplos: pantalla-lcd-texto.rst, entradas-analogicas.rst, disenio-papel.rst
    
 No utilices tildes, eñes o diéresis ya que eso crearía problemas con
 las páginas html generadas. La letra 'ñ' se puede sustituir por las
-letras 'ni' y las tildes y diéresis no se ponen.
+letras 'ni' y las tildes y diéresis no se escriben.
    
 Intenta no numerar los archivos, porque las numeraciones se desordenan
 al añadir contenido o al reordenar el contenido existente.
@@ -115,9 +115,9 @@ se puedan visualizar sin problemas en una pantalla estrecha.
 Títulos
 -------
 Los títulos deben ser **breves** para que los menús de navegación no se
-saturen con frases largas. Lo ideal es utilizar una, dos o tres palabras
-descriptivas y aportar una explicación mayor en el texto a continuación
-del título.
+saturen con frases largas. Lo ideal es utilizar una, dos o, como máximo,
+tres palabras descriptivas y aportar una explicación mayor en el texto a
+continuación del título.
 
 Se recomienda escribir **un solo título principal** al comienzo de cada
 página, subrayado con caracteres de igual::
@@ -154,6 +154,20 @@ Si es necesario separar contenidos para diferenciarlos (por ejemplo
 separar circuitos en serie de circuitos en paralelo) lo ideal es que 
 cada página contenga sus propios ejercicios y tareas y que se puedan 
 hacer como mucho tres páginas por sesión de clase.
+
+
+Teoría y ejercicios
+-------------------
+En las páginas destinadas a los alumnos es fundamental que la teoría
+esté conectada con las tareas y ejercicios de manera que cada párrafo
+de teoría tenga una pregunta o tarea asociada y que cada pregunta o 
+tarea tenga una explicación teórica asociada.
+
+Lo ideal es que las preguntas y tareas estén graduadas en dificultad
+de manera que las primeras sean muy sencillas, que todos los alumnos
+puedan responderlas con facilidad, y las últimas preguntas y tareas
+sean complejas para que supongan un reto difícil para todos los alumnos,
+excepto quizás un 10% de la clase.
 
 
 Ejemplos
