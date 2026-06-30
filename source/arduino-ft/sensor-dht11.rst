@@ -68,9 +68,9 @@ Programación básica mostrando los datos en el monitor serie:
      Serial.println("ᵒC");
    }
 
-.. nota::
-   Recordatorio: para mostrar en una pantalla LCD1602 el símbolo º de
-   grados, escribimos la siguiente línea:
+.. note::
+   Para mostrar en una pantalla LCD1602 el símbolo 'º' de grados,
+   escribimos la siguiente línea:
 
    .. code-block:: arduino
 

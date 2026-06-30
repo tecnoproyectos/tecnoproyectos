@@ -39,7 +39,8 @@ numfig_format = {
     'code-block': 'Código %s',
 }    
 
-language = 'es_es'
+language = 'es'
+locale_dirs = ['locale/']
 
 templates_path = ['_templates']
 html_additional_pages = {
