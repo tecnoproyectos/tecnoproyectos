@@ -16,5 +16,6 @@ de diferentes páginas web.
 
    procomun.rst
    pelandintecno.rst
+   areatecnologia.rst
    otros.rst
    
