@@ -1,7 +1,5 @@
 @ECHO OFF
-rem ********************
-rem    MAKE GETTEXT
-rem ********************
+rem MAKE GETTEXT
 
 set PATH=%~dp0\venv\Scripts;%PATH%
 call activate.bat
@@ -12,6 +10,6 @@ cd source
 sphinx-intl update -p ../build/gettext -l en
 cd ..
 
-cp -f locale/en/sphinx.po  locale/en/LC_MESSAGES/sphinx.po
+copy /Y  locale/en/sphinx.po  locale/en/LC_MESSAGES/sphinx.po
 pause
 

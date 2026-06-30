@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/javascript-eg/componer-formas.rst:8
+msgid "Componer más de una forma"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:9
+msgid ""
+"Hasta ahora tenemos una forma que reacciona al ratón. Vamos a añadir "
+"formas secundarias para crear una composición. Aquí es donde entra en "
+"juego tu decisión estética personal."
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:13
+msgid "Algunas ideas para formas secundarias:"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:15
+msgid "Una forma que sigue al ratón pero con la mitad de tamaño"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:16
+msgid ""
+"Una forma en la posición simétrica al ratón (``width - mouseX``, ``height"
+" - mouseY``)"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:18
+msgid "Una forma fija en el centro que cambia solo de color"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:19
+msgid ""
+"Varias formas pequeñas repartidas por el lienzo con colores derivados del"
+" tono principal"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:22
+msgid ""
+"Es el momento de tomar tus propias decisiones. A continuación te "
+"mostramos dos propuestas completas distintas para que veas cómo la misma "
+"estructura puede producir resultados muy diferentes. **No copies ninguna:"
+" úsalas como inspiración para crear la tuya.**"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:29
+msgid "Propuesta A - colores complementarios"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:30
+msgid ""
+"Usa el modo HSB para crear tres círculos con colores separados 120 grados"
+" en el arco iris. El ratón controla el tono principal y el tamaño "
+"general:"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:67
+msgid ""
+"El operador ``% 360`` hace que el tono vuelva a 0 si supera 360, "
+"recorriendo el arco iris de forma cíclica sin salirse del rango."
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:72
+msgid "Propuesta B - Cuadrados con rastro"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:74
+msgid ""
+"Usa el modo RGB con un fondo semitransparente que crea un efecto de "
+"rastro:"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:111
+msgid ""
+"``background(15, 15, 30, 40)`` usa un cuarto valor (alfa = "
+"transparencia). En lugar de borrar el lienzo completamente, lo oscurece "
+"ligeramente, creando un rastro de las posiciones anteriores del ratón. "
+"Prueba a cambiar este valor para comparar los resultados."
+msgstr ""
+

@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/freecad-ft/arco-medio-punto.rst:9
+msgid "Arco de medio punto"
+msgstr ""
+
+#: ../../source/freecad-ft/arco-medio-punto.rst:10
+msgid ""
+"Realiza el modelado de un arco con FreeCAD, siguiendo las instrucciones "
+"del siguiente videotutorial:"
+msgstr ""
+
+#: ../../source/freecad-ft/arco-medio-punto.rst:13
+msgid ""
+"|icono-video| VÍDEO: `Modelado de una dovela con FreeCAD "
+"<https://www.youtube.com/watch?v=uFx-aMFaTIM>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/arco-medio-punto.rst:26
+msgid "Icono de vídeo de YouTube"
+msgstr ""
+
+#: ../../source/freecad-ft/arco-medio-punto.rst:20
+msgid "Sube a la tarea los siguientes archivos:"
+msgstr ""
+
+#: ../../source/freecad-ft/arco-medio-punto.rst:22
+msgid "El archivo de FreeCAD del arco completo"
+msgstr ""
+
+#: ../../source/freecad-ft/arco-medio-punto.rst:23
+msgid "El archivo STL de una sola dovela"
+msgstr ""
+

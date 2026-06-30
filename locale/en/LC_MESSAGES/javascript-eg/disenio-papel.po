@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/javascript-eg/disenio-papel.rst:8
+msgid "Diseño en papel"
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:9
+msgid ""
+"Antes de escribir una sola línea de código, coge papel y lápiz. Esta fase"
+" es importante: te ayudará a pensar qué quieres hacer antes de "
+"preocuparte por la sintaxis."
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:15
+msgid ""
+"Abre el editor online de p5.js en tu navegador: `Editor p5js "
+"<https://editor.p5js.org/>`_"
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:18
+msgid ""
+"No necesitas crear una cuenta para trabajar, aunque sí para guardar tu "
+"proyecto. Si quieres guardar, regístrate con tu correo del centro y una "
+"contraseña para este sitio."
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:24
+msgid "¿Qué vamos a hacer?"
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:25
+msgid ""
+"En esta práctica vas a crear tu primera pieza de arte generativo con "
+"p5.js. El resultado será un lienzo animado que cambia en tiempo real "
+"según la posición del ratón: las formas se mueven, el color varía y el "
+"programa reacciona a ti."
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:30
+msgid ""
+"No hay un único resultado correcto. Dos personas siguiendo los mismos "
+"pasos pueden llegar a composiciones completamente distintas dependiendo "
+"de sus decisiones estéticas. Eso es exactamente lo que buscamos."
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:36
+msgid "El boceto en papel"
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:37
+msgid "Dibuja un rectángulo que represente tu lienzo (el canvas). Dentro de él:"
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:39
+msgid "Dibuja dos o tres formas: pueden ser círculos, cuadrados o rectángulos."
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:40
+msgid ""
+"Anota unas coordenadas aproximadas para cada forma (un punto x e y desde "
+"la esquina superior izquierda)."
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:42
+msgid ""
+"Piensa: ¿qué cambiaría si el ratón estuviera en la esquina izquierda? ¿Y "
+"en la derecha? ¿Y abajo?"
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:44
+msgid ""
+"Anota en el papel qué propiedad de cada forma cambiarías con el ratón: "
+"¿el tamaño? ¿el color? ¿la posición?"
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:48
+msgid "¿Por qué hacemos esto en papel?"
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:50
+msgid ""
+"El papel te obliga a pensar el problema antes de resolverlo. En "
+"programación, empezar a escribir código sin un plan previo suele llevar a"
+" código confuso y difícil de corregir. Un boceto de dos minutos te puede "
+"ahorrar diez minutos de errores."
+msgstr ""
+

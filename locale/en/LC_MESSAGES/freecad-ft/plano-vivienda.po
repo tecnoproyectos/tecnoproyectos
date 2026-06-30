@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/freecad-ft/plano-vivienda.rst:9
+msgid "Plano de una vivienda"
+msgstr ""
+
+#: ../../source/freecad-ft/plano-vivienda.rst:10
+msgid ""
+"Realiza el plano de tu vivienda siguiendo los pasos de los siguientes "
+"videotutoriales:"
+msgstr ""
+
+#: ../../source/freecad-ft/plano-vivienda.rst:13
+msgid ""
+"|icono-video| VÍDEO: `Planos de una vivienda con FreeCAD (1/6): Muros a "
+"partir de sketch <https://www.youtube.com/watch?v=poijs1DsSs4>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/plano-vivienda.rst:43
+msgid "Icono de vídeo de YouTube"
+msgstr ""
+
+#: ../../source/freecad-ft/plano-vivienda.rst:16
+msgid ""
+"|icono-video| VÍDEO: `Planos de una vivienda con FreeCAD (2/6): Puertas y"
+" ventanas <https://www.youtube.com/watch?v=OL-Ze2hcXpo>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/plano-vivienda.rst:19
+msgid ""
+"|icono-video| VÍDEO: `Planos de una vivienda con FreeCAD (3/6): "
+"Proyección horizontal en 2D "
+"<https://www.youtube.com/watch?v=w8uLmbqjIaY>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/plano-vivienda.rst:22
+msgid ""
+"|icono-video| VÍDEO: `Planos de una vivienda con FreeCAD (4/6): "
+"mobiliario <https://www.youtube.com/watch?v=mOMdnvfBej4>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/plano-vivienda.rst:25
+msgid ""
+"|icono-video| VÍDEO: `Planos de una vivienda con FreeCAD (5/6): pdf para "
+"impresión <https://www.youtube.com/watch?v=HqHD9hJDZbs>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/plano-vivienda.rst:28
+msgid ""
+"|icono-video| VÍDEO: `Planos de una vivienda con FreeCAD (6/6): colores "
+"en el plano <https://www.youtube.com/watch?v=-OVj2ifKm2g>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/plano-vivienda.rst:34
+msgid "Tarea"
+msgstr ""
+
+#: ../../source/freecad-ft/plano-vivienda.rst:35
+msgid ""
+"Sube el archivo de FreeCAD y el archivo PDF final con tu plano listo para"
+" impresión."
+msgstr ""
+

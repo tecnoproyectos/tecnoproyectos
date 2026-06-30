@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/arduino-ft/servomotores.rst:9
+msgid "Servomotores"
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:11
+msgid ""
+"|icono-video| VÍDEO: `Servomotores en Arduino. Guía básica "
+"<https://www.youtube.com/watch?v=kE_ou58E7Hw>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:74
+msgid "Icono de vídeo de YouTube"
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:18
+msgid ""
+"Son motores en los que podemos controlar el ángulo de giro mediante la "
+"programación del Arduino."
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:21
+msgid ""
+"El modelo SG90 (el de la figura anterior) es muy utilizado porque es el "
+"más económico, pero no puede transmitir mucha potencia. Puede girar de 0º"
+" a 180º."
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:25
+msgid ""
+"La conexión básica sería como en la imagen, teniendo que conectar **el "
+"cable naranja a cualquier salida PWM**."
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:32
+msgid "Instrucciones básicas para Arduino IDE:"
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:56
+msgid "Tarea limpiaparabrisas"
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:57
+msgid ""
+"Con el montaje básico de la figura anterior, programa el servo usando el "
+"bucle ``for( )`` para que haga un movimiento de vaivén como el de un "
+"limpiaparabrisas de un coche:"
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:61
+msgid ""
+"Que vaya aumentando el ángulo de uno en uno desde 5º hasta 175º, con una "
+"espera de 8 ms entre una posición y la siguiente."
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:63
+msgid ""
+"Que vaya disminuyendo el ángulo de uno en uno desde 174º hasta 6º con una"
+" espera de 8 ms entre una posición y la siguiente."
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:66
+msgid "Aquí tienes el programa con bloques que puedes usar como guía:"
+msgstr ""
+

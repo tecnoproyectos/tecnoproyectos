@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/colaborar-cp/herramientas.rst:9
+msgid "Herramientas del proyecto"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:10
+msgid ""
+"Esta es la lista de herramientas que se necesita para compilar la página "
+"web y obtener los archivos html."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:13
+msgid ""
+"No es necesario instalar todas estas herramientas para aportar "
+"contenidos, pero si es recomendable para que puedas compilar el proyecto "
+"en tu propio ordenador y comprobar que todo lo escrito funciona "
+"correctamente antes de enviarlo al repositorio principal, ahorrando "
+"trabajo a los administradores."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:20
+msgid "Herramientas en Linux"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:21
+msgid ""
+"A continuación aparece la lista de herramientas necesarias para la "
+"distribución Debian y sus distribuciones derivadas (Ubuntu, MAX, etc)."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:24
+#: ../../source/colaborar-cp/herramientas.rst:58
+msgid "**Python**: lenguaje de programación que utiliza el proyecto."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:26
+msgid "``sudo apt install python3``"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:28
+#: ../../source/colaborar-cp/herramientas.rst:77
+msgid ""
+"**Sphinx**: generador de documentación que compila los ficheros fuente "
+"para convertirlos en html estático, epub o pdf."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:31
+msgid "``sudo apt install python3-sphinx``"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:33
+#: ../../source/colaborar-cp/herramientas.rst:85
+msgid ""
+"**Furo**: es el tema de Sphinx. Sirve para definir el estilo de la página"
+" web (tipos de letra, tamaños, separaciones entre elementos, etc.)"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:36
+msgid "``apt install python3-furo``"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:38
+msgid ""
+"**TeX Live**: paquete del lenguaje LaTeX para generación de fórmulas con "
+"Sphinx."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:41
+msgid "``sudo apt install texlive-full``"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:43
+msgid ""
+"**Git**: gestor de versiones. Es la herramienta de control de revisiones "
+"de Linux y la que trabaja por debajo del servicio GitHub."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:46
+msgid "``sudo apt install git –y``"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:48
+msgid ""
+"**ImageMagick**: paquete de manejo de imágenes por línea de comandos. No "
+"es necesario para compilar la web, solo para modificar las imágenes del "
+"proyecto a mano cuando sea necesario."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:52
+msgid "``sudo apt install imagemagick``"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:56
+msgid "Herramientas en Windows"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:60
+msgid "https://www.python.org/downloads/latest/python3.14/"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:62
+msgid ""
+"Instalar para todos los usuarios en el directorio c:/Archivos de "
+"programa/Python314"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:66
+msgid ""
+"**Entorno virtual de Python**: Es el entorno local de herramientas de "
+"Python."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:69
+msgid "Comenzamos por borrar el directorio venv actual."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:71
+msgid "Ejecutamos las siguientes instrucciones desde la consola de comandos::"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:80
+#: ../../source/colaborar-cp/herramientas.rst:88
+msgid "Abrimos la linea de comandos ejecutando ``_bash.bat`` y escribimos:"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:82
+msgid "``python.exe -m pip install sphinx``"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:90
+msgid "``python.exe -m pip install furo``"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:93
+msgid ""
+"**MikTeX**: paquete del lenguaje LaTeX para generación de fórmulas con "
+"Sphinx."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:96
+msgid ""
+"Descarga el archivo de instalación para Windows: `miktex.org/download "
+"<https://miktex.org/download>`__"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:99
+msgid "Renombra el archivo de instalación a miktex-portable.exe"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:101
+msgid "Instala MikTeX en el directorio ``c:/bin/miktex``"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:105
+msgid "Compilando el proyecto"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:106
+msgid ""
+"Para compilar el proyecto y obtener los archivos html estáticos que "
+"forman la página web es necesario ir al directorio del proyecto abrir la "
+"linea de comandos (ejecutando ``_bash.bat`` en Windows) y escribir:"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:111
+msgid "``make html``"
+msgstr ""
+

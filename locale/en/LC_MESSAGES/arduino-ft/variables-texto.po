@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/arduino-ft/variables-texto.rst:9
+msgid "Variables de texto"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:11
+msgid "Tabla de tipos de variables en Arduino"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:16
+msgid "Tipo"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:17
+msgid "Almacena"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:18
+msgid "Ejemplo"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:19
+msgid "char"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:20
+#: ../../source/arduino-ft/variables-texto.rst:23
+msgid "Caracteres"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:21
+msgid "``char letra = 'a';``"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:22
+msgid "String"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:24
+msgid "``String mensaje = \"Hola, mundo!\";``"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:26
+msgid ""
+"Ejemplo para declarar una variable de tipo ``char`` con nombre ``letra`` "
+"y cuyo valor queremos que sea la letra ``'a'``:"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:48
+msgid "Ejemplo para crear un objeto de la clase String:"
+msgstr ""
+

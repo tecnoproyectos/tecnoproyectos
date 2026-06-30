@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/freecad-ft/polilinea-barrido.rst:9
+msgid "Polilinea y barrido aditivo"
+msgstr ""
+
+#: ../../source/freecad-ft/polilinea-barrido.rst:10
+msgid "Sigue las instrucciones del siguiente videotutorial:"
+msgstr ""
+
+#: ../../source/freecad-ft/polilinea-barrido.rst:12
+msgid ""
+"|icono-video| VÍDEO: `Part Design 8: Polilínea y Barrido aditivo con "
+"FreeCAD <https://www.youtube.com/watch?v=zoGdtFjrze4>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/polilinea-barrido.rst:52
+msgid "Icono de vídeo de YouTube"
+msgstr ""
+
+#: ../../source/freecad-ft/polilinea-barrido.rst:16
+msgid "Tarea A"
+msgstr ""
+
+#: ../../source/freecad-ft/polilinea-barrido.rst:17
+msgid ""
+"Modela la siguiente pieza utilizando la herramienta de barrido (Additive "
+"Pipe):"
+msgstr ""
+
+#: ../../source/freecad-ft/polilinea-barrido.rst:35
+msgid "Tarea B"
+msgstr ""
+
+#: ../../source/freecad-ft/polilinea-barrido.rst:36
+msgid ""
+"Modela la siguiente pieza utilizando polilínea y la herramienta de "
+"barrido (Additive Pipe):"
+msgstr ""
+

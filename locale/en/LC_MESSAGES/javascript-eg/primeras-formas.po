@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/javascript-eg/primeras-formas.rst:8
+msgid "Primeras formas"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:11
+msgid "El sistema de coordenadas"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:12
+msgid ""
+"En p5.js el punto (0, 0) está en la esquina superior izquierda del "
+"lienzo. El eje X crece hacia la derecha y el eje Y crece hacia abajo (al "
+"contrario que en matemáticas)."
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:20
+msgid "Las funciones principales para dibujar formas son:"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:22
+msgid "``ellipse(x, y, ancho, alto)`` — dibuja una elipse centrada en (x, y)"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:23
+msgid ""
+"``rect(x, y, ancho, alto)`` — dibuja un rectángulo desde la esquina "
+"superior izquierda (x, y)"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:25
+msgid "``circle(x, y, diametro)`` — dibuja un círculo centrado en (x, y)"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:27
+msgid "Las funciones principales para aplicar color a las formas son:"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:29
+msgid "``fill(r, g, b)`` — establece el color de relleno en RGB antes de dibujar"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:30
+msgid "``noFill()`` - elimina el relleno de las formas"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:31
+msgid "``stroke(r, g, b)`` — establece el color del borde"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:32
+msgid "``noStroke()`` — elimina el borde de las formas"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:37
+msgid "Añadir una forma estática"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:39
+msgid "Añade esto dentro de ``draw()``, después de ``background()``:"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:55
+msgid ""
+"Cambia los tres números de ``fill()`` para explorar distintos colores. "
+"Cada número va de 0 a 255 y representa Rojo, Verde y Azul "
+"respectivamente."
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:59
+msgid "Truco para encontrar colores RGB"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:61
+msgid ""
+"Busca «selector de color RGB» en Google. Verás una rueda de colores con "
+"los valores R, G, B correspondientes que puedes copiar directamente a tu "
+"código."
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:65
+msgid ""
+"El editor p5.js también interpreta colores por su nombre en inglés. Por "
+"ejemplo::"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:70
+msgid ""
+"Puedes ver la lista de nombres en: `https://htmlcolorcodes.com/es"
+"/nombres-de-los-colores/ <https://htmlcolorcodes.com/es/nombres-de-los-"
+"colores/>`_"
+msgstr ""
+

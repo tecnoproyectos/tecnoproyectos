@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/arduino-ft/potenciometro.rst:9
+msgid "Potenciómetro"
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:10
+msgid ""
+"Los potenciómetros son resistencias variables. Las ajustamos al hacer "
+"girar su mando, aunque también las hay deslizables."
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:17
+msgid "Potenciómetro."
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:23
+msgid "Resistencia ajustable."
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:29
+msgid "Símbolos del potenciómetro."
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:32
+msgid ""
+"|icono-video| VÍDEO: `Potenciómetro. Conexión y programación en Arduino "
+"<https://www.youtube.com/watch?v=bA1hnIIX6Iw>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:103
+msgid "Icono de vídeo de YouTube"
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:35
+msgid "Conexión básica a Arduino:"
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:42
+msgid "La instrucción para leer la entrada analógica será la estándar:"
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:63
+msgid "Función :index:`map()`"
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:64
+msgid ""
+"La **función map()** en Arduino permite remapear un número desde un rango"
+" a otro. Es útil para hacer equivalencias entre diferentes rangos. Por "
+"ejemplo para remapear una lectura analógica que está en un rango de "
+"0-1023 a un nivel de salida PWM que está en un rango 0-255."
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:69
+msgid "Ejemplo:"
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:75
+msgid ""
+"la variable brillo será proporcional a la entrada analógica del "
+"potenciómetro y se usará para establecer el nivel de brillo de un LED."
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:80
+msgid "Tarea regulador de luz"
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:81
+msgid ""
+"Realiza un circuito que permita ajustar el nivel de luz de un LED "
+"mediante un potenciómetro:"
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:88
+msgid "El programa debe ser equivalente al siguiente en bloques:"
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:96
+msgid "Tarea potenciómetro servo"
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:97
+msgid ""
+"Realiza la práctica que se visualiza `al final del vídeo "
+"<https://www.youtube.com/watch?v=Z_TcgRC4zvk&t=332s>`__ en la que un "
+"potenciómetro se usa para mover un servomotor."
+msgstr ""
+

@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/arduino-ft/sensor-dht11.rst:9
+msgid "Sensor DHT11"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-dht11.rst:10
+msgid ""
+"El sensor DHT11 es un sensor de temperatura y de humedad relativa del "
+"aire ambiente."
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-dht11.rst:17
+msgid "Sensor DHT11 de temperatura y humedad relativa."
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-dht11.rst:19
+msgid "El sensor tiene 3 cables de conexión:"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-dht11.rst:21
+msgid "Vcc (5V)"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-dht11.rst:22
+msgid "GND"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-dht11.rst:23
+msgid "Data: cualquier pin digital."
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-dht11.rst:27
+msgid "Instalación de la biblioteca"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-dht11.rst:28
+msgid ""
+"Si no lo hemos hecho antes, en Arduino IDE ir al menú Herramientas --> "
+"Gestionar bibliotecas e instalar la siguiente librería: **DHT sensor "
+"library de Adafruit**."
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-dht11.rst:33
+msgid "Programación básica"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-dht11.rst:34
+msgid "Programación básica mostrando los datos en el monitor serie:"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-dht11.rst:72
+msgid ""
+"Para mostrar en una pantalla LCD1602 el símbolo 'º' de grados, escribimos"
+" la siguiente línea:"
+msgstr ""
+

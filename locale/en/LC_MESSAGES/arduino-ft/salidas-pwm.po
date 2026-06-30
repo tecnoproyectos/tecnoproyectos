@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/arduino-ft/salidas-pwm.rst:9
+msgid "Salidas PWM"
+msgstr ""
+
+#: ../../source/arduino-ft/salidas-pwm.rst:10
+msgid ""
+"|icono-video| VÍDEO: `PWM en Arduino para regular la intensidad de brillo"
+" de un LED <https://www.youtube.com/watch?v=_EqMkNmlm1Q>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/salidas-pwm.rst:62
+msgid "Icono de vídeo de YouTube"
+msgstr ""
+
+#: ../../source/arduino-ft/salidas-pwm.rst:14
+msgid ""
+"No todos los pines digitales se pueden usar con PWM, solamente los que se"
+" indican con una \"onda\":"
+msgstr ""
+
+#: ../../source/arduino-ft/salidas-pwm.rst:22
+msgid ":index:`PWM` (Pulse Wide Modulation o Modulación de Ancho de Pulso)"
+msgstr ""
+
+#: ../../source/arduino-ft/salidas-pwm.rst:23
+msgid ""
+"Es una técnica que se utiliza para simular valores de distinta intensidad"
+" analógicos mediante pulsos o \"parpadeos\" de la señal:"
+msgstr ""
+
+#: ../../source/arduino-ft/salidas-pwm.rst:30
+msgid ""
+"Código para encender un LED conectado en el pin 9 con una intensidad de "
+"25 (la intensidad puede ir desde 0 hasta 255):"
+msgstr ""
+
+#: ../../source/arduino-ft/salidas-pwm.rst:40
+msgid "Tarea PWM brillo"
+msgstr ""
+
+#: ../../source/arduino-ft/salidas-pwm.rst:41
+msgid "Monta el circuito de la figura:"
+msgstr ""
+
+#: ../../source/arduino-ft/salidas-pwm.rst:46
+msgid ""
+"Realiza el mismo programa que el de las tareas anteriores, pero en vez de"
+" repetir las líneas con las mismas instrucciones cuatro veces, usa el "
+"bucle ``for( )``."
+msgstr ""
+
+#: ../../source/arduino-ft/salidas-pwm.rst:50
+msgid ""
+"Prueba a ir cambiando el número de repeticiones y los tiempos de "
+"encendido y apagado, verás cómo ahora es más rápido usando las variables "
+"y el bucle ``for( )``."
+msgstr ""
+
+#: ../../source/arduino-ft/salidas-pwm.rst:54
+msgid "Sería el código equivalente a:"
+msgstr ""
+

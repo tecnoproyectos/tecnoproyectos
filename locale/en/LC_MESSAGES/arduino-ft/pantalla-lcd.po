@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:9
+msgid "Pantalla LCD1602"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:11
+msgid ""
+"|icono-video| VÍDEO: `Pantalla LCD1602 con Arduino "
+"<https://www.youtube.com/watch?v=YWU2VdI-G4Q>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:158
+msgid "Icono de vídeo de YouTube"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:14
+msgid ""
+"La pantalla LCD1602 (16 columnas x 02 filas) para microcontrolador "
+"Arduino permite mostrar visualmente los datos de los sensores."
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:21
+msgid "Pantalla LCD1602 con conexión I2C."
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:23
+msgid ""
+"Nosotros vamos a usar la que tiene un módulo I2C que reduce las "
+"conexiones a 4 cables:"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:26
+msgid "GND"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:27
+msgid "Vcc (5V)"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:28
+msgid "SDA: serial data, siempre conectado al pin A4 en Arduino UNO."
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:29
+msgid "SCL: serial clock, siempre conectado al pin A5 en Arduino UNO."
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:37
+msgid "Instalación de la biblioteca"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:38
+msgid ""
+"Nos vamos al menú Herramientas --> Gestionar bibliotecas e instalamos la "
+"siguiente:"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:41
+msgid ""
+"En Arduino IDE 1: LiquidCrystal I2C de Marco Schwartz (ponemos Schwartz "
+"en el buscador):"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:48
+msgid ""
+"En Arduino IDE 2: LiquidCrystal I2C de Frank de Brabander (ponemos "
+"Brabander en el buscador):"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:57
+msgid "Programación básica"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:86
+msgid ""
+"Si no se ven o se ven mal los caracteres, podemos ajustar el contraste de"
+" la pantalla usando el potenciómetro azul de la parte de atrás."
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:91
+msgid "Decimales de float"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:92
+msgid ""
+"Para elegir el número de decimales mostrado de una variable float ponemos"
+" una coma y el número de decimales deseado. Ejemplo para mostrar el valor"
+" de la variable temp con un decimal:"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:101
+msgid "Caracteres especiales"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:102
+msgid "Tenemos en cuenta que el LCD no es compatible con tildes."
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:103
+msgid "Para poner el símbolo º de grados, escribimos la siguiente línea:"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:109
+msgid ""
+"La programación básica de un corazón sería así, fíjate que los 0 y 1 "
+"forman el dibujo del corazón:"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:152
+msgid ""
+"Para dibujar caracteres personalizados de forma más visual, hay editores "
+"online como el `editor de Arduinoblocks "
+"<https://www.steamakersblocks.com/web/help/chareditor>`__ que nos generan"
+" el código directamente."
+msgstr ""
+

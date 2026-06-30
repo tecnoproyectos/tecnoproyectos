@@ -45,7 +45,7 @@ html_additional_pages = {
 }
 
 
-language = 'es_es'
+language = 'es'
 locale_dirs = ['../locale/']
 gettext_compact = False
 figure_language_filename = "{path}/{basename}.{language}{ext}"

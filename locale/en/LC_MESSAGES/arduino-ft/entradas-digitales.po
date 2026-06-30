@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/arduino-ft/entradas-digitales.rst:9
+msgid "Entradas digitales"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:11
+msgid ""
+"|icono-video| VÍDEO: `Pulsadores, entradas digitales en Arduino "
+"<https://www.youtube.com/watch?v=0Ple_lD5zLo>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:136
+msgid "Icono de vídeo de YouTube"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:14
+msgid ""
+"La conexión más sencilla usando el modo PULLUP INTERNO sería la siguiente"
+" (se puede usar cualquier pin digital, no tiene por qué ser el 8):"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:22
+msgid "Las instrucciones básicas para los pulsadores en modo PULLUP INTERNO son:"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:42
+msgid "El signo ! antes de digitalRead se usa para invertir el valor digital:"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:44
+msgid "El 0 se transforma en 1"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:45
+msgid "El 1 se transforma en 0"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:49
+msgid "Tarea Pulsador_monitor"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:50
+msgid "Monta el circuito de la figura anterior."
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:52
+msgid ""
+"Crea el programa que se explica en el vídeo anterior que has visualizado "
+"(Pulsadores, entradas digitales en Arduino) para que se muestre en el "
+"monitor serie:"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:56
+msgid "1 mientras pulsamos el pulsador"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:57
+msgid "0 si no lo pulsamos"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:61
+msgid "Tarea Pulsadores AND"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:63
+msgid ""
+"|icono-video| VÍDEO: `if, else, AND y OR, variables booleanas y "
+"constantes <https://www.youtube.com/watch?v=mHiiZT8c-t8>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:70
+msgid ""
+"Imagina que tienes que diseñar una máquina para una fábrica. La máquina "
+"es peligrosa si el operario introduce una mano en ella. Debes diseñarla "
+"de tal manera que para que el operario la pueda poner en marcha, deba "
+"pulsar dos pulsadores a la vez, uno con cada mano, de tal manera de que "
+"no le quede ninguna mano libre que pueda introducir por error en la "
+"máquina. El funcionamiento de la máquina lo vamos a simbolizar con un "
+"LED."
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:78
+msgid ""
+"Monta el circuito de la figura con dos pulsadores, un LED y una "
+"resistencia de 220Ω."
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:82
+msgid ""
+"Para sacar un 10. Si en vez de con 1 LED lo haces con 3 LEDs que se "
+"enciendan secuencialmente, tendrás un 10 en la práctica."
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:85
+#: ../../source/arduino-ft/entradas-digitales.rst:115
+msgid "El programa sería similar al siguiente:"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:91
+#: ../../source/arduino-ft/entradas-digitales.rst:121
+msgid ""
+"La instrucción señalada con la flecha roja se convierte en el siguiente "
+"código:"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:106
+msgid "Tarea Pulsadores OR"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:107
+msgid ""
+"Con lo que has aprendido en el vídeo de la tarea anterior, imagina que "
+"tienes que diseñar una máquina y quieres que se pueda poner en marcha "
+"desde un pulsador ubicado en una zona o desde otro pulsador ubicado en "
+"otro lugar."
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:112
+msgid ""
+"Monta el mismo circuito de la práctica anterior con dos pulsadores, un "
+"LED y una resistencia de 220Ω."
+msgstr ""
+

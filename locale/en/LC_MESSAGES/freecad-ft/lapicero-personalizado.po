@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/freecad-ft/lapicero-personalizado.rst:9
+msgid "Lapicero Personalizado"
+msgstr ""
+
+#: ../../source/freecad-ft/lapicero-personalizado.rst:10
+msgid ""
+"Realiza un lapicero con tu nombre, similar al realizado en el siguiente "
+"videotutorial:"
+msgstr ""
+
+#: ../../source/freecad-ft/lapicero-personalizado.rst:13
+msgid ""
+"|icono-video| VÍDEO: `Lapicero con nombre personalizado con FreeCAD "
+"<https://www.youtube.com/watch?v=f9W0HBKh2Y8>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/lapicero-personalizado.rst:24
+msgid "Icono de vídeo de YouTube"
+msgstr ""
+
+#: ../../source/freecad-ft/lapicero-personalizado.rst:18
+msgid "Tarea lapicero con nombre personalizado"
+msgstr ""
+

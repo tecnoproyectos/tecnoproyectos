@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/arduino-ft/serial-enviar.rst:9
+msgid "Comunicación serie II"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-enviar.rst:11
+msgid ""
+"|icono-video| VÍDEO: `Comunicación serial: enviando información a Arduino"
+" <https://www.youtube.com/watch?v=FmVy-vH9oqY>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-enviar.rst:64
+msgid "Icono de vídeo de YouTube"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-enviar.rst:14
+msgid "Para esperar hasta que Arduino reciba nuestro mensaje:"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-enviar.rst:24
+msgid ""
+"Para guardar en la variable \"brillo\" el número entero que hemos escrito"
+" como respuesta:"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-enviar.rst:36
+msgid "Tarea pedir nivel de brillo"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-enviar.rst:37
+msgid "Monta el circuito de la figura:"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-enviar.rst:42
+msgid ""
+"realiza un programa en Arduino IDE que haga el algoritmo de los bloques "
+"siguientes:"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-enviar.rst:51
+msgid "Tarea pedir numero de parpadeos"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-enviar.rst:52
+msgid ""
+"Con el mismo circuito que la práctica anterior, realiza un programa que "
+"te pida el número de parpadeos de LED que quieras, una vez que "
+"introduzcas el número, el LED parpadeará ese número de veces."
+msgstr ""
+
+#: ../../source/arduino-ft/serial-enviar.rst:56
+msgid "Si necesitas ayuda, puedes guiarte con el siguiente programa de bloques:"
+msgstr ""
+

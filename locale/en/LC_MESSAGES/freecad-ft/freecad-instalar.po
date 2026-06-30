@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/freecad-ft/freecad-instalar.rst:9
+msgid "Instalación de FreeCAD"
+msgstr ""
+
+#: ../../source/freecad-ft/freecad-instalar.rst:11
+msgid ""
+"Descargamos `FreeCAD desde su página web "
+"<https://www.freecad.org/downloads.php>`__."
+msgstr ""
+
+#: ../../source/freecad-ft/freecad-instalar.rst:14
+msgid ""
+"Tras instalarlo, es muy recomendable una configuración básica para "
+"adaptarlo a nuestra pantalla y resolución. Abrimos el menú Editar --> "
+"Preferencias y las escogemos."
+msgstr ""
+
+#: ../../source/freecad-ft/freecad-instalar.rst:18
+msgid "Visualiza el siguiente vídeo para continuar:"
+msgstr ""
+
+#: ../../source/freecad-ft/freecad-instalar.rst:20
+msgid ""
+"|icono-video| VÍDEO: `FreeCAD con Part Design 1: lapicero "
+"<https://www.youtube.com/watch?v=jSSxmVdzz8A>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/freecad-instalar.rst:39
+msgid "Icono de vídeo de YouTube"
+msgstr ""
+
+#: ../../source/freecad-ft/freecad-instalar.rst:25
+msgid "Tarea lapicero"
+msgstr ""
+
+#: ../../source/freecad-ft/freecad-instalar.rst:31
+msgid "Crea un lapicero cilíndrico que tenga las siguientes dimensiones:"
+msgstr ""
+
+#: ../../source/freecad-ft/freecad-instalar.rst:33
+msgid "Diámetro exterior: 90 mm"
+msgstr ""
+
+#: ../../source/freecad-ft/freecad-instalar.rst:34
+msgid "Altura: 110 mm"
+msgstr ""
+
+#: ../../source/freecad-ft/freecad-instalar.rst:35
+msgid "Espesor de paredes: 5 mm"
+msgstr ""
+

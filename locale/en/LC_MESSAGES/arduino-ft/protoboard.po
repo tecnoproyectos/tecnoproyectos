@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/arduino-ft/protoboard.rst:9
+msgid "Protoboard y conexión de componentes"
+msgstr ""
+
+#: ../../source/arduino-ft/protoboard.rst:10
+msgid "Visualiza el siguiente vídeo."
+msgstr ""
+
+#: ../../source/arduino-ft/protoboard.rst:12
+msgid ""
+"|icono-video| VÍDEO: `Conectar un LED a Arduino "
+"<https://www.youtube.com/watch?v=67rZCWYDjNk>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/protoboard.rst:38
+msgid "Icono de vídeo de YouTube"
+msgstr ""
+
+#: ../../source/arduino-ft/protoboard.rst:17
+msgid "Tarea Parpadeo LED"
+msgstr ""
+
+#: ../../source/arduino-ft/protoboard.rst:18
+msgid "Monta el circuito de la figura:"
+msgstr ""
+
+#: ../../source/arduino-ft/protoboard.rst:23
+msgid "Realiza el programa:"
+msgstr ""
+
+#: ../../source/arduino-ft/protoboard.rst:25
+msgid "Encender y apagar el LED 4 veces estando encendido 400 ms y apagado 250 ms"
+msgstr ""
+
+#: ../../source/arduino-ft/protoboard.rst:27
+msgid "Mantenerse apagado 1 segundo."
+msgstr ""
+
+#: ../../source/arduino-ft/protoboard.rst:29
+msgid "Después prueba a ir cambiando los tiempos de encendido y apagado."
+msgstr ""
+
+#: ../../source/arduino-ft/protoboard.rst:31
+msgid "Sería el código equivalente a:"
+msgstr ""
+

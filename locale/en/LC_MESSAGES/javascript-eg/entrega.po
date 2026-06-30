@@ -1,0 +1,214 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/javascript-eg/entrega.rst:8
+msgid "Entrega y reto extra"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:9
+msgid ""
+"Con todo lo que has aprendido, es el momento de tomar tus propias "
+"decisiones. Aquí tienes la estructura mínima que debe tener tu versión:"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:37
+msgid "Lista de decisiones que debes tomar"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:39
+msgid "¿Qué modo de color usas: RGB o HSB?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:40
+msgid "¿Cuál es el color de tu fondo? ¿Oscuro o claro?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:41
+msgid "¿Qué formas usas: círculos, cuadrados, rectángulos, mezcla?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:42
+msgid "¿Qué controla mouseX: el color, el tamaño, la posición de una forma?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:43
+msgid "¿Qué controla mouseY: el mismo concepto o algo diferente?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:44
+msgid "¿Cuántas formas tienes en pantalla al mismo tiempo?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:45
+msgid "¿Tu fondo borra el fotograma anterior o deja rastro (alpha)?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:49
+msgid "Entrega"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:50
+msgid "Cuando tu composición esté terminada:"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:52
+msgid ""
+"Guarda el proyecto en el editor (necesitas cuenta si quieres guardarlo "
+"online)."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:54
+msgid "Copia el enlace del proyecto (botón Compartir / Share en el editor)."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:55
+msgid "Entrega el enlace respondiendo a las siguientes preguntas:"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:61
+msgid "Título de tu composición"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:63
+msgid "¿Qué hace mouseX en tu programa?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:65
+msgid "¿Qué hace mouseY en tu programa?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:67
+msgid "¿Qué modo de color usaste y por qué?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:69
+msgid "¿Qué fue lo más difícil de esta práctica?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:71
+msgid "¿Qué cambiarías si tuvieras más tiempo?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:76
+msgid "Reto extra (opcional)"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:77
+msgid "¿Quieres ir más allá? Aquí van unas cuantas ideas:"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:79
+msgid ""
+"**frameCount con sin() / cos():** añade ``frameCount`` a tu código para "
+"crear movimiento autónomo sin necesidad del ratón:"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:89
+msgid ""
+"**mouseIsPressed:** haz que tu composición reaccione también al botón del"
+" ratón. Usa ``mouseIsPressed`` (true/false) para cambiar algo cuando se "
+"pulsa el botón."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:93
+msgid ""
+"**Lienzo más grande:** cambia el tamaño del lienzo a 800x600 y añade una "
+"tercera forma que use tanto ``mouseX`` como ``mouseY`` de una forma que "
+"no hayas usado antes."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:99
+msgid "Resumen de lo aprendido en esta práctica"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:105
+msgid "Elemento"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:106
+msgid "Para qué sirve"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:107
+msgid "``setup()``"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:108
+msgid "Se ejecuta una vez. Aquí se crea el lienzo con ``createCanvas()``."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:109
+msgid "``draw()``"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:110
+msgid "Se ejecuta en bucle continuo. Aquí se dibuja cada fotograma."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:111
+msgid "``background()``"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:112
+msgid "Borra el lienzo (o lo oscurece si se añade transparencia)."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:113
+msgid "``ellipse()`` / ``rect()``"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:114
+msgid "Dibujan formas en las coordenadas indicadas."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:115
+msgid "``fill()`` / ``stroke()``"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:116
+msgid "Establecen el color de relleno y borde antes de dibujar."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:117
+msgid "``mouseX`` / ``mouseY``"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:118
+msgid "Variables que guardan la posición actual del ratón."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:119
+msgid "``map()``"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:120
+msgid "Convierte un valor de un rango a otro proporcionalmente."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:121
+msgid "``colorMode(HSB,...)``"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:122
+msgid "Cambia el modelo de color a Tono / Saturación / Brillo."
+msgstr ""
+

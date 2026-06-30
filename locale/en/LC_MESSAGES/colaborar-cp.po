@@ -1,0 +1,1139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 11:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:9
+msgid "Normas de edición"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:10
+msgid ""
+"Estas son las normas para editar los contenidos de la página web con el "
+"lenguaje reStructuredText. Puedes aprender a utilizar este lenguaje de "
+"marcado con la :ref:`página de ejemplo de reStructuredText "
+"<restructuredtext>`."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:17
+msgid "Carpeta de proyecto"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:18
+msgid ""
+"Todos los archivos de un proyecto deben estar contenidos en una carpeta "
+"con nombre del proyecto y las iniciales del creador."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:21
+msgid "Por ejemplo: arduino-ft, scratch-cpm, puente-fam"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:23
+msgid ""
+"Si tienes dudas, contacta con el administrador de la web para que te "
+"asigne un directorio en el que comenzar a añadir contenidos."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:28
+msgid "Imágenes y documentos"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:29
+msgid ""
+"Todas las imágenes y archivos descargables deben empezar por el mismo "
+"nombre de la carpeta en el que están contenidas. De esta forma ningún "
+"archivo de todo el proyecto tendrá un nombre coincidente con el de otro "
+"proyecto distinto."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:34
+msgid ""
+"Por ejemplo imágenes o archivos pdf: arduino-ft-01.png, arduino-ft-"
+"guia.pdf"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:38
+msgid "Página de índice"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:39
+msgid ""
+"El primer archivo de contenidos dentro de la carpeta de un proyecto debe "
+"llamarse **index.rst** y debe contener una lista con todos los archivos "
+"de ese proyecto."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:43
+msgid ""
+"No está permitido hacer subniveles. Todos los archivos del proyecto deben"
+" colgar del archivo principal index.rst."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:46
+msgid ""
+"Si necesitas separar proyectos, será necesario crear un proyecto nuevo "
+"con un nuevo nombre."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:51
+msgid "Nombre de las páginas"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:52
+msgid ""
+"Los diferentes archivos de reStructuredText (\\*.rst) de un proyecto, que"
+" luego se convertirán en una página web, deben nombrarse con palabras en "
+"minúsculas separadas por guiones altos que describan lo mejor posible el "
+"contenido del archivo. Se puede utilizar desde una palabra hasta tres "
+"palabras como máximo."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:58
+msgid ""
+"Ejemplos: pantalla-lcd-texto.rst, entradas-analogicas.rst, disenio-"
+"papel.rst"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:60
+msgid ""
+"No utilices tildes, eñes o diéresis ya que eso crearía problemas con las "
+"páginas html generadas. La letra 'ñ' se puede sustituir por las letras "
+"'ni' y las tildes y diéresis no se escriben."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:64
+msgid ""
+"Intenta no numerar los archivos, porque las numeraciones se desordenan al"
+" añadir contenido o al reordenar el contenido existente."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:69
+msgid "Subdirectorios"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:70
+msgid ""
+"Se recomienda mantener todos los archivos \\*.rst en el directorio raíz "
+"del proyecto y las imágenes en el subdirectorio _images."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:73
+msgid "Se puede crear otro subdirectorio más para las descargas: _downloads"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:75
+msgid ""
+"Se recomienda no crear más subdirectorios para mantener limpio el "
+"proyecto y poder ver todos los archivos a la vez sin tener que navegar "
+"por subdirectorios."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:81
+msgid "Codificación de los archivos"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:82
+msgid ""
+"La codificación de los archivos de texto \\*.rst deberá ser UTF-8 con BOM"
+" para que pueda soportar la edición de caracteres internacionales."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:85
+msgid ""
+"Se pueden utilizar emojis en el texto, pero al traducir la página web a "
+"formato PDF, la mayoría se perderán."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:90
+msgid "Metadatos"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:91
+msgid ""
+"Es necesario añadir metadatos en la cabecera para indicar quién es el "
+"autor del proyecto y qué licencia usa. Para dar coherencia a todo el "
+"sitio web y permitir la utilización de imágenes de Wikimedia y de "
+"herramientas como Fritzing, se recomienda encarecidamente mantener la "
+"licencia Creative Commons Attribution-ShareAlike 4.0."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:98
+msgid "Los metadatos básicos de cabecera de todos los archivos rst serán::"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:108
+msgid "Caracteres por línea"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:109
+msgid ""
+"Los archivos reStructuredText se pueden escribir con cualquier número de "
+"columnas por cada línea de texto, pero se recomienda utilizar un límite "
+"práctico de **75 caracteres por línea** como máximo para que las líneas "
+"se puedan visualizar sin problemas en una pantalla estrecha."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:116
+msgid "Títulos"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:117
+msgid ""
+"Los títulos deben ser **breves** para que los menús de navegación no se "
+"saturen con frases largas. Lo ideal es utilizar una, dos o, como máximo, "
+"tres palabras descriptivas y aportar una explicación mayor en el texto a "
+"continuación del título."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:122
+msgid ""
+"Se recomienda escribir **un solo título principal** al comienzo de cada "
+"página, subrayado con caracteres de igual::"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:129
+msgid ""
+"Se pueden añadir subtítulos secundarios, subrayados con caracteres de "
+"resta::"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:137
+msgid ""
+"De forma excepcional se pueden añadir subtítulos de tercer nivel, "
+"subrayados con caracteres de acentos circunflejos, aunque se desaconseja "
+"porque puede generar confusión::"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:148
+msgid "Extensión de página"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:149
+msgid ""
+"Cada página de contenidos debería tener una extensión tal que se pueda "
+"estudiar y realizar sus ejercicios en una sesión de clase (alrededor de "
+"50 minutos)."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:153
+msgid ""
+"Si es necesario separar contenidos para diferenciarlos (por ejemplo "
+"separar circuitos en serie de circuitos en paralelo) lo ideal es que cada"
+" página contenga sus propios ejercicios y tareas y que se puedan hacer "
+"como mucho tres páginas por sesión de clase."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:160
+msgid "Teoría y ejercicios"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:161
+msgid ""
+"En las páginas destinadas a los alumnos es fundamental que la teoría esté"
+" conectada con las tareas y ejercicios de manera que cada párrafo de "
+"teoría tenga una pregunta o tarea asociada y que cada pregunta o tarea "
+"tenga una explicación teórica asociada."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:166
+#, python-format
+msgid ""
+"Lo ideal es que las preguntas y tareas estén graduadas en dificultad de "
+"manera que las primeras sean muy sencillas, que todos los alumnos puedan "
+"responderlas con facilidad, y las últimas preguntas y tareas sean "
+"complejas para que supongan un reto difícil para todos los alumnos, "
+"excepto quizás un 10% de la clase."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:174
+msgid "Ejemplos"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:175
+msgid ""
+"Puedes fijarte en cómo está escrito un proyecto ya existente para tomarlo"
+" como referencia para escribir el tuyo."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:178
+msgid ""
+"Por ejemplo te puede servir de modelo estas mismas páginas que explican "
+"`Cómo colaborar "
+"<https://github.com/tecnoproyectos/tecnoproyectos/tree/main/source"
+"/colaborar-cp>`__ situado en la carpeta ``sources/colaborar-cp`` del "
+"repositorio."
+msgstr ""
+
+#: ../../source/colaborar-cp/github.rst:9
+msgid "Trabajo con GitHub"
+msgstr ""
+
+#: ../../source/colaborar-cp/github.rst:10
+msgid ""
+"Los pasos a seguir para poder aportar contenidos utilizando la plataforma"
+" GitHub son los siguientes:"
+msgstr ""
+
+#: ../../source/colaborar-cp/github.rst:13
+msgid "Crear una cuenta personal en GitHub"
+msgstr ""
+
+#: ../../source/colaborar-cp/github.rst:15
+msgid ""
+"Clonar en la cuenta personal todo el proyecto de Tecno Proyectos desde "
+"esta dirección:"
+msgstr ""
+
+#: ../../source/colaborar-cp/github.rst:18
+msgid "https://github.com/tecnoproyectos/tecnoproyectos"
+msgstr ""
+
+#: ../../source/colaborar-cp/github.rst:20
+msgid ""
+"Asegurarse de que el proyecto personal está sincronizado con el botón "
+"``Sync fork`` para recibir en el repositorio propio todos los últimos "
+"cambios que se hayan producido en el repositorio principal."
+msgstr ""
+
+#: ../../source/colaborar-cp/github.rst:24
+msgid ""
+"Si no lo has hecho ya, crear una rama nueva para trabajar en ella. Todas "
+"las modificaciones se realizarán en la rama nueva para que no se mezclen "
+"con la rama principal main."
+msgstr ""
+
+#: ../../source/colaborar-cp/github.rst:28
+msgid ""
+"Realizar los cambios en un subdirectorio propio, dentro del directorio "
+"source."
+msgstr ""
+
+#: ../../source/colaborar-cp/github.rst:31
+msgid "Por ejemplo: añadir un archivo en /source/freecad-ft"
+msgstr ""
+
+#: ../../source/colaborar-cp/github.rst:33
+msgid ""
+"Abrir un pull-request con el botón ``Contribute`` y clicando ``Open pull "
+"request`` para enviar los cambios realizados al proyecto principal."
+msgstr ""
+
+#: ../../source/colaborar-cp/github.rst:37
+msgid "Volver al punto 3 y repetir el proceso."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:9
+msgid "Herramientas del proyecto"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:10
+msgid ""
+"Esta es la lista de herramientas que se necesita para compilar la página "
+"web y obtener los archivos html."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:13
+msgid ""
+"No es necesario instalar todas estas herramientas para aportar "
+"contenidos, pero si es recomendable para que puedas compilar el proyecto "
+"en tu propio ordenador y comprobar que todo lo escrito funciona "
+"correctamente antes de enviarlo al repositorio principal, ahorrando "
+"trabajo a los administradores."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:20
+msgid "Herramientas en Linux"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:21
+msgid ""
+"A continuación aparece la lista de herramientas necesarias para la "
+"distribución Debian y sus distribuciones derivadas (Ubuntu, MAX, etc)."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:24
+#: ../../source/colaborar-cp/herramientas.rst:58
+msgid "**Python**: lenguaje de programación que utiliza el proyecto."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:26
+msgid "``sudo apt install python3``"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:28
+#: ../../source/colaborar-cp/herramientas.rst:77
+msgid ""
+"**Sphinx**: generador de documentación que compila los ficheros fuente "
+"para convertirlos en html estático, epub o pdf."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:31
+msgid "``sudo apt install python3-sphinx``"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:33
+#: ../../source/colaborar-cp/herramientas.rst:85
+msgid ""
+"**Furo**: es el tema de Sphinx. Sirve para definir el estilo de la página"
+" web (tipos de letra, tamaños, separaciones entre elementos, etc.)"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:36
+msgid "``apt install python3-furo``"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:38
+msgid ""
+"**TeX Live**: paquete del lenguaje LaTeX para generación de fórmulas con "
+"Sphinx."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:41
+msgid "``sudo apt install texlive-full``"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:43
+msgid ""
+"**Git**: gestor de versiones. Es la herramienta de control de revisiones "
+"de Linux y la que trabaja por debajo del servicio GitHub."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:46
+msgid "``sudo apt install git –y``"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:48
+msgid ""
+"**ImageMagick**: paquete de manejo de imágenes por línea de comandos. No "
+"es necesario para compilar la web, solo para modificar las imágenes del "
+"proyecto a mano cuando sea necesario."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:52
+msgid "``sudo apt install imagemagick``"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:56
+msgid "Herramientas en Windows"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:60
+msgid "https://www.python.org/downloads/latest/python3.14/"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:62
+msgid ""
+"Instalar para todos los usuarios en el directorio c:/Archivos de "
+"programa/Python314"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:66
+msgid ""
+"**Entorno virtual de Python**: Es el entorno local de herramientas de "
+"Python."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:69
+msgid "Comenzamos por borrar el directorio venv actual."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:71
+msgid "Ejecutamos las siguientes instrucciones desde la consola de comandos::"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:80
+#: ../../source/colaborar-cp/herramientas.rst:88
+msgid "Abrimos la linea de comandos ejecutando ``_bash.bat`` y escribimos:"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:82
+msgid "``python.exe -m pip install sphinx``"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:90
+msgid "``python.exe -m pip install furo``"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:93
+msgid ""
+"**MikTeX**: paquete del lenguaje LaTeX para generación de fórmulas con "
+"Sphinx."
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:96
+msgid ""
+"Descarga el archivo de instalación para Windows: `miktex.org/download "
+"<https://miktex.org/download>`__"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:99
+msgid "Renombra el archivo de instalación a miktex-portable.exe"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:101
+msgid "Instala MikTeX en el directorio ``c:/bin/miktex``"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:105
+msgid "Compilando el proyecto"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:106
+msgid ""
+"Para compilar el proyecto y obtener los archivos html estáticos que "
+"forman la página web es necesario ir al directorio del proyecto abrir la "
+"linea de comandos (ejecutando ``_bash.bat`` en Windows) y escribir:"
+msgstr ""
+
+#: ../../source/colaborar-cp/herramientas.rst:111
+msgid "``make html``"
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:9
+msgid "Fotografías e imágenes"
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:10
+msgid ""
+"En este apartado se explican los formatos de imagen, tamaños y forma de "
+"atribuir correctamente el material externo."
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:14
+msgid "Formatos de imagen"
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:15
+msgid "Se recomienda utilizar solo dos formatos de imagen:"
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:17
+msgid "**JPG**: para fotografías o imágenes con degradados y multitud de colores."
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:20
+msgid ""
+"**PNG**: para el resto de imágenes como capturas de pantalla, gráficos "
+"imágenes prediseñadas, capturas de texto, etc."
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:23
+msgid ""
+"Ante la duda, lo mejor es guardar la imagen en **formato PNG**, puesto "
+"que este formato no pierde calidad y se puede convertir fácilmente a JPG "
+"posteriormente, mientras que las imágenes JPG pierden calidad y no pueden"
+" convertirse posteriormente a PNG porque ocupan un tamaño excesivo."
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:31
+msgid "Ancho de imagen"
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:32
+msgid ""
+"El ancho de las imágenes debe ser suficientemente grande como para que la"
+" imagen no pierda detalles, pero no innecesariamente grande para que el "
+"archivo ocupe un tamaño limitado."
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:36
+msgid ""
+"Tamaños habituales de imágenes grandes para el formato web pueden ir "
+"desde los 800 pixel de ancho de una visualización a pantalla grande, "
+"hasta los 1200 pixel que permiten ampliar aun más la imagen sin pérdida "
+"de calidad."
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:40
+msgid ""
+"Las imágenes pequeñas pueden tener desde 120 pixel de ancho para pequeños"
+" iconos hasta los 640 pixel de ancho para imágenes que ocupen casi toda "
+"la pantalla en ordenadores personales."
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:46
+msgid "Tamaño de archivo"
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:47
+msgid ""
+"Los archivos de fotografías e imágenes no deben tener un tamaño mayor de "
+"500 kilobytes."
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:50
+msgid ""
+"Si hay imágenes de gran tamaño se recomienda crear un repositorio nuevo "
+"en GitHub para almacenarlas. Después se copiarán solo las imágenes "
+"imprescindibles en formato de tamaño y calidad reducidas en el proyecto "
+"para que el tamaño total de todo el sitio web se mantenga contenido."
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:56
+msgid ""
+"La herramienta estándar para reducir el tamaño y calidad de las imágenes "
+"es `ImageMagick <https://imagemagick.org/download/>`__"
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:59
+msgid "La línea de comandos para reducir el tamaño de una imagen es::"
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:64
+msgid ""
+"Donde image.jpg es la imagen original a reducir y 1200 es el tamaño en "
+"pixels de ancho o de alto (la mayor de las dos) de la imagen de salida."
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:67
+msgid ""
+"Para reducir a la vez el tamaño de muchas imágenes se utilizará la línea "
+"de comandos para Windows::"
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:72
+msgid "O su equivalente en Linux::"
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:80
+msgid "Atribución de autoría"
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:81
+msgid ""
+"Las imágenes suelen ser el contenido en el que más se utilizan recursos "
+"de otras personas y es sumamente importante realizar una atribución de "
+"autoría correcta."
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:85
+msgid ""
+"Lo ideal es utilizar imágenes con la misma licencia que los recursos de "
+"esta web (por defecto es Creative Commons Atribución Compartir-Igual 4.0)"
+" como lo son casi todas las imágenes de Wikimedia."
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:89
+msgid ""
+"También se pueden utilizar imágenes con otras licencias, siempre que sean"
+" compatibles con la licencia anterior, como las imágenes de stock de "
+"`Pexels <https://www.pexels.com/es-es/license/>`__ o de `Pixabay "
+"<https://pixabay.com/service/license-summary/>`__."
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:94
+msgid ""
+"La forma de atribuir correctamente la autoría es añadir los siguientes "
+"elementos:"
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:97
+msgid "**Título**: El nombre original de la imagen, si tiene."
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:99
+msgid ""
+"**Autor**: El nombre o seudónimo del creador, enlazado a su perfil si es "
+"posible."
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:102
+msgid "**Fuente**: Un enlace directo a donde está publicada la obra original."
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:104
+msgid ""
+"**Licencia**: El nombre de la licencia (CC BY-SA 4.0) enlazado a su texto"
+" legal."
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:107
+msgid ""
+"**Cambios**: Una declaración explícita si has adaptado o modificado la "
+"obra original."
+msgstr ""
+
+#: ../../source/colaborar-cp/imagenes.rst:110
+msgid "Ejemplo práctico de código reStructuredText de una imagen con atribución::"
+msgstr ""
+
+#: ../../source/colaborar-cp/index.rst:10
+msgid "Cómo colaborar"
+msgstr ""
+
+#: ../../source/colaborar-cp/index.rst:11
+msgid ""
+"En este apartado se explican los detalles para poder colaborar con este "
+"proyecto, abierto a cualquier profesor de Tecnología que desee aportar "
+"contenidos."
+msgstr ""
+
+#: ../../source/colaborar-cp/index.rst:15
+msgid ""
+"Lo ideal es que aportes contenidos con el formato que utiliza la página "
+"web y que se explica en los siguientes apartados, porque eso ahorra mucho"
+" esfuerzo a los editores del sitio web. De todas formas si tienes "
+"materiales en otro formato y crees que pueden ser un buen aporte, no "
+"dudes en enviarlos. Se pueden poner a disposición en la web para su "
+"descarga y, posteriormente, traducirlos a formato web poco a poco."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:10
+#: ../../source/colaborar-cp/restructuredtext.rst:284
+msgid "El lenguaje reStructuredText"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:11
+msgid ""
+"El lenguaje **reStructuredText** (abreviado como reST) es un lenguaje de "
+"marcado ligero y fácil de leer, diseñado para escribir documentos "
+"técnicos, manuales y páginas web a partir de archivos de texto plano."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:15
+msgid ""
+"Esta es una página que sirve de ejemplo y resumen de la mayoría de las "
+"funciones útiles del lenguaje **reStructuredText** para Sphinx. Para ver "
+"el texto fuente de esta página debes clicar en el icono del ojo situado "
+"arriba a la derecha."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:20
+msgid ""
+"Con esta página se puede aprender a utilizar este lenguaje de marcado y "
+"se puede comprobar el funcionamiento de los estilos aplicados por el tema"
+" Furo de Sphinx."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:24
+msgid "Para saber más sobre reStructuredText:"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:26
+msgid ""
+"`Documentación de reStructuredText para Sphinx. <https://www.sphinx-"
+"doc.org/en/master/usage/restructuredtext/index.html>`__"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:29
+msgid ""
+"`Documentación completa del lenguaje reStructuredText para Docutils. "
+"<https://docutils.sourceforge.io/rst.html>`__"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:33
+msgid "Párrafos"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:34
+msgid "Párrafo con texto *resaltado*."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:36
+msgid "Párrafo con texto **resaltado fuerte**."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:38
+msgid "Párrafo con texto en ``formato código``."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:40
+msgid ""
+"Otro párrafo más: Lorem ipsum dolor sit amet, consectetur adipiscing "
+"elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi "
+"ut aliquip ex ea commodo consequat."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:47
+msgid "Listas"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:48
+msgid "Lista numerada:"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:50
+#: ../../source/colaborar-cp/restructuredtext.rst:56
+msgid "Primero"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:51
+#: ../../source/colaborar-cp/restructuredtext.rst:61
+msgid "Segundo"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:52
+#: ../../source/colaborar-cp/restructuredtext.rst:62
+msgid "Tercero"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:54
+msgid "Lista no numerada:"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:58
+msgid "Sub primero primero"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:59
+msgid "Sub primero segundo"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:64
+msgid "Término uno"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:65
+msgid "Descripción del término uno."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:67
+msgid "Término dos"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:68
+msgid "Descripción del término dos."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:70
+msgid "Que puede tener varios párrafos."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:74
+msgid "Tablas"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:76
+msgid "Tabla en forma de cuadrícula:"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:79
+#: ../../source/colaborar-cp/restructuredtext.rst:95
+msgid "Encabezado 1"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:79
+#: ../../source/colaborar-cp/restructuredtext.rst:96
+msgid "Encabezado 2"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:79
+#: ../../source/colaborar-cp/restructuredtext.rst:97
+msgid "Encabezado 3"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:81
+#: ../../source/colaborar-cp/restructuredtext.rst:99
+msgid "Fila 1, col 1"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:81
+#: ../../source/colaborar-cp/restructuredtext.rst:100
+msgid "Fila 1, col 2"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:81
+#: ../../source/colaborar-cp/restructuredtext.rst:101
+msgid "Fila 1, col 3"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:83
+#: ../../source/colaborar-cp/restructuredtext.rst:103
+msgid "Fila 2, col 1"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:83
+#: ../../source/colaborar-cp/restructuredtext.rst:104
+msgid "Fila 2, col 2"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:83
+#: ../../source/colaborar-cp/restructuredtext.rst:105
+msgid "Fila 2, col 3"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:87
+msgid "Tabla en forma de lista:"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:89
+msgid "tabla en forma de lista"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:98
+msgid "Encabezado 4"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:102
+msgid "Fila 1, col 4"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:106
+msgid "Fila 2, col 4"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:110
+msgid "Hipervínculos"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:112
+msgid ""
+"`Enlace a una página de Wikipedia sobre Python "
+"<https://es.wikipedia.org/wiki/Python>`__."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:115
+msgid "Enlace interno a la :ref:`página principal de contenidos <content>`."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:117
+msgid ":download:`Descarga de una imagen <_images/flower.jpg>`."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:119
+#, python-format
+msgid "Enlace a la :numref:`Tabla %s <tabla-lista>`."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:123
+msgid "Imágenes"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:125
+msgid ""
+"Ejemplo de imagen centrada en el medio de la página con título. Al clicar"
+" sobre la imagen, se muestra en su tamaño real más grande:"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:133
+#: ../../source/colaborar-cp/restructuredtext.rst:147
+msgid "Flor blanca."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:135
+#: ../../source/colaborar-cp/restructuredtext.rst:149
+msgid ""
+"Imagen de `Siritas Keawnet <https://www.pexels.com/@sosassosay/>`__ en "
+"`Pexels <https://www.pexels.com/photo/white-and-yellow-flower-in-tilt-"
+"shift-lens-3718388/>`__"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:139
+msgid ""
+"Ejemplo de imagen a la derecha con texto alrededor. Al clicar sobre la "
+"imagen se abre un enlace a Wikipedia:"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:152
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim "
+"veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea "
+"commodo consequat. Duis aute irure dolor in reprehenderit in voluptate "
+"velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint "
+"occaecat cupidatat non proident, sunt in culpa qui officia deserunt "
+"mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur "
+"adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore "
+"magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco "
+"laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in"
+" reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla "
+"pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa "
+"qui officia deserunt mollit anim id est laborum."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:171
+msgid "Advertencias"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:174
+msgid ""
+"Esto es una aclaración, dato curioso o recordatorio importante. También "
+"se puede utilizar para conectar un tema con otro."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:177
+msgid "Título de la caja personalizado"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:179
+msgid ""
+"Esta advertencia genérica tiene un título que se puede modificar a "
+"voluntad, de forma personalizada."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:183
+msgid ""
+"Esta advertencia se usa para alertar sobre fallos típicos, malentendidos "
+"o acciones que pueden estropear algo."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:189
+msgid ""
+"Esta sugerencia o pista sirve para guiar al estudiante hacia la solución."
+" Estimula el pensamiento crítico sin dar la respuesta directamente."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:193
+msgid ""
+"Puede mostrarse inicialmente cerrada para no dar pistas antes de que el "
+"estudiante lo pida expresamente, con la opción ``:collapsible: closed``."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:198
+msgid "Consistencia"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:199
+msgid ""
+"Asigna siempre el mismo tipo de contenido al mismo bloque para que el "
+"estudiante asocie el color con el tipo de mensaje de forma automática."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:205
+msgid "Notas a pie de página"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:206
+msgid ""
+"Este texto necesita una aclaración mediante una nota al pie de página con"
+" numeración automática [#f1]_."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:209
+msgid ""
+"También puedes enlazar a otra nota a pie de página usando un nombre "
+"identificativo o etiqueta [#nota_nombre]_."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:212
+msgid ""
+"Por otro lado, Sphinx es la herramienta estándar para generar "
+"documentación de proyectos asociados a Python [#]_."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:217
+msgid "Fórmulas"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:218
+msgid ""
+"El generador de páginas estáticas Sphinx permite añadir fórmulas a la "
+"documentación gracias al lenguaje LaTeX:"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:221
+msgid "ax^2 + bx + c = 0"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:225
+msgid "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:231
+msgid "Aplicaciones embebidas"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:232
+msgid ""
+"En reStructuredText se puede añadir contenido html que sirva para incluir"
+" aplicaciones JavaScript embebidas, como simuladores."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:235
+msgid "Simulador de circuitos:"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:244
+msgid "Simulador neumático:"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:254
+msgid "Glosario de términos"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:257
+msgid "Sphinx"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:259
+msgid ""
+"Generador de documentación de código abierto escrito en **Python**. "
+"Convierte archivos de texto plano (usualmente en formato "
+"*reStructuredText* o *Markdown*) en sitios web HTML estáticos, manuales "
+"en PDF, ePub y otros formatos. Es la herramienta estándar de la industria"
+" para documentar proyectos en el ecosistema Python."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:265
+msgid "Furo"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:267
+msgid ""
+"Tema que define el aspecto visual y la estructura estética de la "
+"documentación generada por Sphinx. Es limpio, minimalista y adaptable "
+"(*responsive*) diseñado específicamente para proyectos de documentación "
+"de Sphinx. Destaca por ofrecer navegación fluida tanto en pantallas "
+"móviles como de escritorio y soporte nativo para modos claro/oscuro."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:273
+msgid "Python"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:275
+msgid ""
+"Lenguaje de programación de alto nivel, interpretado y multiparadigma. Es"
+" ampliamente conocido por su sintaxis limpia y legible, y funciona como "
+"la base tecnológica sobre la cual está construido y se ejecuta todo el "
+"sistema de Sphinx."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:285
+msgid ""
+"Es un :index:`lenguaje de marcado ligero <reStructuredText>` diseñado "
+"específicamente para la comunidad de **Python**. Su objetivo principal es"
+" facilitar la creación de documentos técnicos legibles tanto en su "
+"formato de texto plano de origen como una vez procesados y compilados por"
+" herramientas como **Sphinx**."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:294
+msgid "Notas:"
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:295
+msgid ""
+"Esta es la explicación de la primera nota al pie, numerada "
+"automáticamente."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:297
+msgid ""
+"Esta nota se asocia mediante el texto de la etiqueta, pero Sphinx le "
+"asignará el número correlativo correcto."
+msgstr ""
+
+#: ../../source/colaborar-cp/restructuredtext.rst:299
+msgid "Sphinx transforma archivos reStructuredText en HTML, PDF y otros formatos."
+msgstr ""
+
