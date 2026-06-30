@@ -1,0 +1,530 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 11:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/freecad-ft/arco-medio-punto.rst:9
+msgid "Arco de medio punto"
+msgstr ""
+
+#: ../../source/freecad-ft/arco-medio-punto.rst:10
+msgid ""
+"Realiza el modelado de un arco con FreeCAD, siguiendo las instrucciones "
+"del siguiente videotutorial:"
+msgstr ""
+
+#: ../../source/freecad-ft/arco-medio-punto.rst:13
+msgid ""
+"|icono-video| VÍDEO: `Modelado de una dovela con FreeCAD "
+"<https://www.youtube.com/watch?v=uFx-aMFaTIM>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/arco-medio-punto.rst:26
+#: ../../source/freecad-ft/ensamble.rst:30
+#: ../../source/freecad-ft/figuras-revolucion.rst:59
+#: ../../source/freecad-ft/freecad-instalar.rst:39
+#: ../../source/freecad-ft/herramienta-espesor.rst:40
+#: ../../source/freecad-ft/herramienta-huecos.rst:33
+#: ../../source/freecad-ft/lapicero-personalizado.rst:24
+#: ../../source/freecad-ft/llavero-articulado.rst:25
+#: ../../source/freecad-ft/llavero-personalizado.rst:25
+#: ../../source/freecad-ft/part-design.rst:34
+#: ../../source/freecad-ft/plano-vivienda.rst:43
+#: ../../source/freecad-ft/polilinea-barrido.rst:52
+#: ../../source/freecad-ft/puente-autoportante.rst:30
+#: ../../source/freecad-ft/repeticion-piezas.rst:35
+#: ../../source/freecad-ft/repeticion-polar.rst:26
+#: ../../source/freecad-ft/tangencias-simetrias.rst:28
+#: ../../source/freecad-ft/variables.rst:28
+msgid "Icono de vídeo de YouTube"
+msgstr ""
+
+#: ../../source/freecad-ft/arco-medio-punto.rst:20
+msgid "Sube a la tarea los siguientes archivos:"
+msgstr ""
+
+#: ../../source/freecad-ft/arco-medio-punto.rst:22
+msgid "El archivo de FreeCAD del arco completo"
+msgstr ""
+
+#: ../../source/freecad-ft/arco-medio-punto.rst:23
+msgid "El archivo STL de una sola dovela"
+msgstr ""
+
+#: ../../source/freecad-ft/ensamble.rst:9
+msgid "Ensamble"
+msgstr ""
+
+#: ../../source/freecad-ft/ensamble.rst:10
+#: ../../source/freecad-ft/figuras-revolucion.rst:10
+#: ../../source/freecad-ft/herramienta-espesor.rst:13
+#: ../../source/freecad-ft/herramienta-huecos.rst:10
+#: ../../source/freecad-ft/polilinea-barrido.rst:10
+#: ../../source/freecad-ft/puente-autoportante.rst:10
+#: ../../source/freecad-ft/repeticion-polar.rst:10
+#: ../../source/freecad-ft/tangencias-simetrias.rst:10
+#: ../../source/freecad-ft/variables.rst:10
+msgid "Sigue las instrucciones del siguiente videotutorial:"
+msgstr ""
+
+#: ../../source/freecad-ft/ensamble.rst:12
+msgid ""
+"|icono-video| VÍDEO: `Ensamblaje con FreeCAD "
+"<https://www.youtube.com/watch?v=r5Oi5l46Y9c>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/ensamble.rst:17
+msgid "Tarea ensamblaje con FreeCAD"
+msgstr ""
+
+#: ../../source/freecad-ft/ensamble.rst:18
+msgid ""
+"Descarga el archivo con los elementos a ensamblar: :download:`freecad-ft-"
+"piezas-ensamble <freecad-ft-piezas-ensamble.FCStd>`"
+msgstr ""
+
+#: ../../source/freecad-ft/ensamble.rst:21
+msgid ""
+"Con las instrucciones del vídeo, realiza el ensamblaje para que quede el "
+"montaje así:"
+msgstr ""
+
+#: ../../source/freecad-ft/figuras-revolucion.rst:9
+msgid "Figuras de revolución"
+msgstr ""
+
+#: ../../source/freecad-ft/figuras-revolucion.rst:12
+msgid ""
+"|icono-video| VÍDEO: `Part Design 9: Figuras de revolución con FreeCAD "
+"<https://www.youtube.com/watch?v=1aOmBGGi5xM>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/figuras-revolucion.rst:16
+#: ../../source/freecad-ft/polilinea-barrido.rst:16
+msgid "Tarea A"
+msgstr ""
+
+#: ../../source/freecad-ft/figuras-revolucion.rst:17
+msgid ""
+"Realiza el siguiente cono a partir de una revolución alrededor del eje Z "
+"del triángulo de la figura realizado en el plano XZ:"
+msgstr ""
+
+#: ../../source/freecad-ft/figuras-revolucion.rst:30
+#: ../../source/freecad-ft/polilinea-barrido.rst:35
+msgid "Tarea B"
+msgstr ""
+
+#: ../../source/freecad-ft/figuras-revolucion.rst:31
+msgid ""
+"Realiza la siguiente figura usando la herramienta revolución alrededor "
+"del eje X. Usa el croquis en el plano XY de la figura:"
+msgstr ""
+
+#: ../../source/freecad-ft/figuras-revolucion.rst:43
+msgid "Tarea C"
+msgstr ""
+
+#: ../../source/freecad-ft/figuras-revolucion.rst:44
+msgid ""
+"Si te gustan los retos, puedes hacer un alfil a partir del siguiente "
+"plano:"
+msgstr ""
+
+#: ../../source/freecad-ft/figuras-revolucion.rst:51
+msgid ""
+"Si necesitas ayuda, puedes guiarte con el croquis de FreeCAD de la "
+"siguiente figura:"
+msgstr ""
+
+#: ../../source/freecad-ft/freecad-instalar.rst:9
+msgid "Instalación de FreeCAD"
+msgstr ""
+
+#: ../../source/freecad-ft/freecad-instalar.rst:11
+msgid ""
+"Descargamos `FreeCAD desde su página web "
+"<https://www.freecad.org/downloads.php>`__."
+msgstr ""
+
+#: ../../source/freecad-ft/freecad-instalar.rst:14
+msgid ""
+"Tras instalarlo, es muy recomendable una configuración básica para "
+"adaptarlo a nuestra pantalla y resolución. Abrimos el menú Editar --> "
+"Preferencias y las escogemos."
+msgstr ""
+
+#: ../../source/freecad-ft/freecad-instalar.rst:18
+msgid "Visualiza el siguiente vídeo para continuar:"
+msgstr ""
+
+#: ../../source/freecad-ft/freecad-instalar.rst:20
+msgid ""
+"|icono-video| VÍDEO: `FreeCAD con Part Design 1: lapicero "
+"<https://www.youtube.com/watch?v=jSSxmVdzz8A>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/freecad-instalar.rst:25
+msgid "Tarea lapicero"
+msgstr ""
+
+#: ../../source/freecad-ft/freecad-instalar.rst:31
+msgid "Crea un lapicero cilíndrico que tenga las siguientes dimensiones:"
+msgstr ""
+
+#: ../../source/freecad-ft/freecad-instalar.rst:33
+msgid "Diámetro exterior: 90 mm"
+msgstr ""
+
+#: ../../source/freecad-ft/freecad-instalar.rst:34
+msgid "Altura: 110 mm"
+msgstr ""
+
+#: ../../source/freecad-ft/freecad-instalar.rst:35
+msgid "Espesor de paredes: 5 mm"
+msgstr ""
+
+#: ../../source/freecad-ft/herramienta-espesor.rst:9
+msgid "Herramienta espesor"
+msgstr ""
+
+#: ../../source/freecad-ft/herramienta-espesor.rst:10
+msgid ""
+"En esta práctica estudiaremos las herramientas Thickness (espesor) y "
+"proyección externa."
+msgstr ""
+
+#: ../../source/freecad-ft/herramienta-espesor.rst:15
+msgid ""
+"|icono-video| VÍDEO: `FreeCAD con Part Design 4: Thickness (espesor) y "
+"Proyección externa <https://www.youtube.com/watch?v=xzComKryaM4>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/herramienta-espesor.rst:19
+msgid ""
+"Realiza el vaciado de la pieza tal como se muestra en la figura, con "
+"espesor de las paredes de 1 mm:"
+msgstr ""
+
+#: ../../source/freecad-ft/herramienta-huecos.rst:9
+msgid "Herramienta huecos"
+msgstr ""
+
+#: ../../source/freecad-ft/herramienta-huecos.rst:12
+msgid ""
+"|icono-video| VÍDEO: `Part Design 5: Pocket, huecos y vaciados con "
+"FreeCAD <https://www.youtube.com/watch?v=fxtUQhT9L-c>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/herramienta-huecos.rst:15
+msgid ""
+"Realiza el modelo de la figura, teniendo en cuenta que el espesor de la "
+"pieza es de 10 mm:"
+msgstr ""
+
+#: ../../source/freecad-ft/index.rst:9
+msgid "Guía FreeCAD"
+msgstr ""
+
+#: ../../source/freecad-ft/index.rst:15
+msgid "Guía de FreeCAD del profesor Francisco Trigueros."
+msgstr ""
+
+#: ../../source/freecad-ft/index.rst:41
+msgid ""
+":download:`Guía de FreeCAD con lecciones y prácticas. Formato editable "
+"ODT. <freecad-ft-guia.odt>`"
+msgstr ""
+
+#: ../../source/freecad-ft/index.rst:46
+msgid ""
+"Esta guía de FreeCAD ha sido creada por Francisco Trigueros y ha sido "
+"corregida y adaptada al formato web por Carlos Félix Pardo Martín."
+msgstr ""
+
+#: ../../source/freecad-ft/lapicero-personalizado.rst:9
+msgid "Lapicero Personalizado"
+msgstr ""
+
+#: ../../source/freecad-ft/lapicero-personalizado.rst:10
+msgid ""
+"Realiza un lapicero con tu nombre, similar al realizado en el siguiente "
+"videotutorial:"
+msgstr ""
+
+#: ../../source/freecad-ft/lapicero-personalizado.rst:13
+msgid ""
+"|icono-video| VÍDEO: `Lapicero con nombre personalizado con FreeCAD "
+"<https://www.youtube.com/watch?v=f9W0HBKh2Y8>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/lapicero-personalizado.rst:18
+msgid "Tarea lapicero con nombre personalizado"
+msgstr ""
+
+#: ../../source/freecad-ft/llavero-articulado.rst:9
+msgid "Llavero articulado"
+msgstr ""
+
+#: ../../source/freecad-ft/llavero-articulado.rst:10
+msgid ""
+"Realiza un llavero articulado con un nombre personalizado. Sigue las "
+"instrucciones del siguiente videotutorial:"
+msgstr ""
+
+#: ../../source/freecad-ft/llavero-articulado.rst:13
+msgid ""
+"|icono-video| VÍDEO: `Llavero articulado con nombre en FreeCAD "
+"<https://www.youtube.com/watch?v=m_ylZ2VuWD8>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/llavero-articulado.rst:21
+msgid ""
+"En la tarea debes subir el archivo en formato FCStd y en formato STL para"
+" posterior impresión 3D."
+msgstr ""
+
+#: ../../source/freecad-ft/llavero-personalizado.rst:9
+msgid "Llavero Personalizado"
+msgstr ""
+
+#: ../../source/freecad-ft/llavero-personalizado.rst:10
+msgid ""
+"Crea un llavero personalizado con tu nombre siguiendo el siguiente "
+"videotutorial:"
+msgstr ""
+
+#: ../../source/freecad-ft/llavero-personalizado.rst:13
+msgid ""
+"|icono-video| VÍDEO: `Llavero con nombre personalizado con FreeCAD "
+"<https://www.youtube.com/watch?v=YhALRRdrUEM>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/llavero-personalizado.rst:18
+msgid "Tarea llavero personalizado"
+msgstr ""
+
+#: ../../source/freecad-ft/part-design.rst:9
+msgid "Part Design y Sketcher"
+msgstr ""
+
+#: ../../source/freecad-ft/part-design.rst:10
+msgid "Banco de trabajo Part Design y Sketcher. Croquis y extrusión."
+msgstr ""
+
+#: ../../source/freecad-ft/part-design.rst:12
+msgid ""
+"|icono-video| VÍDEO: `FreeCAD con Part Design 2: Bloque de construcción "
+"<https://www.youtube.com/watch?v=6LBOOCRl14Y>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/part-design.rst:17
+msgid "Tarea pieza de construcción"
+msgstr ""
+
+#: ../../source/freecad-ft/part-design.rst:18
+msgid "Modela un bloque de construcción como el de la figura:"
+msgstr ""
+
+#: ../../source/freecad-ft/plano-vivienda.rst:9
+msgid "Plano de una vivienda"
+msgstr ""
+
+#: ../../source/freecad-ft/plano-vivienda.rst:10
+msgid ""
+"Realiza el plano de tu vivienda siguiendo los pasos de los siguientes "
+"videotutoriales:"
+msgstr ""
+
+#: ../../source/freecad-ft/plano-vivienda.rst:13
+msgid ""
+"|icono-video| VÍDEO: `Planos de una vivienda con FreeCAD (1/6): Muros a "
+"partir de sketch <https://www.youtube.com/watch?v=poijs1DsSs4>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/plano-vivienda.rst:16
+msgid ""
+"|icono-video| VÍDEO: `Planos de una vivienda con FreeCAD (2/6): Puertas y"
+" ventanas <https://www.youtube.com/watch?v=OL-Ze2hcXpo>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/plano-vivienda.rst:19
+msgid ""
+"|icono-video| VÍDEO: `Planos de una vivienda con FreeCAD (3/6): "
+"Proyección horizontal en 2D "
+"<https://www.youtube.com/watch?v=w8uLmbqjIaY>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/plano-vivienda.rst:22
+msgid ""
+"|icono-video| VÍDEO: `Planos de una vivienda con FreeCAD (4/6): "
+"mobiliario <https://www.youtube.com/watch?v=mOMdnvfBej4>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/plano-vivienda.rst:25
+msgid ""
+"|icono-video| VÍDEO: `Planos de una vivienda con FreeCAD (5/6): pdf para "
+"impresión <https://www.youtube.com/watch?v=HqHD9hJDZbs>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/plano-vivienda.rst:28
+msgid ""
+"|icono-video| VÍDEO: `Planos de una vivienda con FreeCAD (6/6): colores "
+"en el plano <https://www.youtube.com/watch?v=-OVj2ifKm2g>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/plano-vivienda.rst:34
+msgid "Tarea"
+msgstr ""
+
+#: ../../source/freecad-ft/plano-vivienda.rst:35
+msgid ""
+"Sube el archivo de FreeCAD y el archivo PDF final con tu plano listo para"
+" impresión."
+msgstr ""
+
+#: ../../source/freecad-ft/polilinea-barrido.rst:9
+msgid "Polilinea y barrido aditivo"
+msgstr ""
+
+#: ../../source/freecad-ft/polilinea-barrido.rst:12
+msgid ""
+"|icono-video| VÍDEO: `Part Design 8: Polilínea y Barrido aditivo con "
+"FreeCAD <https://www.youtube.com/watch?v=zoGdtFjrze4>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/polilinea-barrido.rst:17
+msgid ""
+"Modela la siguiente pieza utilizando la herramienta de barrido (Additive "
+"Pipe):"
+msgstr ""
+
+#: ../../source/freecad-ft/polilinea-barrido.rst:36
+msgid ""
+"Modela la siguiente pieza utilizando polilínea y la herramienta de "
+"barrido (Additive Pipe):"
+msgstr ""
+
+#: ../../source/freecad-ft/puente-autoportante.rst:9
+msgid "Puente autoportante"
+msgstr ""
+
+#: ../../source/freecad-ft/puente-autoportante.rst:12
+msgid ""
+"|icono-video| VÍDEO: `Puente autoportante de da Vinci con FreeCAD "
+"<https://www.youtube.com/watch?v=cjWQB91C5NI>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/puente-autoportante.rst:17
+msgid "Tarea puente autoportante"
+msgstr ""
+
+#: ../../source/freecad-ft/puente-autoportante.rst:18
+msgid ""
+"Crea el modelo de los dos tipos de barras necesarias para construir la "
+"maqueta del puente autoportante de Leonardo Da Vinci."
+msgstr ""
+
+#: ../../source/freecad-ft/puente-autoportante.rst:26
+msgid ""
+"En la siguiente página web puedes ver la animación de cómo montarlo: "
+"https://www.giocomania.org/pagine/15587/pagina.asp"
+msgstr ""
+
+#: ../../source/freecad-ft/repeticion-piezas.rst:9
+msgid "Repetición de piezas"
+msgstr ""
+
+#: ../../source/freecad-ft/repeticion-piezas.rst:10
+msgid ""
+"Crea el siguiente bloque de construcción usando la herramienta \"Multi-"
+"Transform\" para hacer las repeticiones de los pivotes siguiendo las "
+"instrucciones del siguiente videotutorial:"
+msgstr ""
+
+#: ../../source/freecad-ft/repeticion-piezas.rst:14
+msgid ""
+"|icono-video| VÍDEO: `FreeCAD con Part Design 3: Multi-Transform "
+"<https://www.youtube.com/watch?v=cS99wMbRi00>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/repeticion-polar.rst:9
+msgid "Repetición polar"
+msgstr ""
+
+#: ../../source/freecad-ft/repeticion-polar.rst:12
+msgid ""
+"|icono-video| VÍDEO: `Part Design 6: Patrón polar, chaflán y redondeo con"
+" FreeCAD <https://www.youtube.com/watch?v=_IQTjdW2SvE>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/repeticion-polar.rst:15
+msgid "Crea una pieza como la de la figura:"
+msgstr ""
+
+#: ../../source/freecad-ft/repeticion-polar.rst:17
+msgid "El espesor de la pieza será de 10 mm."
+msgstr ""
+
+#: ../../source/freecad-ft/repeticion-polar.rst:18
+msgid "El redondeo de los huecos interiores será de radio 1 mm"
+msgstr ""
+
+#: ../../source/freecad-ft/repeticion-polar.rst:19
+msgid "El redondeo del borde exterior será de 2 mm."
+msgstr ""
+
+#: ../../source/freecad-ft/tangencias-simetrias.rst:9
+msgid "Tangencias y simetrías"
+msgstr ""
+
+#: ../../source/freecad-ft/tangencias-simetrias.rst:12
+msgid ""
+"|icono-video| VÍDEO: `Part Design 7: Arcos, tangencias y simetrías con "
+"FreeCAD <https://www.youtube.com/watch?v=XPlWK3bWu8c>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/tangencias-simetrias.rst:15
+msgid ""
+"Realiza el modelado de la siguiente pieza usando doble simetría. El "
+"espesor de la pieza es de 10 mm."
+msgstr ""
+
+#: ../../source/freecad-ft/variables.rst:9
+msgid "Variables"
+msgstr ""
+
+#: ../../source/freecad-ft/variables.rst:12
+msgid ""
+"|icono-video| VÍDEO: `Caja paramétrica con FreeCAD: Variables, "
+"SubShapeBinder, Datum Plane "
+"<https://www.youtube.com/watch?v=n0lG1hYV1SE>`__"
+msgstr ""
+
+#: ../../source/freecad-ft/variables.rst:18
+msgid "Tarea caja paramétrica con variables"
+msgstr ""
+
+#: ../../source/freecad-ft/variables.rst:19
+msgid ""
+"Crea una caja similar a la siguiente, usando variables, con las medidas "
+"que prefieras:"
+msgstr ""
+
