@@ -13,9 +13,11 @@ SET optipng=\bin\imagetools\optipng.exe
 
 %magick% favicon-32.png favicon.ico
 
-copy /Y favicon.ico ..\extra\
+copy /Y favicon.ico     ..\extra\
 copy /Y favicon-192.png ..\extra\
-copy /Y favicon.png ..\..\_static\
+copy /Y favicon.png     ..\..\_static\
 
+copy /Y favicon.ico     ..\..\..\..\test\template\static
+copy /Y favicon-192.png ..\..\..\..\test\template\static
 
 pause

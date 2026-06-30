@@ -1,5 +1,5 @@
 ﻿:date: 2026-06-22
-:modified: 2026-06-24
+:modified: 2026-06-26
 :author: Carlos Félix Pardo Martín
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
@@ -33,6 +33,7 @@ otro proyecto distinto.
       
 Por ejemplo imágenes o archivos pdf: arduino-ft-01.png, arduino-ft-guia.pdf
 
+
 Página de índice
 ----------------
 El primer archivo de contenidos dentro de la carpeta de un proyecto 
@@ -50,18 +51,30 @@ Nombre de las páginas
 ---------------------
 Los diferentes archivos de reStructuredText (\*.rst) de un proyecto,
 que luego se convertirán en una página web, deben nombrarse con palabras
-separadas por guiones altos que describan lo mejor posible el contenido
-del archivo.
+en minúsculas separadas por guiones altos que describan lo mejor posible
+el contenido del archivo.
 Se puede utilizar desde una palabra hasta tres palabras como máximo.
    
-Ejemplos: pantalla-lcd.rst, entradas-analogicas.rst, disenio-papel.rst
+Ejemplos: pantalla-lcd-texto.rst, entradas-analogicas.rst, disenio-papel.rst
    
 No utilices tildes, eñes o diéresis ya que eso crearía problemas con
 las páginas html generadas. La letra 'ñ' se puede sustituir por las
-letras 'ni' y las tildes y diéresis no se ponen.
+letras 'ni' y las tildes y diéresis no se escriben.
    
 Intenta no numerar los archivos, porque las numeraciones se desordenan
 al añadir contenido o al reordenar el contenido existente.
+
+
+Subdirectorios
+--------------
+Se recomienda mantener todos los archivos \*.rst en el directorio raíz del 
+proyecto y las imágenes en el subdirectorio _images.
+   
+Se puede crear otro subdirectorio más para las descargas: _downloads
+   
+Se recomienda no crear más subdirectorios para mantener limpio el 
+proyecto y poder ver todos los archivos a la vez sin tener que navegar
+por subdirectorios.
 
 
 Codificación de los archivos
@@ -91,22 +104,51 @@ Los metadatos básicos de cabecera de todos los archivos rst serán::
    :license_url: https://creativecommons.org/licenses/by-sa/4.0/
 
 
-Subdirectorios
---------------
-Se recomienda mantener todos los archivos rst en el directorio raíz del 
-proyecto y las imágenes en el subdirectorio _images.
-   
-Se puede crear otro subdirectorio más para las descargas: _downloads
-   
-Se recomienda no crear más subdirectorios para mantener limpio el 
-proyecto y poder ver todos los archivos a la vez sin tener que navegar
-por subdirectorios.
+Caracteres por línea
+--------------------
+Los archivos reStructuredText se pueden escribir con cualquier número de
+columnas por cada línea de texto, pero se recomienda utilizar un límite
+práctico de **75 caracteres por línea** como máximo para que las líneas
+se puedan visualizar sin problemas en una pantalla estrecha.
+
+
+Títulos
+-------
+Los títulos deben ser **breves** para que los menús de navegación no se
+saturen con frases largas. Lo ideal es utilizar una, dos o, como máximo,
+tres palabras descriptivas y aportar una explicación mayor en el texto a
+continuación del título.
+
+Se recomienda escribir **un solo título principal** al comienzo de cada
+página, subrayado con caracteres de igual::
+
+   Título principal
+   ================
+   Solo se escribe uno al comienzo de la página.
+
+Se pueden añadir subtítulos secundarios, subrayados con caracteres de
+resta::
+
+   Títulos secundarios
+   -------------------
+   Se pueden hacer muchos títulos secundarios en una página
+   para organizar todo el contenido.
+
+De forma excepcional se pueden añadir subtítulos de tercer nivel,
+subrayados con caracteres de acentos circunflejos, aunque se desaconseja
+porque puede generar confusión::
+
+   Título de tercer nivel
+   ^^^^^^^^^^^^^^^^^^^^^^
+   Se desaconseja utilizar tantos niveles de títulos en una página.
+   Es preferible separar los contenidos en páginas diferentes.
 
 
 Extensión de página
 -------------------
-Cada página de contenidos debería tener una extensión tal, que se pueda 
-estudiar y realizar sus ejercicios en una sesión de clase.
+Cada página de contenidos debería tener una extensión tal que se pueda 
+estudiar y realizar sus ejercicios en una sesión de clase
+(alrededor de 50 minutos).
 
 Si es necesario separar contenidos para diferenciarlos (por ejemplo
 separar circuitos en serie de circuitos en paralelo) lo ideal es que 
@@ -114,11 +156,26 @@ cada página contenga sus propios ejercicios y tareas y que se puedan
 hacer como mucho tres páginas por sesión de clase.
 
 
+Teoría y ejercicios
+-------------------
+En las páginas destinadas a los alumnos es fundamental que la teoría
+esté conectada con las tareas y ejercicios de manera que cada párrafo
+de teoría tenga una pregunta o tarea asociada y que cada pregunta o 
+tarea tenga una explicación teórica asociada.
+
+Lo ideal es que las preguntas y tareas estén graduadas en dificultad
+de manera que las primeras sean muy sencillas, que todos los alumnos
+puedan responderlas con facilidad, y las últimas preguntas y tareas
+sean complejas para que supongan un reto difícil para todos los alumnos,
+excepto quizás un 10% de la clase.
+
+
 Ejemplos
 --------
 Puedes fijarte en cómo está escrito un proyecto ya existente para
 tomarlo como referencia para escribir el tuyo.
    
-Por ejemplo te puede servir de modelo el proyecto de `Guía de Arduino
-<https://github.com/tecnoproyectos/tecnoproyectos/tree/main/source/arduino-ft>`__
-situado en la carpeta ``sources/arduino-ft`` del repositorio.
+Por ejemplo te puede servir de modelo estas mismas páginas que explican
+`Cómo colaborar
+<https://github.com/tecnoproyectos/tecnoproyectos/tree/main/source/colaborar-cp>`__
+situado en la carpeta ``sources/colaborar-cp`` del repositorio.

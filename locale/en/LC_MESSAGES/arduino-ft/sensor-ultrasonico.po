@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:9
+msgid "Sensor ultrasónico"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:11
+msgid ""
+"|icono-video| VÍDEO: `Dos maneras de programar el sensor de distancia "
+"<https://www.youtube.com/watch?v=T7k-bUrIvc8>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:98
+msgid "Icono de vídeo de YouTube"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:14
+msgid ""
+"Los sensores de distancia HC-SR04 utilizan ondas ultrasónicas para "
+"determinar la distancia entre el sensor y un objeto. El sensor mide con "
+"una precisión aceptable entre 2 cm y 400 cm."
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:22
+msgid "Sensor de distancia ultrasónico HC-SR04."
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:24
+msgid ""
+"Las patillas TRIG (trigguer o disparador) y ECHO (eco) pueden ir a "
+"cualquier pin digital de Arduino, configurando el TRIG como salida "
+"digital y ECHO como entrada."
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:28
+msgid "El montaje básico sería:"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:36
+msgid "Programación del sensor"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:37
+msgid ""
+"Hay dos posibles formas de programar el sensor. Sin biblioteca o con "
+"biblioteca."
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:40
+msgid "Sin biblioteca, con más líneas de código, quedaría así:"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:74
+msgid "Con biblioteca, con menos líneas de código, quedaría así:"
+msgstr ""
+

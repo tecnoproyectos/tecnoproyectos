@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/freecad-ft/index.rst:9
+msgid "Guía FreeCAD"
+msgstr ""
+
+#: ../../source/freecad-ft/index.rst:15
+msgid "Guía de FreeCAD del profesor Francisco Trigueros."
+msgstr ""
+
+#: ../../source/freecad-ft/index.rst:41
+msgid ""
+":download:`Guía de FreeCAD con lecciones y prácticas. Formato editable "
+"ODT. <freecad-ft-guia.odt>`"
+msgstr ""
+
+#: ../../source/freecad-ft/index.rst:46
+msgid ""
+"Esta guía de FreeCAD ha sido creada por Francisco Trigueros y ha sido "
+"corregida y adaptada al formato web por Carlos Félix Pardo Martín."
+msgstr ""
+

@@ -1,0 +1,702 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 11:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/javascript-eg/cambio-color.rst:8
+msgid "Color que cambia con el ratón"
+msgstr ""
+
+#: ../../source/javascript-eg/cambio-color.rst:11
+msgid "Color dinámico con map()"
+msgstr ""
+
+#: ../../source/javascript-eg/cambio-color.rst:12
+msgid ""
+"Igual que hemos traducido la posición del ratón al tamaño de una forma, "
+"podemos traducirla a los valores de un color. Si usamos ``mouseX`` para "
+"el tono y ``mouseY`` para el brillo, el color de la forma cambia mientras"
+" movemos el ratón."
+msgstr ""
+
+#: ../../source/javascript-eg/cambio-color.rst:17
+msgid ""
+"Hay dos formas habituales de manejar el color en p5.js. Te presentamos "
+"las dos para que elijas la que te resulte más intuitiva."
+msgstr ""
+
+#: ../../source/javascript-eg/cambio-color.rst:22
+msgid "Opción 1: modo RGB (Rojo, Verde, Azul)"
+msgstr ""
+
+#: ../../source/javascript-eg/cambio-color.rst:24
+msgid "Es el modo por defecto. Cada canal va de 0 a 255:"
+msgstr ""
+
+#: ../../source/javascript-eg/cambio-color.rst:37
+msgid "Opción 2: modo HSB (Tono, Saturación, Brillo)"
+msgstr ""
+
+#: ../../source/javascript-eg/cambio-color.rst:39
+msgid ""
+"HSB es más intuitivo para crear degradados de color. El tono (hue) va de "
+"0 a 360 y recorre el arco iris. Para usarlo hay que activarlo con "
+"``colorMode()`` en ``setup()``:"
+msgstr ""
+
+#: ../../source/javascript-eg/cambio-color.rst:61
+msgid ""
+"Prueba ambas opciones y quédate con la que más te guste. No hay una "
+"respuesta correcta."
+msgstr ""
+
+#: ../../source/javascript-eg/cambio-color.rst:65
+msgid "colorMode()"
+msgstr ""
+
+#: ../../source/javascript-eg/cambio-color.rst:67
+msgid ""
+"Los posibles parámetros de ``colorMode()``, y de cualquier otra función "
+"de p5.js, están ampliamente descritos en la `documentación oficial de "
+"p5.js <https://p5js.org/reference/>`__."
+msgstr ""
+
+#: ../../source/javascript-eg/cambio-color.rst:71
+msgid "Es buena práctica recurrir a ella siempre que quieras aprender más."
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:8
+msgid "Componer más de una forma"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:9
+msgid ""
+"Hasta ahora tenemos una forma que reacciona al ratón. Vamos a añadir "
+"formas secundarias para crear una composición. Aquí es donde entra en "
+"juego tu decisión estética personal."
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:13
+msgid "Algunas ideas para formas secundarias:"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:15
+msgid "Una forma que sigue al ratón pero con la mitad de tamaño"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:16
+msgid ""
+"Una forma en la posición simétrica al ratón (``width - mouseX``, ``height"
+" - mouseY``)"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:18
+msgid "Una forma fija en el centro que cambia solo de color"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:19
+msgid ""
+"Varias formas pequeñas repartidas por el lienzo con colores derivados del"
+" tono principal"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:22
+msgid ""
+"Es el momento de tomar tus propias decisiones. A continuación te "
+"mostramos dos propuestas completas distintas para que veas cómo la misma "
+"estructura puede producir resultados muy diferentes. **No copies ninguna:"
+" úsalas como inspiración para crear la tuya.**"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:29
+msgid "Propuesta A - colores complementarios"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:30
+msgid ""
+"Usa el modo HSB para crear tres círculos con colores separados 120 grados"
+" en el arco iris. El ratón controla el tono principal y el tamaño "
+"general:"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:67
+msgid ""
+"El operador ``% 360`` hace que el tono vuelva a 0 si supera 360, "
+"recorriendo el arco iris de forma cíclica sin salirse del rango."
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:72
+msgid "Propuesta B - Cuadrados con rastro"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:74
+msgid ""
+"Usa el modo RGB con un fondo semitransparente que crea un efecto de "
+"rastro:"
+msgstr ""
+
+#: ../../source/javascript-eg/componer-formas.rst:111
+msgid ""
+"``background(15, 15, 30, 40)`` usa un cuarto valor (alfa = "
+"transparencia). En lugar de borrar el lienzo completamente, lo oscurece "
+"ligeramente, creando un rastro de las posiciones anteriores del ratón. "
+"Prueba a cambiar este valor para comparar los resultados."
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:8
+msgid "Diseño en papel"
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:9
+msgid ""
+"Antes de escribir una sola línea de código, coge papel y lápiz. Esta fase"
+" es importante: te ayudará a pensar qué quieres hacer antes de "
+"preocuparte por la sintaxis."
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:15
+msgid ""
+"Abre el editor online de p5.js en tu navegador: `Editor p5js "
+"<https://editor.p5js.org/>`_"
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:18
+msgid ""
+"No necesitas crear una cuenta para trabajar, aunque sí para guardar tu "
+"proyecto. Si quieres guardar, regístrate con tu correo del centro y una "
+"contraseña para este sitio."
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:24
+msgid "¿Qué vamos a hacer?"
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:25
+msgid ""
+"En esta práctica vas a crear tu primera pieza de arte generativo con "
+"p5.js. El resultado será un lienzo animado que cambia en tiempo real "
+"según la posición del ratón: las formas se mueven, el color varía y el "
+"programa reacciona a ti."
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:30
+msgid ""
+"No hay un único resultado correcto. Dos personas siguiendo los mismos "
+"pasos pueden llegar a composiciones completamente distintas dependiendo "
+"de sus decisiones estéticas. Eso es exactamente lo que buscamos."
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:36
+msgid "El boceto en papel"
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:37
+msgid "Dibuja un rectángulo que represente tu lienzo (el canvas). Dentro de él:"
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:39
+msgid "Dibuja dos o tres formas: pueden ser círculos, cuadrados o rectángulos."
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:40
+msgid ""
+"Anota unas coordenadas aproximadas para cada forma (un punto x e y desde "
+"la esquina superior izquierda)."
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:42
+msgid ""
+"Piensa: ¿qué cambiaría si el ratón estuviera en la esquina izquierda? ¿Y "
+"en la derecha? ¿Y abajo?"
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:44
+msgid ""
+"Anota en el papel qué propiedad de cada forma cambiarías con el ratón: "
+"¿el tamaño? ¿el color? ¿la posición?"
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:48
+msgid "¿Por qué hacemos esto en papel?"
+msgstr ""
+
+#: ../../source/javascript-eg/disenio-papel.rst:50
+msgid ""
+"El papel te obliga a pensar el problema antes de resolverlo. En "
+"programación, empezar a escribir código sin un plan previo suele llevar a"
+" código confuso y difícil de corregir. Un boceto de dos minutos te puede "
+"ahorrar diez minutos de errores."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:8
+msgid "Entrega y reto extra"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:9
+msgid ""
+"Con todo lo que has aprendido, es el momento de tomar tus propias "
+"decisiones. Aquí tienes la estructura mínima que debe tener tu versión:"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:37
+msgid "Lista de decisiones que debes tomar"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:39
+msgid "¿Qué modo de color usas: RGB o HSB?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:40
+msgid "¿Cuál es el color de tu fondo? ¿Oscuro o claro?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:41
+msgid "¿Qué formas usas: círculos, cuadrados, rectángulos, mezcla?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:42
+msgid "¿Qué controla mouseX: el color, el tamaño, la posición de una forma?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:43
+msgid "¿Qué controla mouseY: el mismo concepto o algo diferente?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:44
+msgid "¿Cuántas formas tienes en pantalla al mismo tiempo?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:45
+msgid "¿Tu fondo borra el fotograma anterior o deja rastro (alpha)?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:49
+msgid "Entrega"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:50
+msgid "Cuando tu composición esté terminada:"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:52
+msgid ""
+"Guarda el proyecto en el editor (necesitas cuenta si quieres guardarlo "
+"online)."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:54
+msgid "Copia el enlace del proyecto (botón Compartir / Share en el editor)."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:55
+msgid "Entrega el enlace respondiendo a las siguientes preguntas:"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:61
+msgid "Título de tu composición"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:63
+msgid "¿Qué hace mouseX en tu programa?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:65
+msgid "¿Qué hace mouseY en tu programa?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:67
+msgid "¿Qué modo de color usaste y por qué?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:69
+msgid "¿Qué fue lo más difícil de esta práctica?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:71
+msgid "¿Qué cambiarías si tuvieras más tiempo?"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:76
+msgid "Reto extra (opcional)"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:77
+msgid "¿Quieres ir más allá? Aquí van unas cuantas ideas:"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:79
+msgid ""
+"**frameCount con sin() / cos():** añade ``frameCount`` a tu código para "
+"crear movimiento autónomo sin necesidad del ratón:"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:89
+msgid ""
+"**mouseIsPressed:** haz que tu composición reaccione también al botón del"
+" ratón. Usa ``mouseIsPressed`` (true/false) para cambiar algo cuando se "
+"pulsa el botón."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:93
+msgid ""
+"**Lienzo más grande:** cambia el tamaño del lienzo a 800x600 y añade una "
+"tercera forma que use tanto ``mouseX`` como ``mouseY`` de una forma que "
+"no hayas usado antes."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:99
+msgid "Resumen de lo aprendido en esta práctica"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:105
+msgid "Elemento"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:106
+msgid "Para qué sirve"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:107
+msgid "``setup()``"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:108
+msgid "Se ejecuta una vez. Aquí se crea el lienzo con ``createCanvas()``."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:109
+msgid "``draw()``"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:110
+msgid "Se ejecuta en bucle continuo. Aquí se dibuja cada fotograma."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:111
+msgid "``background()``"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:112
+msgid "Borra el lienzo (o lo oscurece si se añade transparencia)."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:113
+msgid "``ellipse()`` / ``rect()``"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:114
+msgid "Dibujan formas en las coordenadas indicadas."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:115
+msgid "``fill()`` / ``stroke()``"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:116
+msgid "Establecen el color de relleno y borde antes de dibujar."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:117
+msgid "``mouseX`` / ``mouseY``"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:118
+msgid "Variables que guardan la posición actual del ratón."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:119
+msgid "``map()``"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:120
+msgid "Convierte un valor de un rango a otro proporcionalmente."
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:121
+msgid "``colorMode(HSB,...)``"
+msgstr ""
+
+#: ../../source/javascript-eg/entrega.rst:122
+msgid "Cambia el modelo de color a Tono / Saturación / Brillo."
+msgstr ""
+
+#: ../../source/javascript-eg/estructura-base.rst:8
+msgid "La estructura base"
+msgstr ""
+
+#: ../../source/javascript-eg/estructura-base.rst:9
+msgid "En esta práctica veremos cómo usar las funciones setup() y draw()."
+msgstr ""
+
+#: ../../source/javascript-eg/estructura-base.rst:13
+msgid "El bucle de dibujo"
+msgstr ""
+
+#: ../../source/javascript-eg/estructura-base.rst:15
+msgid ""
+"Todo programa en p5.js tiene dos funciones principales que ya estarán "
+"escritas cuando abras el `editor p5js <https://editor.p5js.org/>`_:"
+msgstr ""
+
+#: ../../source/javascript-eg/estructura-base.rst:28
+msgid ""
+"Puedes imaginarlo como una película de dibujos animados: ``setup()`` "
+"prepara el estudio de animación, y ``draw()`` dibuja cada fotograma, uno "
+"tras otro, muy rápido. Por defecto p5.js dibuja unos 60 fotogramas por "
+"segundo."
+msgstr ""
+
+#: ../../source/javascript-eg/estructura-base.rst:35
+msgid "Tu primer lienzo"
+msgstr ""
+
+#: ../../source/javascript-eg/estructura-base.rst:37
+msgid ""
+"Dentro de ``setup()`` vamos a crear el lienzo con ``createCanvas()``. Los"
+" dos números son el ancho y el alto en píxeles:"
+msgstr ""
+
+#: ../../source/javascript-eg/estructura-base.rst:50
+msgid ""
+"Escribe esto en el `editor p5js <https://editor.p5js.org/>`_ y pulsa el "
+"botón ▶ (Play). Deberías ver un rectángulo gris. Si lo ves, ¡todo "
+"funciona correctamente!"
+msgstr ""
+
+#: ../../source/javascript-eg/estructura-base.rst:55
+msgid "¿Qué hace background()?"
+msgstr ""
+
+#: ../../source/javascript-eg/estructura-base.rst:57
+msgid ""
+"``background()`` rellena todo el lienzo con un color. Si le pasas un solo"
+" número entre 0 y 255, obtienes un tono de gris: 0 es negro puro y 255 es"
+" blanco puro. Si no pones ``background()`` en ``draw()``, las formas que "
+"dibujes se acumularán unas sobre otras y verás un rastro."
+msgstr ""
+
+#: ../../source/javascript-eg/funcion-map.rst:8
+msgid "La función map()"
+msgstr ""
+
+#: ../../source/javascript-eg/funcion-map.rst:11
+msgid "Concepto: map()"
+msgstr ""
+
+#: ../../source/javascript-eg/funcion-map.rst:12
+msgid ""
+"``mouseX`` va de 0 (izquierda) a 400 (derecha, si el lienzo mide 400 px "
+"de ancho). Pero el tamaño de una forma puede ir de 20 a 200, o un valor "
+"de color va de 0 a 255. Necesitamos traducir un rango a otro. Para eso "
+"existe ``map()``:"
+msgstr ""
+
+#: ../../source/javascript-eg/funcion-map.rst:24
+msgid ""
+"Puedes leerlo así: «si mouseX vale 0, tamaño vale 20; si mouseX vale 400,"
+" tamaño vale 200; y cualquier valor intermedio se calcula "
+"proporcionalmente»."
+msgstr ""
+
+#: ../../source/javascript-eg/funcion-map.rst:30
+msgid "Aplícalo a tu código"
+msgstr ""
+
+#: ../../source/javascript-eg/funcion-map.rst:51
+msgid "width y height"
+msgstr ""
+
+#: ../../source/javascript-eg/funcion-map.rst:53
+msgid ""
+"En lugar de escribir 400 y 600 (los valores concretos de tu lienzo), "
+"puedes usar las variables ``width`` y ``height`` que p5.js actualiza "
+"automáticamente. Así tu código funciona igual aunque cambies el tamaño "
+"del lienzo."
+msgstr ""
+
+#: ../../source/javascript-eg/index.rst:16
+msgid "Prácticas con p5.js"
+msgstr ""
+
+#: ../../source/javascript-eg/index.rst:9
+msgid "JavaScript con p5.js"
+msgstr ""
+
+#: ../../source/javascript-eg/index.rst:10
+msgid ""
+"La librería p5.js es un conjunto de funciones para el lenguaje JavaScript"
+" pensada para crear arte generativo e interactivo en el navegador web. En"
+" este proyecto encontrarás una serie de prácticas guiadas, paso a paso, "
+"para aprender a programar con p5.js creando composiciones visuales que "
+"reaccionan al ratón y al teclado."
+msgstr ""
+
+#: ../../source/javascript-eg/index.rst:31
+msgid ""
+":download:`Práctica JavaScript p5.js - Lienzo interactivo. Formato PDF. "
+"<javascript-eg-practica-01.pdf>`"
+msgstr ""
+
+#: ../../source/javascript-eg/index.rst:35
+msgid "Esta guía de p5.js ha sido creada por Esther Gordo."
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:8
+msgid "Primeras formas"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:11
+msgid "El sistema de coordenadas"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:12
+msgid ""
+"En p5.js el punto (0, 0) está en la esquina superior izquierda del "
+"lienzo. El eje X crece hacia la derecha y el eje Y crece hacia abajo (al "
+"contrario que en matemáticas)."
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:20
+msgid "Las funciones principales para dibujar formas son:"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:22
+msgid "``ellipse(x, y, ancho, alto)`` — dibuja una elipse centrada en (x, y)"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:23
+msgid ""
+"``rect(x, y, ancho, alto)`` — dibuja un rectángulo desde la esquina "
+"superior izquierda (x, y)"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:25
+msgid "``circle(x, y, diametro)`` — dibuja un círculo centrado en (x, y)"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:27
+msgid "Las funciones principales para aplicar color a las formas son:"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:29
+msgid "``fill(r, g, b)`` — establece el color de relleno en RGB antes de dibujar"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:30
+msgid "``noFill()`` - elimina el relleno de las formas"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:31
+msgid "``stroke(r, g, b)`` — establece el color del borde"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:32
+msgid "``noStroke()`` — elimina el borde de las formas"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:37
+msgid "Añadir una forma estática"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:39
+msgid "Añade esto dentro de ``draw()``, después de ``background()``:"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:55
+msgid ""
+"Cambia los tres números de ``fill()`` para explorar distintos colores. "
+"Cada número va de 0 a 255 y representa Rojo, Verde y Azul "
+"respectivamente."
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:59
+msgid "Truco para encontrar colores RGB"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:61
+msgid ""
+"Busca «selector de color RGB» en Google. Verás una rueda de colores con "
+"los valores R, G, B correspondientes que puedes copiar directamente a tu "
+"código."
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:65
+msgid ""
+"El editor p5.js también interpreta colores por su nombre en inglés. Por "
+"ejemplo::"
+msgstr ""
+
+#: ../../source/javascript-eg/primeras-formas.rst:70
+msgid ""
+"Puedes ver la lista de nombres en: `https://htmlcolorcodes.com/es"
+"/nombres-de-los-colores/ <https://htmlcolorcodes.com/es/nombres-de-los-"
+"colores/>`_"
+msgstr ""
+
+#: ../../source/javascript-eg/raton-entrada.rst:8
+msgid "El ratón como entrada"
+msgstr ""
+
+#: ../../source/javascript-eg/raton-entrada.rst:11
+msgid "Variables del sistema"
+msgstr ""
+
+#: ../../source/javascript-eg/raton-entrada.rst:12
+msgid ""
+"p5.js actualiza automáticamente dos variables especiales en cada "
+"fotograma:"
+msgstr ""
+
+#: ../../source/javascript-eg/raton-entrada.rst:14
+msgid ""
+"``mouseX`` — contiene la posición horizontal del ratón en el lienzo (en "
+"píxeles)"
+msgstr ""
+
+#: ../../source/javascript-eg/raton-entrada.rst:16
+msgid ""
+"``mouseY`` — contiene la posición vertical del ratón en el lienzo (en "
+"píxeles)"
+msgstr ""
+
+#: ../../source/javascript-eg/raton-entrada.rst:19
+msgid ""
+"Puedes usar estas variables en cualquier parte de ``draw()``. Como "
+"``draw()`` se ejecuta continuamente, el valor cambia con el ratón y el "
+"resultado se actualiza en tiempo real."
+msgstr ""
+
+#: ../../source/javascript-eg/raton-entrada.rst:25
+msgid "Haz que la forma siga al ratón"
+msgstr ""
+
+#: ../../source/javascript-eg/raton-entrada.rst:27
+msgid ""
+"Sustituye las coordenadas fijas de ``ellipse()`` por ``mouseX`` y "
+"``mouseY``:"
+msgstr ""
+
+#: ../../source/javascript-eg/raton-entrada.rst:44
+msgid ""
+"Mueve el ratón por el lienzo. El círculo te sigue. Esto ocurre porque "
+"``draw()`` redibuja el lienzo 60 veces por segundo usando el valor "
+"actualizado de ``mouseX`` y ``mouseY``."
+msgstr ""
+

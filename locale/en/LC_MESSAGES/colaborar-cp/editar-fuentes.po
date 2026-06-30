@@ -1,0 +1,284 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:9
+msgid "Normas de edición"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:10
+msgid ""
+"Estas son las normas para editar los contenidos de la página web con el "
+"lenguaje reStructuredText. Puedes aprender a utilizar este lenguaje de "
+"marcado con la :ref:`página de ejemplo de reStructuredText "
+"<restructuredtext>`."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:17
+msgid "Carpeta de proyecto"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:18
+msgid ""
+"Todos los archivos de un proyecto deben estar contenidos en una carpeta "
+"con nombre del proyecto y las iniciales del creador."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:21
+msgid "Por ejemplo: arduino-ft, scratch-cpm, puente-fam"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:23
+msgid ""
+"Si tienes dudas, contacta con el administrador de la web para que te "
+"asigne un directorio en el que comenzar a añadir contenidos."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:28
+msgid "Imágenes y documentos"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:29
+msgid ""
+"Todas las imágenes y archivos descargables deben empezar por el mismo "
+"nombre de la carpeta en el que están contenidas. De esta forma ningún "
+"archivo de todo el proyecto tendrá un nombre coincidente con el de otro "
+"proyecto distinto."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:34
+msgid ""
+"Por ejemplo imágenes o archivos pdf: arduino-ft-01.png, arduino-ft-"
+"guia.pdf"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:38
+msgid "Página de índice"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:39
+msgid ""
+"El primer archivo de contenidos dentro de la carpeta de un proyecto debe "
+"llamarse **index.rst** y debe contener una lista con todos los archivos "
+"de ese proyecto."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:43
+msgid ""
+"No está permitido hacer subniveles. Todos los archivos del proyecto deben"
+" colgar del archivo principal index.rst."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:46
+msgid ""
+"Si necesitas separar proyectos, será necesario crear un proyecto nuevo "
+"con un nuevo nombre."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:51
+msgid "Nombre de las páginas"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:52
+msgid ""
+"Los diferentes archivos de reStructuredText (\\*.rst) de un proyecto, que"
+" luego se convertirán en una página web, deben nombrarse con palabras en "
+"minúsculas separadas por guiones altos que describan lo mejor posible el "
+"contenido del archivo. Se puede utilizar desde una palabra hasta tres "
+"palabras como máximo."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:58
+msgid ""
+"Ejemplos: pantalla-lcd-texto.rst, entradas-analogicas.rst, disenio-"
+"papel.rst"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:60
+msgid ""
+"No utilices tildes, eñes o diéresis ya que eso crearía problemas con las "
+"páginas html generadas. La letra 'ñ' se puede sustituir por las letras "
+"'ni' y las tildes y diéresis no se escriben."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:64
+msgid ""
+"Intenta no numerar los archivos, porque las numeraciones se desordenan al"
+" añadir contenido o al reordenar el contenido existente."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:69
+msgid "Subdirectorios"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:70
+msgid ""
+"Se recomienda mantener todos los archivos \\*.rst en el directorio raíz "
+"del proyecto y las imágenes en el subdirectorio _images."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:73
+msgid "Se puede crear otro subdirectorio más para las descargas: _downloads"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:75
+msgid ""
+"Se recomienda no crear más subdirectorios para mantener limpio el "
+"proyecto y poder ver todos los archivos a la vez sin tener que navegar "
+"por subdirectorios."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:81
+msgid "Codificación de los archivos"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:82
+msgid ""
+"La codificación de los archivos de texto \\*.rst deberá ser UTF-8 con BOM"
+" para que pueda soportar la edición de caracteres internacionales."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:85
+msgid ""
+"Se pueden utilizar emojis en el texto, pero al traducir la página web a "
+"formato PDF, la mayoría se perderán."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:90
+msgid "Metadatos"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:91
+msgid ""
+"Es necesario añadir metadatos en la cabecera para indicar quién es el "
+"autor del proyecto y qué licencia usa. Para dar coherencia a todo el "
+"sitio web y permitir la utilización de imágenes de Wikimedia y de "
+"herramientas como Fritzing, se recomienda encarecidamente mantener la "
+"licencia Creative Commons Attribution-ShareAlike 4.0."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:98
+msgid "Los metadatos básicos de cabecera de todos los archivos rst serán::"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:108
+msgid "Caracteres por línea"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:109
+msgid ""
+"Los archivos reStructuredText se pueden escribir con cualquier número de "
+"columnas por cada línea de texto, pero se recomienda utilizar un límite "
+"práctico de **75 caracteres por línea** como máximo para que las líneas "
+"se puedan visualizar sin problemas en una pantalla estrecha."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:116
+msgid "Títulos"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:117
+msgid ""
+"Los títulos deben ser **breves** para que los menús de navegación no se "
+"saturen con frases largas. Lo ideal es utilizar una, dos o, como máximo, "
+"tres palabras descriptivas y aportar una explicación mayor en el texto a "
+"continuación del título."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:122
+msgid ""
+"Se recomienda escribir **un solo título principal** al comienzo de cada "
+"página, subrayado con caracteres de igual::"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:129
+msgid ""
+"Se pueden añadir subtítulos secundarios, subrayados con caracteres de "
+"resta::"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:137
+msgid ""
+"De forma excepcional se pueden añadir subtítulos de tercer nivel, "
+"subrayados con caracteres de acentos circunflejos, aunque se desaconseja "
+"porque puede generar confusión::"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:148
+msgid "Extensión de página"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:149
+msgid ""
+"Cada página de contenidos debería tener una extensión tal que se pueda "
+"estudiar y realizar sus ejercicios en una sesión de clase (alrededor de "
+"50 minutos)."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:153
+msgid ""
+"Si es necesario separar contenidos para diferenciarlos (por ejemplo "
+"separar circuitos en serie de circuitos en paralelo) lo ideal es que cada"
+" página contenga sus propios ejercicios y tareas y que se puedan hacer "
+"como mucho tres páginas por sesión de clase."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:160
+msgid "Teoría y ejercicios"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:161
+msgid ""
+"En las páginas destinadas a los alumnos es fundamental que la teoría esté"
+" conectada con las tareas y ejercicios de manera que cada párrafo de "
+"teoría tenga una pregunta o tarea asociada y que cada pregunta o tarea "
+"tenga una explicación teórica asociada."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:166
+#, python-format
+msgid ""
+"Lo ideal es que las preguntas y tareas estén graduadas en dificultad de "
+"manera que las primeras sean muy sencillas, que todos los alumnos puedan "
+"responderlas con facilidad, y las últimas preguntas y tareas sean "
+"complejas para que supongan un reto difícil para todos los alumnos, "
+"excepto quizás un 10% de la clase."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:174
+msgid "Ejemplos"
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:175
+msgid ""
+"Puedes fijarte en cómo está escrito un proyecto ya existente para tomarlo"
+" como referencia para escribir el tuyo."
+msgstr ""
+
+#: ../../source/colaborar-cp/editar-fuentes.rst:178
+msgid ""
+"Por ejemplo te puede servir de modelo estas mismas páginas que explican "
+"`Cómo colaborar "
+"<https://github.com/tecnoproyectos/tecnoproyectos/tree/main/source"
+"/colaborar-cp>`__ situado en la carpeta ``sources/colaborar-cp`` del "
+"repositorio."
+msgstr ""
+

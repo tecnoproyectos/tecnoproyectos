@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/arduino-ft/bucle-for.rst:9
+msgid "Bucle for()"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:10
+msgid ""
+"|icono-video| VÍDEO: `Bucles for() en Arduino "
+"<https://www.youtube.com/watch?v=BBouhq2HR10>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:64
+msgid "Icono de vídeo de YouTube"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:13
+msgid ""
+"Ejemplo de **repetir 5 veces** con el bucle ``for()``, que podríamos "
+"interpretarlo como:"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:16
+msgid "Comenzando con i igual a 1"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:17
+msgid "Repetir mientras i sea menor o igual a 5"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:18
+msgid "Aumentando i de uno en uno (i++)"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:31
+msgid "Si queremos que el contador disminuya de 1 en 1:"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:39
+msgid "Si queremos que el contador vaya aumentando de 5 en 5:"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:48
+msgid "Tarea Bucle for()"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:49
+msgid "Monta el circuito de la figura:"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:55
+msgid "Realiza el siguiente programa con el código equivalente a:"
+msgstr ""
+

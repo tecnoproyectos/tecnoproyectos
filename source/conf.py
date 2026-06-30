@@ -39,12 +39,16 @@ numfig_format = {
     'code-block': 'Código %s',
 }    
 
-language = 'es_es'
-
 templates_path = ['_templates']
 html_additional_pages = {
     'index': 'index.html',
 }
+
+
+language = 'es'
+locale_dirs = ['../locale/']
+gettext_compact = False
+figure_language_filename = "{path}/{basename}.{language}{ext}"
 
 
 # -- Options for HTML output -------------------------------------------------

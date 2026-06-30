@@ -1,0 +1,91 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Recursos 2023Report-Msgid-Bugs-To:POT-Creation-"
+"Date:2023-02-07 18:33+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-"
+"Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en "
+"<LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1"
+".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
+":8bitGenerated-By:Babel 2.9.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-07-03 14:49+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/_custom/templates/index.html:17
+msgid "Página principal - Tecno Proyectos"
+msgstr "Main page - Tecno Proyectos"
+
+#: ../../source/_custom/templates/index.html:20
+msgid ""
+"Proyectos de Tecnología para el aula."
+msgstr "Technology Projects for the Classroom."
+
+
+#: ../../source/_custom/templates/index.html:55
+msgid "Buscar..."
+msgstr "Search..."
+
+# Footer
+#: ../../source/_custom/templates/index.html:175
+msgid "Portada"
+msgstr "Main page"
+
+#: ../../source/_custom/templates/index.html:175
+msgid "Mapa del sitio"
+msgstr "Sitemap"
+
+#: ../../source/_custom/templates/index.html:175
+msgid "Contacto"
+msgstr "Contact"
+
+#: ../../source/_custom/templates/index.html:175
+msgid "Sobre Tecno Proyectos"
+msgstr "About Tecno Proyectos"
+
+#: ../../source/_custom/templates/index.html:175
+msgid "Autor"
+msgstr "Author"
+
+#: ../../source/_custom/templates/index.html:176
+msgid "Aviso legal"
+msgstr "Terms Of Service"
+
+#: ../../source/_custom/templates/index.html:177
+msgid "Política de Cookies"
+msgstr "Cookie policy"
+
+#: ../../source/_custom/templates/index.html:178
+msgid "Créditos"
+msgstr "Credits"
+
+#: ../../source/_custom/templates/index.html:179
+msgid "Glosario"
+msgstr "Glossary"
+
+#: ../../source/_custom/templates/index.html:180
+msgid "Índice"
+msgstr "Index"
+
+#msgid "%(project)s"
+#msgstr "Techno Proyectos"
+
+# Menu
+msgid "Test de Tecnología"
+msgstr "Technology Test"
+
+msgid "Proyecto en GitHub"
+msgstr "Project in GitHub"
+
+msgid ""
+"Los contenidos de esta página se distribuyen bajo licencia"
+msgstr ""
+"The content on this page is distributed under a license"
+
+msgid "Actualizado por última vez en"
+msgstr "Last updated on"

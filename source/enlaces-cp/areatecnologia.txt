@@ -1,0 +1,32 @@
+﻿:date: 2026-06-30
+:modified: 2026-06-30
+:author: Carlos Félix Pardo Martín
+:license: Creative Commons Attribution-ShareAlike 4.0 International
+:license_url: https://creativecommons.org/licenses/by-sa/4.0/
+
+:no-search:
+
+
+Área Tecnología
+===============
+
+`Área Tecnología <https://www.areatecnologia.com/>`__
+es una de las webs de referencia de Tecnología
+en Educación Secundaria.
+En esta página aparecen las distintas entradas que se pueden
+encontrar en la web, ordenadas por temas.
+
+
+{% for section in database -%}
+{% set underscore = '-' * (section.title|length) -%}
+
+{{section.title}}
+{{ underscore }}
+`Índice del capítulo <{{section.url}}>`__.
+
+{% for web in section.subdirs -%}
+#. `{{ web.title }}
+   <{{ web.url }}>`__
+{% endfor %}
+
+{% endfor %}

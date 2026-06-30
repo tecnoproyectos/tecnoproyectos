@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/arduino-ft/serial-recibir.rst:9
+msgid "Comunicación serie I"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-recibir.rst:11
+msgid ""
+"|icono-video| VÍDEO: `Arduino nos envía mensajes (comunicación serial) "
+"<https://www.youtube.com/watch?v=x2IdOeIPhRY>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-recibir.rst:63
+msgid "Icono de vídeo de YouTube"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-recibir.rst:14
+msgid ""
+"Vamos a comunicarnos con Arduino. Primero vamos a ver cómo Arduino nos va"
+" a transmitir información. Dentro de void setup(), debemos iniciar la "
+"comunicación serie, indicando la velocidad de transmisión, por defecto "
+"9600 bauds:"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-recibir.rst:25
+msgid ""
+"Dentro de void loop(), el comando para que se imprima en pantalla una "
+"línea sería:"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-recibir.rst:33
+msgid "Si queremos que no haya salto de línea, simplemente Serial.print:"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-recibir.rst:41
+msgid "El código anterior nos daría como mensajes en el monitor serie::"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-recibir.rst:48
+msgid "Tarea visualiza el nivel de brillo"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-recibir.rst:49
+msgid "Monta el circuito de la figura:"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-recibir.rst:54
+msgid ""
+"Realiza el programa Brillo_sube_baja, pero visualizando la intensidad de "
+"brillo en el monitor serie:"
+msgstr ""
+

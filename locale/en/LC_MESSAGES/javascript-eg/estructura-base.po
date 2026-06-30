@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/javascript-eg/estructura-base.rst:8
+msgid "La estructura base"
+msgstr ""
+
+#: ../../source/javascript-eg/estructura-base.rst:9
+msgid "En esta práctica veremos cómo usar las funciones setup() y draw()."
+msgstr ""
+
+#: ../../source/javascript-eg/estructura-base.rst:13
+msgid "El bucle de dibujo"
+msgstr ""
+
+#: ../../source/javascript-eg/estructura-base.rst:15
+msgid ""
+"Todo programa en p5.js tiene dos funciones principales que ya estarán "
+"escritas cuando abras el `editor p5js <https://editor.p5js.org/>`_:"
+msgstr ""
+
+#: ../../source/javascript-eg/estructura-base.rst:28
+msgid ""
+"Puedes imaginarlo como una película de dibujos animados: ``setup()`` "
+"prepara el estudio de animación, y ``draw()`` dibuja cada fotograma, uno "
+"tras otro, muy rápido. Por defecto p5.js dibuja unos 60 fotogramas por "
+"segundo."
+msgstr ""
+
+#: ../../source/javascript-eg/estructura-base.rst:35
+msgid "Tu primer lienzo"
+msgstr ""
+
+#: ../../source/javascript-eg/estructura-base.rst:37
+msgid ""
+"Dentro de ``setup()`` vamos a crear el lienzo con ``createCanvas()``. Los"
+" dos números son el ancho y el alto en píxeles:"
+msgstr ""
+
+#: ../../source/javascript-eg/estructura-base.rst:50
+msgid ""
+"Escribe esto en el `editor p5js <https://editor.p5js.org/>`_ y pulsa el "
+"botón ▶ (Play). Deberías ver un rectángulo gris. Si lo ves, ¡todo "
+"funciona correctamente!"
+msgstr ""
+
+#: ../../source/javascript-eg/estructura-base.rst:55
+msgid "¿Qué hace background()?"
+msgstr ""
+
+#: ../../source/javascript-eg/estructura-base.rst:57
+msgid ""
+"``background()`` rellena todo el lienzo con un color. Si le pasas un solo"
+" número entre 0 y 255, obtienes un tono de gris: 0 es negro puro y 255 es"
+" blanco puro. Si no pones ``background()`` en ``draw()``, las formas que "
+"dibujes se acumularán unas sobre otras y verás un rastro."
+msgstr ""
+

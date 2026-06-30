@@ -1,0 +1,1195 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 11:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/arduino-ft/bucle-for.rst:9
+msgid "Bucle for()"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:10
+msgid ""
+"|icono-video| VÍDEO: `Bucles for() en Arduino "
+"<https://www.youtube.com/watch?v=BBouhq2HR10>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:64
+#: ../../source/arduino-ft/entradas-analogicas.rst:104
+#: ../../source/arduino-ft/entradas-digitales.rst:136
+#: ../../source/arduino-ft/pantalla-lcd.rst:158
+#: ../../source/arduino-ft/potenciometro.rst:103
+#: ../../source/arduino-ft/primeros-pasos.rst:43
+#: ../../source/arduino-ft/protoboard.rst:38
+#: ../../source/arduino-ft/salidas-pwm.rst:62
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:98
+#: ../../source/arduino-ft/serial-enviar.rst:64
+#: ../../source/arduino-ft/serial-recibir.rst:63
+#: ../../source/arduino-ft/servomotores.rst:74
+#: ../../source/arduino-ft/variables-tipos.rst:142
+#: ../../source/arduino-ft/variables.rst:49
+msgid "Icono de vídeo de YouTube"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:13
+msgid ""
+"Ejemplo de **repetir 5 veces** con el bucle ``for()``, que podríamos "
+"interpretarlo como:"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:16
+msgid "Comenzando con i igual a 1"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:17
+msgid "Repetir mientras i sea menor o igual a 5"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:18
+msgid "Aumentando i de uno en uno (i++)"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:31
+msgid "Si queremos que el contador disminuya de 1 en 1:"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:39
+msgid "Si queremos que el contador vaya aumentando de 5 en 5:"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:48
+msgid "Tarea Bucle for()"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:49
+#: ../../source/arduino-ft/protoboard.rst:18
+#: ../../source/arduino-ft/salidas-pwm.rst:41
+#: ../../source/arduino-ft/serial-enviar.rst:37
+#: ../../source/arduino-ft/serial-recibir.rst:49
+#: ../../source/arduino-ft/variables.rst:25
+msgid "Monta el circuito de la figura:"
+msgstr ""
+
+#: ../../source/arduino-ft/bucle-for.rst:55
+msgid "Realiza el siguiente programa con el código equivalente a:"
+msgstr ""
+
+#: ../../source/arduino-ft/constantes.rst:9
+msgid "Constantes"
+msgstr ""
+
+#: ../../source/arduino-ft/constantes.rst:10
+msgid ""
+"Hay una manera de definir constantes muy extendida que sigue la siguiente"
+" forma (sin punto y coma al final):"
+msgstr ""
+
+#: ../../source/arduino-ft/constantes.rst:17
+msgid ""
+"Que sería equivalente a esta otra forma, recomendada en la documentación "
+"de Arduino:"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:9
+msgid "Entradas analógicas"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:14
+msgid ":index:`LDR` (Fotorresistencia o Light Dependent Resistor)"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:15
+msgid ""
+"Es una resistencia que varía con la luz. Cuanta más luz recibe, más "
+"corriente deja pasar. Por lo tanto, cuanta más luz recibe tiene menos "
+"resistencia."
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:19
+msgid "La conexión eléctrica forma un divisor de tensión:"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:30
+msgid "Instrucciones básicas para una LDR (fotorresistencia):"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:49
+msgid "Módulos LDR"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:50
+msgid ""
+"Existen módulos LDR de 3 pines con potenciómetro en los que no hace falta"
+" conectar la resistencia porque ya la lleva incorporada, además de un "
+"potenciómetro para calibrarla."
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:58
+msgid "Pines y su conexión a la placa Arduino:"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:60
+msgid "**Vcc**: a 5V de Arduino"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:61
+msgid "**GND**: a GND de Arduino"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:62
+msgid "**DO**: (data output) a entrada analógica de Arduino"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:66
+msgid "Tarea LDR monitor"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:68
+msgid ""
+"|icono-video| VÍDEO: `Entradas digitales en Arduino. LDR y monitor serie "
+"<https://www.youtube.com/watch?v=Vd1G-iW1Jx8>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:71
+msgid ""
+"Monta el siguiente circuito con Arduino y siguiendo las instrucciones del"
+" vídeo realiza un programa para visualizar en el monitor serie cómo "
+"detecta la LDR el nivel de luz."
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:81
+msgid "Tarea Sensor de luz LEDs"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:83
+msgid ""
+"|icono-video| VÍDEO: `Arduino: Sensor de luz con LEDs "
+"<https://www.youtube.com/watch?v=_TE2JDuPRSs>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:86
+msgid ""
+"Monta el circuito de la imagen y realiza el programa de un sensor de luz "
+"que muestre con una luz verde un nivel normal de luz y se encienda una "
+"luz roja de alarma en el caso de una luz muy brillante como sería la luz "
+"directa sobre la LDR de la linterna del móvil."
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:92
+msgid ""
+"Para sacar un 10: el LED rojo deberá parpadear para lograr el 10 en la "
+"práctica."
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:95
+msgid ""
+"Necesitarás dos resitencias de 220Ω para los LEDs y otra de 10kΩ que va "
+"junto a la LDR."
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:9
+msgid "Entradas digitales"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:11
+msgid ""
+"|icono-video| VÍDEO: `Pulsadores, entradas digitales en Arduino "
+"<https://www.youtube.com/watch?v=0Ple_lD5zLo>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:14
+msgid ""
+"La conexión más sencilla usando el modo PULLUP INTERNO sería la siguiente"
+" (se puede usar cualquier pin digital, no tiene por qué ser el 8):"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:22
+msgid "Las instrucciones básicas para los pulsadores en modo PULLUP INTERNO son:"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:42
+msgid "El signo ! antes de digitalRead se usa para invertir el valor digital:"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:44
+msgid "El 0 se transforma en 1"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:45
+msgid "El 1 se transforma en 0"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:49
+msgid "Tarea Pulsador_monitor"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:50
+msgid "Monta el circuito de la figura anterior."
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:52
+msgid ""
+"Crea el programa que se explica en el vídeo anterior que has visualizado "
+"(Pulsadores, entradas digitales en Arduino) para que se muestre en el "
+"monitor serie:"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:56
+msgid "1 mientras pulsamos el pulsador"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:57
+msgid "0 si no lo pulsamos"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:61
+msgid "Tarea Pulsadores AND"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:63
+msgid ""
+"|icono-video| VÍDEO: `if, else, AND y OR, variables booleanas y "
+"constantes <https://www.youtube.com/watch?v=mHiiZT8c-t8>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:70
+msgid ""
+"Imagina que tienes que diseñar una máquina para una fábrica. La máquina "
+"es peligrosa si el operario introduce una mano en ella. Debes diseñarla "
+"de tal manera que para que el operario la pueda poner en marcha, deba "
+"pulsar dos pulsadores a la vez, uno con cada mano, de tal manera de que "
+"no le quede ninguna mano libre que pueda introducir por error en la "
+"máquina. El funcionamiento de la máquina lo vamos a simbolizar con un "
+"LED."
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:78
+msgid ""
+"Monta el circuito de la figura con dos pulsadores, un LED y una "
+"resistencia de 220Ω."
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:82
+msgid ""
+"Para sacar un 10. Si en vez de con 1 LED lo haces con 3 LEDs que se "
+"enciendan secuencialmente, tendrás un 10 en la práctica."
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:85
+#: ../../source/arduino-ft/entradas-digitales.rst:115
+msgid "El programa sería similar al siguiente:"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:91
+#: ../../source/arduino-ft/entradas-digitales.rst:121
+msgid ""
+"La instrucción señalada con la flecha roja se convierte en el siguiente "
+"código:"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:106
+msgid "Tarea Pulsadores OR"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:107
+msgid ""
+"Con lo que has aprendido en el vídeo de la tarea anterior, imagina que "
+"tienes que diseñar una máquina y quieres que se pueda poner en marcha "
+"desde un pulsador ubicado en una zona o desde otro pulsador ubicado en "
+"otro lugar."
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-digitales.rst:112
+msgid ""
+"Monta el mismo circuito de la práctica anterior con dos pulsadores, un "
+"LED y una resistencia de 220Ω."
+msgstr ""
+
+#: ../../source/arduino-ft/index.rst:9
+msgid "Guía Arduino"
+msgstr ""
+
+#: ../../source/arduino-ft/index.rst:10
+msgid "Guía de Arduino del profesor Francisco Trigueros."
+msgstr ""
+
+#: ../../source/arduino-ft/index.rst:41
+msgid ""
+":download:`Guía de Arduino con lecciones y prácticas. Formato PDF. "
+"<arduino-ft-guia.pdf>`"
+msgstr ""
+
+#: ../../source/arduino-ft/index.rst:44
+msgid ""
+":download:`Guía de Arduino con lecciones y prácticas. Formato editable "
+"ODT. <arduino-ft-guia.odt>`"
+msgstr ""
+
+#: ../../source/arduino-ft/index.rst:49
+msgid ""
+"Esta guía de Arduino ha sido creada por Francisco Trigueros y ha sido "
+"corregida y adaptada al formato web por Carlos Félix Pardo Martín."
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:9
+msgid "Pantalla LCD1602"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:11
+msgid ""
+"|icono-video| VÍDEO: `Pantalla LCD1602 con Arduino "
+"<https://www.youtube.com/watch?v=YWU2VdI-G4Q>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:14
+msgid ""
+"La pantalla LCD1602 (16 columnas x 02 filas) para microcontrolador "
+"Arduino permite mostrar visualmente los datos de los sensores."
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:21
+msgid "Pantalla LCD1602 con conexión I2C."
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:23
+msgid ""
+"Nosotros vamos a usar la que tiene un módulo I2C que reduce las "
+"conexiones a 4 cables:"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:26
+#: ../../source/arduino-ft/sensor-dht11.rst:22
+msgid "GND"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:27
+#: ../../source/arduino-ft/sensor-dht11.rst:21
+msgid "Vcc (5V)"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:28
+msgid "SDA: serial data, siempre conectado al pin A4 en Arduino UNO."
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:29
+msgid "SCL: serial clock, siempre conectado al pin A5 en Arduino UNO."
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:37
+#: ../../source/arduino-ft/sensor-dht11.rst:27
+msgid "Instalación de la biblioteca"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:38
+msgid ""
+"Nos vamos al menú Herramientas --> Gestionar bibliotecas e instalamos la "
+"siguiente:"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:41
+msgid ""
+"En Arduino IDE 1: LiquidCrystal I2C de Marco Schwartz (ponemos Schwartz "
+"en el buscador):"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:48
+msgid ""
+"En Arduino IDE 2: LiquidCrystal I2C de Frank de Brabander (ponemos "
+"Brabander en el buscador):"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:57
+#: ../../source/arduino-ft/sensor-dht11.rst:33
+msgid "Programación básica"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:86
+msgid ""
+"Si no se ven o se ven mal los caracteres, podemos ajustar el contraste de"
+" la pantalla usando el potenciómetro azul de la parte de atrás."
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:91
+msgid "Decimales de float"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:92
+msgid ""
+"Para elegir el número de decimales mostrado de una variable float ponemos"
+" una coma y el número de decimales deseado. Ejemplo para mostrar el valor"
+" de la variable temp con un decimal:"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:101
+msgid "Caracteres especiales"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:102
+msgid "Tenemos en cuenta que el LCD no es compatible con tildes."
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:103
+msgid "Para poner el símbolo º de grados, escribimos la siguiente línea:"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:109
+msgid ""
+"La programación básica de un corazón sería así, fíjate que los 0 y 1 "
+"forman el dibujo del corazón:"
+msgstr ""
+
+#: ../../source/arduino-ft/pantalla-lcd.rst:152
+msgid ""
+"Para dibujar caracteres personalizados de forma más visual, hay editores "
+"online como el `editor de Arduinoblocks "
+"<https://www.steamakersblocks.com/web/help/chareditor>`__ que nos generan"
+" el código directamente."
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:9
+msgid "Potenciómetro"
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:10
+msgid ""
+"Los potenciómetros son resistencias variables. Las ajustamos al hacer "
+"girar su mando, aunque también las hay deslizables."
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:17
+msgid "Potenciómetro."
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:23
+msgid "Resistencia ajustable."
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:29
+msgid "Símbolos del potenciómetro."
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:32
+msgid ""
+"|icono-video| VÍDEO: `Potenciómetro. Conexión y programación en Arduino "
+"<https://www.youtube.com/watch?v=bA1hnIIX6Iw>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:35
+msgid "Conexión básica a Arduino:"
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:42
+msgid "La instrucción para leer la entrada analógica será la estándar:"
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:63
+msgid "Función :index:`map()`"
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:64
+msgid ""
+"La **función map()** en Arduino permite remapear un número desde un rango"
+" a otro. Es útil para hacer equivalencias entre diferentes rangos. Por "
+"ejemplo para remapear una lectura analógica que está en un rango de "
+"0-1023 a un nivel de salida PWM que está en un rango 0-255."
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:69
+#: ../../source/arduino-ft/variables-ambitos.rst:16
+msgid "Ejemplo:"
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:75
+msgid ""
+"la variable brillo será proporcional a la entrada analógica del "
+"potenciómetro y se usará para establecer el nivel de brillo de un LED."
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:80
+msgid "Tarea regulador de luz"
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:81
+msgid ""
+"Realiza un circuito que permita ajustar el nivel de luz de un LED "
+"mediante un potenciómetro:"
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:88
+msgid "El programa debe ser equivalente al siguiente en bloques:"
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:96
+msgid "Tarea potenciómetro servo"
+msgstr ""
+
+#: ../../source/arduino-ft/potenciometro.rst:97
+msgid ""
+"Realiza la práctica que se visualiza `al final del vídeo "
+"<https://www.youtube.com/watch?v=Z_TcgRC4zvk&t=332s>`__ en la que un "
+"potenciómetro se usa para mover un servomotor."
+msgstr ""
+
+#: ../../source/arduino-ft/primeros-pasos.rst:9
+msgid "Primeros pasos con Arduino"
+msgstr ""
+
+#: ../../source/arduino-ft/primeros-pasos.rst:14
+msgid ""
+"Comienza visualizando el vídeo del enlace mientras practicas con el kit "
+"de Arduino o el simulador de circuitos online TinkerCAD. De momento no "
+"tienes que entregar ninguna tarea."
+msgstr ""
+
+#: ../../source/arduino-ft/primeros-pasos.rst:19
+msgid ""
+"|icono-video| VÍDEO: `Primer programa con Arduino IDE y simulador de "
+"TinkerCAD <https://www.youtube.com/watch?v=QmZUwqoM6y8>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/primeros-pasos.rst:23
+msgid "Ejemplo de programa básico. Encender y apagar el LED integrado:"
+msgstr ""
+
+#: ../../source/arduino-ft/protoboard.rst:9
+msgid "Protoboard y conexión de componentes"
+msgstr ""
+
+#: ../../source/arduino-ft/protoboard.rst:10
+msgid "Visualiza el siguiente vídeo."
+msgstr ""
+
+#: ../../source/arduino-ft/protoboard.rst:12
+msgid ""
+"|icono-video| VÍDEO: `Conectar un LED a Arduino "
+"<https://www.youtube.com/watch?v=67rZCWYDjNk>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/protoboard.rst:17
+msgid "Tarea Parpadeo LED"
+msgstr ""
+
+#: ../../source/arduino-ft/protoboard.rst:23
+msgid "Realiza el programa:"
+msgstr ""
+
+#: ../../source/arduino-ft/protoboard.rst:25
+msgid "Encender y apagar el LED 4 veces estando encendido 400 ms y apagado 250 ms"
+msgstr ""
+
+#: ../../source/arduino-ft/protoboard.rst:27
+msgid "Mantenerse apagado 1 segundo."
+msgstr ""
+
+#: ../../source/arduino-ft/protoboard.rst:29
+msgid "Después prueba a ir cambiando los tiempos de encendido y apagado."
+msgstr ""
+
+#: ../../source/arduino-ft/protoboard.rst:31
+#: ../../source/arduino-ft/salidas-pwm.rst:54
+msgid "Sería el código equivalente a:"
+msgstr ""
+
+#: ../../source/arduino-ft/salidas-pwm.rst:9
+msgid "Salidas PWM"
+msgstr ""
+
+#: ../../source/arduino-ft/salidas-pwm.rst:10
+msgid ""
+"|icono-video| VÍDEO: `PWM en Arduino para regular la intensidad de brillo"
+" de un LED <https://www.youtube.com/watch?v=_EqMkNmlm1Q>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/salidas-pwm.rst:14
+msgid ""
+"No todos los pines digitales se pueden usar con PWM, solamente los que se"
+" indican con una \"onda\":"
+msgstr ""
+
+#: ../../source/arduino-ft/salidas-pwm.rst:22
+msgid ":index:`PWM` (Pulse Wide Modulation o Modulación de Ancho de Pulso)"
+msgstr ""
+
+#: ../../source/arduino-ft/salidas-pwm.rst:23
+msgid ""
+"Es una técnica que se utiliza para simular valores de distinta intensidad"
+" analógicos mediante pulsos o \"parpadeos\" de la señal:"
+msgstr ""
+
+#: ../../source/arduino-ft/salidas-pwm.rst:30
+msgid ""
+"Código para encender un LED conectado en el pin 9 con una intensidad de "
+"25 (la intensidad puede ir desde 0 hasta 255):"
+msgstr ""
+
+#: ../../source/arduino-ft/salidas-pwm.rst:40
+msgid "Tarea PWM brillo"
+msgstr ""
+
+#: ../../source/arduino-ft/salidas-pwm.rst:46
+msgid ""
+"Realiza el mismo programa que el de las tareas anteriores, pero en vez de"
+" repetir las líneas con las mismas instrucciones cuatro veces, usa el "
+"bucle ``for( )``."
+msgstr ""
+
+#: ../../source/arduino-ft/salidas-pwm.rst:50
+msgid ""
+"Prueba a ir cambiando el número de repeticiones y los tiempos de "
+"encendido y apagado, verás cómo ahora es más rápido usando las variables "
+"y el bucle ``for( )``."
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-dht11.rst:9
+msgid "Sensor DHT11"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-dht11.rst:10
+msgid ""
+"El sensor DHT11 es un sensor de temperatura y de humedad relativa del "
+"aire ambiente."
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-dht11.rst:17
+msgid "Sensor DHT11 de temperatura y humedad relativa."
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-dht11.rst:19
+msgid "El sensor tiene 3 cables de conexión:"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-dht11.rst:23
+msgid "Data: cualquier pin digital."
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-dht11.rst:28
+msgid ""
+"Si no lo hemos hecho antes, en Arduino IDE ir al menú Herramientas --> "
+"Gestionar bibliotecas e instalar la siguiente librería: **DHT sensor "
+"library de Adafruit**."
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-dht11.rst:34
+msgid "Programación básica mostrando los datos en el monitor serie:"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-dht11.rst:72
+msgid ""
+"Recordatorio: para mostrar en una pantalla LCD1602 el símbolo º de "
+"grados, escribimos la siguiente línea:"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:9
+msgid "Sensor ultrasónico"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:11
+msgid ""
+"|icono-video| VÍDEO: `Dos maneras de programar el sensor de distancia "
+"<https://www.youtube.com/watch?v=T7k-bUrIvc8>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:14
+msgid ""
+"Los sensores de distancia HC-SR04 utilizan ondas ultrasónicas para "
+"determinar la distancia entre el sensor y un objeto. El sensor mide con "
+"una precisión aceptable entre 2 cm y 400 cm."
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:22
+msgid "Sensor de distancia ultrasónico HC-SR04."
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:24
+msgid ""
+"Las patillas TRIG (trigguer o disparador) y ECHO (eco) pueden ir a "
+"cualquier pin digital de Arduino, configurando el TRIG como salida "
+"digital y ECHO como entrada."
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:28
+msgid "El montaje básico sería:"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:36
+msgid "Programación del sensor"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:37
+msgid ""
+"Hay dos posibles formas de programar el sensor. Sin biblioteca o con "
+"biblioteca."
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:40
+msgid "Sin biblioteca, con más líneas de código, quedaría así:"
+msgstr ""
+
+#: ../../source/arduino-ft/sensor-ultrasonico.rst:74
+msgid "Con biblioteca, con menos líneas de código, quedaría así:"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-enviar.rst:9
+msgid "Comunicación serie II"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-enviar.rst:11
+msgid ""
+"|icono-video| VÍDEO: `Comunicación serial: enviando información a Arduino"
+" <https://www.youtube.com/watch?v=FmVy-vH9oqY>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-enviar.rst:14
+msgid "Para esperar hasta que Arduino reciba nuestro mensaje:"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-enviar.rst:24
+msgid ""
+"Para guardar en la variable \"brillo\" el número entero que hemos escrito"
+" como respuesta:"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-enviar.rst:36
+msgid "Tarea pedir nivel de brillo"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-enviar.rst:42
+msgid ""
+"realiza un programa en Arduino IDE que haga el algoritmo de los bloques "
+"siguientes:"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-enviar.rst:51
+msgid "Tarea pedir numero de parpadeos"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-enviar.rst:52
+msgid ""
+"Con el mismo circuito que la práctica anterior, realiza un programa que "
+"te pida el número de parpadeos de LED que quieras, una vez que "
+"introduzcas el número, el LED parpadeará ese número de veces."
+msgstr ""
+
+#: ../../source/arduino-ft/serial-enviar.rst:56
+msgid "Si necesitas ayuda, puedes guiarte con el siguiente programa de bloques:"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-recibir.rst:9
+msgid "Comunicación serie I"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-recibir.rst:11
+msgid ""
+"|icono-video| VÍDEO: `Arduino nos envía mensajes (comunicación serial) "
+"<https://www.youtube.com/watch?v=x2IdOeIPhRY>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-recibir.rst:14
+msgid ""
+"Vamos a comunicarnos con Arduino. Primero vamos a ver cómo Arduino nos va"
+" a transmitir información. Dentro de void setup(), debemos iniciar la "
+"comunicación serie, indicando la velocidad de transmisión, por defecto "
+"9600 bauds:"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-recibir.rst:25
+msgid ""
+"Dentro de void loop(), el comando para que se imprima en pantalla una "
+"línea sería:"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-recibir.rst:33
+msgid "Si queremos que no haya salto de línea, simplemente Serial.print:"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-recibir.rst:41
+msgid "El código anterior nos daría como mensajes en el monitor serie::"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-recibir.rst:48
+msgid "Tarea visualiza el nivel de brillo"
+msgstr ""
+
+#: ../../source/arduino-ft/serial-recibir.rst:54
+msgid ""
+"Realiza el programa Brillo_sube_baja, pero visualizando la intensidad de "
+"brillo en el monitor serie:"
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:9
+msgid "Servomotores"
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:11
+msgid ""
+"|icono-video| VÍDEO: `Servomotores en Arduino. Guía básica "
+"<https://www.youtube.com/watch?v=kE_ou58E7Hw>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:18
+msgid ""
+"Son motores en los que podemos controlar el ángulo de giro mediante la "
+"programación del Arduino."
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:21
+msgid ""
+"El modelo SG90 (el de la figura anterior) es muy utilizado porque es el "
+"más económico, pero no puede transmitir mucha potencia. Puede girar de 0º"
+" a 180º."
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:25
+msgid ""
+"La conexión básica sería como en la imagen, teniendo que conectar **el "
+"cable naranja a cualquier salida PWM**."
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:32
+msgid "Instrucciones básicas para Arduino IDE:"
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:56
+msgid "Tarea limpiaparabrisas"
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:57
+msgid ""
+"Con el montaje básico de la figura anterior, programa el servo usando el "
+"bucle ``for( )`` para que haga un movimiento de vaivén como el de un "
+"limpiaparabrisas de un coche:"
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:61
+msgid ""
+"Que vaya aumentando el ángulo de uno en uno desde 5º hasta 175º, con una "
+"espera de 8 ms entre una posición y la siguiente."
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:63
+msgid ""
+"Que vaya disminuyendo el ángulo de uno en uno desde 174º hasta 6º con una"
+" espera de 8 ms entre una posición y la siguiente."
+msgstr ""
+
+#: ../../source/arduino-ft/servomotores.rst:66
+msgid "Aquí tienes el programa con bloques que puedes usar como guía:"
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:9
+msgid "Variables"
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:11
+msgid ""
+"Para declarar una variable global de tipo entero (“integer” en inglés) "
+"llamada pinLED, usamos el comando:"
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:19
+msgid ""
+"|icono-video| VÍDEO: `Variables con Arduino IDE "
+"<https://www.youtube.com/watch?v=safEHD4d2Q4>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:24
+msgid "Tarea Variables"
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:30
+msgid ""
+"Realiza el mismo circuito y mismo programa de la tarea anterior, pero usa"
+" las siguientes variables:"
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:33
+msgid "**pinLed**: número de pin donde está conectado el LED."
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:34
+msgid "**delayOn**: tiempo que está encendido del LED"
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:35
+msgid "**delayOff**: tiempo que está apagado del LED"
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:36
+msgid "**finalDelay**: tiempo final"
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:38
+msgid ""
+"Prueba después a ir cambiando el tiempo de encendido y apagado del LED, "
+"verás cómo es más rápido ahora usando las variables."
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:41
+msgid "Sería el código equivalente al siguiente programa:"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-ambitos.rst:9
+msgid "Ámbitos de variables"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-ambitos.rst:10
+msgid "Las variables pueden ser de ámbito global o local:"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-ambitos.rst:12
+msgid "**Variables globales**: su ámbito es todo el programa."
+msgstr ""
+
+#: ../../source/arduino-ft/variables-ambitos.rst:13
+msgid ""
+"**Variables locales**: su ámbito es solamente la función donde se "
+"encuentran."
+msgstr ""
+
+#: ../../source/arduino-ft/variables-ambitos.rst:30
+msgid ""
+"Las variables locales funcionan en un ámbito más pequeño pero van a "
+"consumir menos de memoria, por lo que el programa será algo más "
+"eficiente."
+msgstr ""
+
+#: ../../source/arduino-ft/variables-leer.rst:9
+msgid "Leer variables"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-leer.rst:10
+msgid ""
+"Para leer variables desde el monitor serie, dependiendo del tipo, "
+"usaremos:"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:9
+msgid "Variables de texto"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:11
+#: ../../source/arduino-ft/variables-tipos.rst:17
+msgid "Tabla de tipos de variables en Arduino"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:16
+#: ../../source/arduino-ft/variables-tipos.rst:22
+msgid "Tipo"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:17
+msgid "Almacena"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:18
+msgid "Ejemplo"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:19
+msgid "char"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:20
+#: ../../source/arduino-ft/variables-texto.rst:23
+msgid "Caracteres"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:21
+msgid "``char letra = 'a';``"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:22
+msgid "String"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:24
+msgid "``String mensaje = \"Hola, mundo!\";``"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:26
+msgid ""
+"Ejemplo para declarar una variable de tipo ``char`` con nombre ``letra`` "
+"y cuyo valor queremos que sea la letra ``'a'``:"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-texto.rst:48
+msgid "Ejemplo para crear un objeto de la clase String:"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:9
+msgid "Tipos de variables"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:11
+msgid ""
+"|icono-video| VÍDEO: `Variables en Arduino II. Tipos, advertencias, "
+"ámbitos... <https://www.youtube.com/watch?v=bfXBH6XgZ3E>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:14
+msgid ""
+"Existen más tipos de variables, en nuestros proyectos los que más "
+"necesitaremos serán:"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:23
+msgid "Tamaño"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:24
+msgid "Rango"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:25
+msgid "bool"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:26
+#: ../../source/arduino-ft/variables-tipos.rst:29
+msgid "1 byte"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:27
+msgid "0, 1 (false, true)"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:28
+msgid "byte"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:30
+msgid "0 a 255"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:31
+msgid "int"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:32
+#: ../../source/arduino-ft/variables-tipos.rst:35
+msgid "2 bytes"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:33
+msgid "-32768 a 32767"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:34
+msgid "unsigned int"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:36
+msgid "0 a 65535"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:37
+msgid "long"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:38
+#: ../../source/arduino-ft/variables-tipos.rst:41
+#: ../../source/arduino-ft/variables-tipos.rst:44
+msgid "4 bytes"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:39
+msgid "-2147483648 a 2147483647"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:40
+msgid "unsigned long"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:42
+msgid "0 a 4294967295"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:43
+msgid "float"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:45
+msgid "3,4028235E-38 a 3,4028235E+38"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:47
+msgid "Con 7 decimales de precisión"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:50
+msgid "Desbordamiento"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:51
+msgid ""
+"Si sobrepasamos el rango de una variable se produce un "
+"**desbordamiento**, reiniciándose a los primeros valores del rango."
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:54
+msgid ""
+"Por ejemplo, damos a la variable ``a = 255``, el máximo para el tipo "
+"``byte`` (255), si después le sumamos 1 se produce desbordamiento y vemos"
+" en el monitor serie que el resultado no será 256, sino se reinicia al "
+"mínimo valor del rango (0):"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:82
+msgid "Limitaciones del tipo float"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:83
+msgid ""
+"El tipo de datos float tiene sólo entre 6 y 7 dígitos decimales de "
+"precisión. Eso significa el número total de dígitos, no el número a la "
+"derecha del punto decimal."
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:86
+msgid ""
+"Si hacemos cálculos con float, debemos agregar un punto decimal; de lo "
+"contrario, se tratará como un int:"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:107
+msgid ""
+"Los números de coma flotante no son exactos y pueden producir resultados "
+"extraños al compararlos. Por ejemplo, es posible que 9,0/0,3 no sea igual"
+" a 30,0 al compararlos."
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:112
+msgid ""
+"Para que realice un redondeo correcto al pasar a int, hay que usar la "
+"función ``round()``:"
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:121
+msgid ""
+"Las matemáticas de punto flotante son mucho más lentas que las "
+"matemáticas de enteros al realizar cálculos, por lo que deben evitarse "
+"si, por ejemplo, un bucle tiene que ejecutarse a máxima velocidad."
+msgstr ""
+
+#: ../../source/arduino-ft/variables-tipos.rst:125
+msgid ""
+"Para obtener un número de decimales concreto en el monitor serie, se "
+"indica de la siguiente manera (ejemplo para que se muestren 4 decimales):"
+msgstr ""
+

@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:9
+msgid "Entradas analógicas"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:14
+msgid ":index:`LDR` (Fotorresistencia o Light Dependent Resistor)"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:15
+msgid ""
+"Es una resistencia que varía con la luz. Cuanta más luz recibe, más "
+"corriente deja pasar. Por lo tanto, cuanta más luz recibe tiene menos "
+"resistencia."
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:19
+msgid "La conexión eléctrica forma un divisor de tensión:"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:30
+msgid "Instrucciones básicas para una LDR (fotorresistencia):"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:49
+msgid "Módulos LDR"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:50
+msgid ""
+"Existen módulos LDR de 3 pines con potenciómetro en los que no hace falta"
+" conectar la resistencia porque ya la lleva incorporada, además de un "
+"potenciómetro para calibrarla."
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:58
+msgid "Pines y su conexión a la placa Arduino:"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:60
+msgid "**Vcc**: a 5V de Arduino"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:61
+msgid "**GND**: a GND de Arduino"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:62
+msgid "**DO**: (data output) a entrada analógica de Arduino"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:66
+msgid "Tarea LDR monitor"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:68
+msgid ""
+"|icono-video| VÍDEO: `Entradas digitales en Arduino. LDR y monitor serie "
+"<https://www.youtube.com/watch?v=Vd1G-iW1Jx8>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:104
+msgid "Icono de vídeo de YouTube"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:71
+msgid ""
+"Monta el siguiente circuito con Arduino y siguiendo las instrucciones del"
+" vídeo realiza un programa para visualizar en el monitor serie cómo "
+"detecta la LDR el nivel de luz."
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:81
+msgid "Tarea Sensor de luz LEDs"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:83
+msgid ""
+"|icono-video| VÍDEO: `Arduino: Sensor de luz con LEDs "
+"<https://www.youtube.com/watch?v=_TE2JDuPRSs>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:86
+msgid ""
+"Monta el circuito de la imagen y realiza el programa de un sensor de luz "
+"que muestre con una luz verde un nivel normal de luz y se encienda una "
+"luz roja de alarma en el caso de una luz muy brillante como sería la luz "
+"directa sobre la LDR de la linterna del móvil."
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:92
+msgid ""
+"Para sacar un 10: el LED rojo deberá parpadear para lograr el 10 en la "
+"práctica."
+msgstr ""
+
+#: ../../source/arduino-ft/entradas-analogicas.rst:95
+msgid ""
+"Necesitarás dos resitencias de 220Ω para los LEDs y otra de 10kΩ que va "
+"junto a la LDR."
+msgstr ""
+

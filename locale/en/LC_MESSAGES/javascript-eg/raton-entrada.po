@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/javascript-eg/raton-entrada.rst:8
+msgid "El ratón como entrada"
+msgstr ""
+
+#: ../../source/javascript-eg/raton-entrada.rst:11
+msgid "Variables del sistema"
+msgstr ""
+
+#: ../../source/javascript-eg/raton-entrada.rst:12
+msgid ""
+"p5.js actualiza automáticamente dos variables especiales en cada "
+"fotograma:"
+msgstr ""
+
+#: ../../source/javascript-eg/raton-entrada.rst:14
+msgid ""
+"``mouseX`` — contiene la posición horizontal del ratón en el lienzo (en "
+"píxeles)"
+msgstr ""
+
+#: ../../source/javascript-eg/raton-entrada.rst:16
+msgid ""
+"``mouseY`` — contiene la posición vertical del ratón en el lienzo (en "
+"píxeles)"
+msgstr ""
+
+#: ../../source/javascript-eg/raton-entrada.rst:19
+msgid ""
+"Puedes usar estas variables en cualquier parte de ``draw()``. Como "
+"``draw()`` se ejecuta continuamente, el valor cambia con el ratón y el "
+"resultado se actualiza en tiempo real."
+msgstr ""
+
+#: ../../source/javascript-eg/raton-entrada.rst:25
+msgid "Haz que la forma siga al ratón"
+msgstr ""
+
+#: ../../source/javascript-eg/raton-entrada.rst:27
+msgid ""
+"Sustituye las coordenadas fijas de ``ellipse()`` por ``mouseX`` y "
+"``mouseY``:"
+msgstr ""
+
+#: ../../source/javascript-eg/raton-entrada.rst:44
+msgid ""
+"Mueve el ratón por el lienzo. El círculo te sigue. Esto ocurre porque "
+"``draw()`` redibuja el lienzo 60 veces por segundo usando el valor "
+"actualizado de ``mouseX`` y ``mouseY``."
+msgstr ""
+

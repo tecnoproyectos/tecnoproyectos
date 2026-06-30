@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/javascript-eg/funcion-map.rst:8
+msgid "La función map()"
+msgstr ""
+
+#: ../../source/javascript-eg/funcion-map.rst:11
+msgid "Concepto: map()"
+msgstr ""
+
+#: ../../source/javascript-eg/funcion-map.rst:12
+msgid ""
+"``mouseX`` va de 0 (izquierda) a 400 (derecha, si el lienzo mide 400 px "
+"de ancho). Pero el tamaño de una forma puede ir de 20 a 200, o un valor "
+"de color va de 0 a 255. Necesitamos traducir un rango a otro. Para eso "
+"existe ``map()``:"
+msgstr ""
+
+#: ../../source/javascript-eg/funcion-map.rst:24
+msgid ""
+"Puedes leerlo así: «si mouseX vale 0, tamaño vale 20; si mouseX vale 400,"
+" tamaño vale 200; y cualquier valor intermedio se calcula "
+"proporcionalmente»."
+msgstr ""
+
+#: ../../source/javascript-eg/funcion-map.rst:30
+msgid "Aplícalo a tu código"
+msgstr ""
+
+#: ../../source/javascript-eg/funcion-map.rst:51
+msgid "width y height"
+msgstr ""
+
+#: ../../source/javascript-eg/funcion-map.rst:53
+msgid ""
+"En lugar de escribir 400 y 600 (los valores concretos de tu lienzo), "
+"puedes usar las variables ``width`` y ``height`` que p5.js actualiza "
+"automáticamente. Así tu código funciona igual aunque cambies el tamaño "
+"del lienzo."
+msgstr ""
+

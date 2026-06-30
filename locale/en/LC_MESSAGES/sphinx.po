@@ -1,0 +1,99 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Recursos 2023Report-Msgid-Bugs-To:POT-Creation-"
+"Date:2023-02-07 18:33+0100PO-Revision-Date:YEAR-MO-DA HO:MI+ZONELast-"
+"Translator:FULL NAME <EMAIL@ADDRESS>Language:enLanguage-Team:en "
+"<LL@li.org>Plural-Forms:nplurals=2; plural=(n != 1)MIME-Version:1"
+".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
+":8bitGenerated-By:Babel 2.9.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/_templates/page.html:15
+msgid "Next"
+msgstr ""
+
+#: ../../source/_templates/page.html:27
+msgid "Previous"
+msgstr ""
+
+#: ../../source/_templates/page.html:30
+msgid "Home"
+msgstr ""
+
+#: ../../source/_templates/page.html:41
+msgid "Proyectos de Tecnología para el aula."
+msgstr "Technology Projects for the Classroom."
+
+# Footer
+#: ../../source/_templates/page.html:45
+msgid "Portada"
+msgstr "Main page"
+
+#: ../../source/_templates/page.html:46
+msgid "Contacto"
+msgstr "Contact"
+
+#: ../../source/_templates/page.html:47
+msgid "Sobre Tecno Proyectos"
+msgstr "About Tecno Proyectos"
+
+#: ../../source/_templates/page.html:48
+msgid "Glosario"
+msgstr "Glossary"
+
+#: ../../source/_templates/page.html:49
+msgid "Mapa del sitio"
+msgstr "Sitemap"
+
+#: ../../source/_templates/page.html:57
+#, fuzzy
+msgid "Equipo de Tecno Proyectos."
+msgstr "About Tecno Proyectos"
+
+#: ../../source/_templates/page.html:61
+msgid "Los contenidos de esta página se distribuyen bajo licencia"
+msgstr "The content on this page is distributed under a license"
+
+#: ../../source/_templates/page.html:66
+msgid "Actualizado por última vez en"
+msgstr "Last updated on"
+
+#~ msgid "Página principal - Tecno Proyectos"
+#~ msgstr "Main page - Tecno Proyectos"
+
+#~ msgid "Buscar..."
+#~ msgstr "Search..."
+
+#~ msgid "Autor"
+#~ msgstr "Author"
+
+#~ msgid "Aviso legal"
+#~ msgstr "Terms Of Service"
+
+#~ msgid "Política de Cookies"
+#~ msgstr "Cookie policy"
+
+#~ msgid "Créditos"
+#~ msgstr "Credits"
+
+#~ msgid "Índice"
+#~ msgstr "Index"
+
+# msgid "%(project)s"
+# msgstr "Techno Proyectos"
+# Menu
+#~ msgid "Test de Tecnología"
+#~ msgstr "Technology Test"
+
+#~ msgid "Proyecto en GitHub"
+#~ msgstr "Project in GitHub"
+

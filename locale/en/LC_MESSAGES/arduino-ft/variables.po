@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/arduino-ft/variables.rst:9
+msgid "Variables"
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:11
+msgid ""
+"Para declarar una variable global de tipo entero (“integer” en inglés) "
+"llamada pinLED, usamos el comando:"
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:19
+msgid ""
+"|icono-video| VÍDEO: `Variables con Arduino IDE "
+"<https://www.youtube.com/watch?v=safEHD4d2Q4>`__"
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:49
+msgid "Icono de vídeo de YouTube"
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:24
+msgid "Tarea Variables"
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:25
+msgid "Monta el circuito de la figura:"
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:30
+msgid ""
+"Realiza el mismo circuito y mismo programa de la tarea anterior, pero usa"
+" las siguientes variables:"
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:33
+msgid "**pinLed**: número de pin donde está conectado el LED."
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:34
+msgid "**delayOn**: tiempo que está encendido del LED"
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:35
+msgid "**delayOff**: tiempo que está apagado del LED"
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:36
+msgid "**finalDelay**: tiempo final"
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:38
+msgid ""
+"Prueba después a ir cambiando el tiempo de encendido y apagado del LED, "
+"verás cómo es más rápido ahora usando las variables."
+msgstr ""
+
+#: ../../source/arduino-ft/variables.rst:41
+msgid "Sería el código equivalente al siguiente programa:"
+msgstr ""
+
