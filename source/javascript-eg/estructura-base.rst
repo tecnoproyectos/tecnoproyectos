@@ -15,15 +15,7 @@ El bucle de dibujo
 Todo programa en p5.js tiene dos funciones principales que ya estarán
 escritas cuando abras el `editor p5js <https://editor.p5js.org/>`_:
 
-.. code-block:: javascript
-
-   function setup() {
-     // se ejecuta UNA SOLA VEZ al inicio del programa
-   }
-
-   function draw() {
-     // se ejecuta CONTINUAMENTE, muchas veces por segundo
-   }
+.. figure:: _images/javascript-eg-21.png
 
 Puedes imaginarlo como una película de dibujos animados: ``setup()``
 prepara el estudio de animación, y ``draw()`` dibuja cada fotograma,
@@ -37,15 +29,7 @@ Tu primer lienzo
 Dentro de ``setup()`` vamos a crear el lienzo con ``createCanvas()``. Los
 dos números son el ancho y el alto en píxeles:
 
-.. code-block:: javascript
-
-   function setup() {
-     createCanvas(400, 600); // ancho x alto
-   }
-
-   function draw() {
-     background(220); // fondo gris claro
-   }
+.. figure:: _images/javascript-eg-22.png
 
 Escribe esto en el `editor p5js <https://editor.p5js.org/>`_ y pulsa el
 botón ▶ (Play). Deberías ver un rectángulo gris.

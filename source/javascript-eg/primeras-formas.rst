@@ -38,19 +38,8 @@ Añadir una forma estática
 
 Añade esto dentro de ``draw()``, después de ``background()``:
 
-.. code-block:: javascript
+.. figure:: _images/javascript-eg-31.png
 
-   function setup() {
-     createCanvas(400, 600); // ancho x alto
-   }
-
-   function draw() {
-     background(220);
-
-     fill(255, 100, 50); // naranja en RGB
-     noStroke();         // sin borde
-     ellipse(300, 200, 100, 100); // elipse con dos radios iguales = círculo
-   }
 
 Cambia los tres números de ``fill()`` para explorar distintos colores. Cada
 número va de 0 a 255 y representa Rojo, Verde y Azul respectivamente.
