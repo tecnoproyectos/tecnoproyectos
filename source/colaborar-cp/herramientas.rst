@@ -57,7 +57,7 @@ Herramientas en Windows
 
 * **Python**: lenguaje de programación que utiliza el proyecto.
   
-  https://www.python.org/downloads/latest/python3.14/
+  https://www.python.org/ftp/python/3.14.6/python-3.14.6-amd64.exe
   
   Instalar para todos los usuarios en el directorio
   c:/Archivos de programa/Python314
@@ -66,11 +66,15 @@ Herramientas en Windows
 * **Entorno virtual de Python**: Es el entorno local de herramientas de
   Python.
   
-  Comenzamos por borrar el directorio venv actual.
+  A continuación ejecutamos las siguientes instrucciones desde la
+  consola de comandos (ejecutando ``_bash.bat`` en el directorio del
+  repositorio tecnoproyectos) para borrar el directorio ``venv`` actual
+  y crear uno nuevo::
   
-  Ejecutamos las siguientes instrucciones desde la consola de comandos::
-  
+     rmdir /s /q venv
+
      set PATH="c:/Archivos de programa/Python314/";%PATH%
+
      python.exe -m venv venv
 
   
