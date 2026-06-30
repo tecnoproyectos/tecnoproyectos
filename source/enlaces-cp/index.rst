@@ -15,5 +15,6 @@ de diferentes páginas web.
    :numbered: 1
 
    procomun.rst
+   pelandintecno.rst
    otros.rst
    

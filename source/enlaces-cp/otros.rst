@@ -9,7 +9,7 @@ Otros recursos
 Listado de otras páginas con recursos útiles para Tecnología.
 
 
-Simuladores Phet
+Simuladores PhET
 ----------------
 Los simuladores PhET son herramientas digitales e interactivas creadas
 por la Universidad de Colorado en Boulder (fundadas por el premio Nobel
