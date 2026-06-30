@@ -33,7 +33,7 @@ La partícula tiene cuatro variables: su posición (``x``, ``y``) y su
 velocidad (``vx``, ``vy``). En cada fotograma sumamos la velocidad a la
 posición, y la partícula se desplaza:
 
-.. figure:: _images/javascript-eg-02.png
+.. figure:: _images/javascript-eg-201.png
   :width: 600px
   :align: center
 
@@ -54,7 +54,7 @@ choca contra una pared.
 Para conseguir esto, necesitas este bloque de código.
 ¿Dónde lo colocarías?:
 
-.. figure:: _images/javascript-eg-03.png
+.. figure:: _images/javascript-eg-202.png
   :width: 400px
   :align: center
 

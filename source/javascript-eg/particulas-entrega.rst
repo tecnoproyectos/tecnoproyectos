@@ -50,7 +50,7 @@ viste en `Paso 8/8 — Entrega y reto extra <entrega.html>`_ de la
 práctica 1:
 
 .. figure::
-  _images/javascript-eg-09.png
+  _images/javascript-eg-208.png
   :width: 600px
   :align: center
 
@@ -76,7 +76,7 @@ partículas vuelvan al centro con velocidades nuevas, como si se
 regeneraran:
 
 .. figure::
-  _images/javascript-eg-10.png
+  _images/javascript-eg-209.png
   :width: 400px
   :align: center
 

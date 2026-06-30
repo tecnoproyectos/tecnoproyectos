@@ -16,7 +16,7 @@ En p5.js el punto (0, 0) está en la esquina superior izquierda del lienzo.
 El eje X crece hacia la derecha y el eje Y crece hacia abajo (al contrario
 que en matemáticas).
 
-.. figure:: _images/javascript-eg-01.png
+.. figure:: _images/javascript-eg-101.png
   :width: 400px
   :align: center
 

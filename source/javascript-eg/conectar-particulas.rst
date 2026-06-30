@@ -38,7 +38,7 @@ En lenguaje natural: «para cada partícula i, compruebo su distancia con
 cada partícula j»:
 
 .. figure::
-  _images/javascript-eg-07.png
+  _images/javascript-eg-206.png
   :width: 400px
   :align: center
 
@@ -65,7 +65,7 @@ dibuja las partículas.
 El programa completo
 ---------------------
 
-.. figure:: _images/javascript-eg-08.png
+.. figure:: _images/javascript-eg-207.png
   :width: 600px
   :align: center
 

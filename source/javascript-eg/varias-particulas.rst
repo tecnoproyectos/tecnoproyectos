@@ -5,7 +5,7 @@
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
 
 Varias partículas rebotando: arrays y for
-==========================================
+=========================================
 .. parsed-literal::
 
   Paso 2/4 de práctica 2 "Partículas conectadas"
@@ -35,7 +35,7 @@ Para guardar la posición y velocidad de 50 partículas usaremos
 **cuatro arrays paralelos**: uno para cada dato. El índice ``i``
 identifica a la misma partícula en todos ellos:
 
-.. figure:: _images/javascript-eg-04.png
+.. figure:: _images/javascript-eg-203.png
   :width: 400px
   :align: center
 
@@ -47,7 +47,7 @@ El bucle ``for`` recorre los índices de 0 a ``nb - 1`` y ejecuta el
 código interior una vez por partícula. Lo usamos en ``setup()`` para
 dar valores iniciales a los cuatro arrays:
 
-.. figure:: _images/javascript-eg-05.png
+.. figure:: _images/javascript-eg-204.png
   :width: 400px
   :align: center
 
@@ -60,7 +60,7 @@ El bucle for en draw(): mover y dibujar
 El mismo patrón se repite en ``draw()``: recorremos todas las partículas
 para moverlas, hacerlas rebotar y dibujarlas:
 
-.. figure:: _images/javascript-eg-06.png
+.. figure:: _images/javascript-eg-205.png
   :width: 400px
   :align: center
 

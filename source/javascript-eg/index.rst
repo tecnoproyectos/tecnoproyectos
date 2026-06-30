@@ -1,16 +1,16 @@
-﻿:date: 2026-06-25
-:modified: 2026-06-25
+﻿:date: 2026-06-28
+:modified: 2026-06-28
 :author: Esther Gordo
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
 
 JavaScript con p5.js
 ====================
-La librería p5.js es un conjunto de funciones para el lenguaje JavaScript
-pensada para crear arte generativo e interactivo en el navegador web.
-En este proyecto encontrarás una serie de prácticas guiadas, paso a paso,
-para aprender a programar con p5.js creando composiciones visuales
-que reaccionan al ratón y al teclado.
+
+p5.js es una librería de JavaScript pensada para crear arte generativo e
+interactivo en el navegador. En este proyecto encontrarás una serie de
+prácticas guiadas, paso a paso, para aprender a programar con p5.js creando
+composiciones visuales que reaccionan al ratón y al teclado.
 
 .. toctree::
    :titlesonly:
@@ -30,10 +30,18 @@ que reaccionan al ratón y al teclado.
    varias-particulas
    conectar-particulas
    particulas-entrega
+   cohete-objeto
+   explosion-destello
+   explosion-chispas
+   fuegos-artificiales
+   fuegos-entrega
 
-:download:`Práctica JavaScript p5.js - Lienzo interactivo. Formato PDF.
-<javascript-eg-practica-01.pdf>`
+:download:`Práctica 1 — Lienzo interactivo (PDF) <javascript-eg-practica-01.pdf>`
+
+:download:`Práctica 2 — Partículas conectadas (PDF) <javascript-eg-practica-02.pdf>`
+
+:download:`Práctica 3 — Fuegos artificiales (PDF) <javascript-eg-practica-03.pdf>`
 
 .. note::
-   Esta guía de p5.js ha sido creada por
-   Esther Gordo.
+   Este material ha sido creado por Esther Gordo.
+   Licencia Creative Commons Attribution-ShareAlike 4.0 International.
