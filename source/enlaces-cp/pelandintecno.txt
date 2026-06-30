@@ -7,8 +7,8 @@
 :no-search:
 
 
-Índice del blog Pelandintecno
-=============================
+Blog Pelandintecno
+==================
 `Pelandintecno <https://pelandintecno.blogspot.com/>`__
 es uno de los blogs de referencia de Tecnología
 en Educación Secundaria.
