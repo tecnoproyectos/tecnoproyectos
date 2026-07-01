@@ -27,9 +27,11 @@ from pygments.formatters import ImageFormatter
 from pygments.styles import get_all_styles
 
 
-visual_style = 'native'         # Ejemplos: 'monokai', 'native', 'github-dark', 'solarized-light'
+visual_style = 'friendly'       # Ejemplos: 'friendly', 'monokai', 'native'
 font_name = 'DejaVu Sans Mono'  # Necesitas tener la fuente instalada en tu sistema
 font_size = 16
+line_numbers = False
+force_write = False
 
 
 def main():
@@ -38,7 +40,7 @@ def main():
     filenames = [f for f in os.listdir('.') if f[-3:] == '.js']
     for filename in filenames:
         image_name = filename[:-3] + '.png'
-        if file_newer(filename, image_name):
+        if force_write or file_newer(filename, image_name):
             source_code = read_file(filename)
             image_data = generate_image(source_code, lexer)
             write_bin_file(image_name, image_data)
@@ -72,9 +74,7 @@ def generate_image(source_code, lexer):
         font_name=font_name,
         font_size=font_size,
         style=visual_style,
-        line_numbers=True,
-        line_number_bg='#202020',
-        line_number_fg='#a0a0a0'
+        line_numbers=line_numbers,
     )
     return highlight(source_code, lexer, formatter)
 
