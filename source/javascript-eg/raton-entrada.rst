@@ -4,8 +4,11 @@
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
 
-El ratón como entrada
-=====================
+Interacción: mouseX y mouseY
+============================
+.. parsed-literal::
+  
+  Paso 4/8 de práctica 1 "Lienzo interactivo"
 
 Variables del sistema
 ---------------------

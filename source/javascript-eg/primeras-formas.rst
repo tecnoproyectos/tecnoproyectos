@@ -4,8 +4,11 @@
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
 
-Primeras formas
-===============
+Formas en 2D
+============
+.. parsed-literal::
+  
+  Paso 3/8 de práctica 1 "Lienzo interactivo"
 
 El sistema de coordenadas
 -------------------------
@@ -13,7 +16,7 @@ En p5.js el punto (0, 0) está en la esquina superior izquierda del lienzo.
 El eje X crece hacia la derecha y el eje Y crece hacia abajo (al contrario
 que en matemáticas).
 
-.. figure:: _images/javascript-eg-01.png
+.. figure:: _images/javascript-eg-101.png
   :width: 400px
   :align: center
 
