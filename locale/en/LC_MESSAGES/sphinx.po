@@ -8,92 +8,84 @@ msgstr ""
 ".0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding"
 ":8bitGenerated-By:Babel 2.9.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"POT-Creation-Date: 2023-07-03 14:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
+"Generated-By: Babel 2.9.0\n"
 
-#: ../../source/_templates/page.html:15
-msgid "Next"
-msgstr ""
+#: ../../source/_custom/templates/index.html:17
+msgid "Página principal - Tecno Proyectos"
+msgstr "Main page - Tecno Proyectos"
 
-#: ../../source/_templates/page.html:27
-msgid "Previous"
-msgstr ""
-
-#: ../../source/_templates/page.html:30
-msgid "Home"
-msgstr ""
-
-#: ../../source/_templates/page.html:41
-msgid "Proyectos de Tecnología para el aula."
+#: ../../source/_custom/templates/index.html:20
+msgid ""
+"Proyectos de Tecnología para el aula."
 msgstr "Technology Projects for the Classroom."
 
+
+#: ../../source/_custom/templates/index.html:55
+msgid "Buscar..."
+msgstr "Search..."
+
 # Footer
-#: ../../source/_templates/page.html:45
+#: ../../source/_custom/templates/index.html:175
 msgid "Portada"
 msgstr "Main page"
 
-#: ../../source/_templates/page.html:46
-msgid "Contacto"
-msgstr "Contact"
-
-#: ../../source/_templates/page.html:47
-msgid "Sobre Tecno Proyectos"
-msgstr "About Tecno Proyectos"
-
-#: ../../source/_templates/page.html:48
-msgid "Glosario"
-msgstr "Glossary"
-
-#: ../../source/_templates/page.html:49
+#: ../../source/_custom/templates/index.html:175
 msgid "Mapa del sitio"
 msgstr "Sitemap"
 
-#: ../../source/_templates/page.html:57
-#, fuzzy
-msgid "Equipo de Tecno Proyectos."
+#: ../../source/_custom/templates/index.html:175
+msgid "Contacto"
+msgstr "Contact"
+
+#: ../../source/_custom/templates/index.html:175
+msgid "Sobre Tecno Proyectos"
 msgstr "About Tecno Proyectos"
 
-#: ../../source/_templates/page.html:61
-msgid "Los contenidos de esta página se distribuyen bajo licencia"
-msgstr "The content on this page is distributed under a license"
+#: ../../source/_custom/templates/index.html:175
+msgid "Autor"
+msgstr "Author"
 
-#: ../../source/_templates/page.html:66
+#: ../../source/_custom/templates/index.html:176
+msgid "Aviso legal"
+msgstr "Terms Of Service"
+
+#: ../../source/_custom/templates/index.html:177
+msgid "Política de Cookies"
+msgstr "Cookie policy"
+
+#: ../../source/_custom/templates/index.html:178
+msgid "Créditos"
+msgstr "Credits"
+
+#: ../../source/_custom/templates/index.html:179
+msgid "Glosario"
+msgstr "Glossary"
+
+#: ../../source/_custom/templates/index.html:180
+msgid "Índice"
+msgstr "Index"
+
+#msgid "%(project)s"
+#msgstr "Techno Proyectos"
+
+# Menu
+msgid "Test de Tecnología"
+msgstr "Technology Test"
+
+msgid "Proyecto en GitHub"
+msgstr "Project in GitHub"
+
+msgid ""
+"Los contenidos de esta página se distribuyen bajo licencia"
+msgstr ""
+"The content on this page is distributed under a license"
+
 msgid "Actualizado por última vez en"
 msgstr "Last updated on"
-
-#~ msgid "Página principal - Tecno Proyectos"
-#~ msgstr "Main page - Tecno Proyectos"
-
-#~ msgid "Buscar..."
-#~ msgstr "Search..."
-
-#~ msgid "Autor"
-#~ msgstr "Author"
-
-#~ msgid "Aviso legal"
-#~ msgstr "Terms Of Service"
-
-#~ msgid "Política de Cookies"
-#~ msgstr "Cookie policy"
-
-#~ msgid "Créditos"
-#~ msgstr "Credits"
-
-#~ msgid "Índice"
-#~ msgstr "Index"
-
-# msgid "%(project)s"
-# msgstr "Techno Proyectos"
-# Menu
-#~ msgid "Test de Tecnología"
-#~ msgstr "Technology Test"
-
-#~ msgid "Proyecto en GitHub"
-#~ msgstr "Project in GitHub"
-

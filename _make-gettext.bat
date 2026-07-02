@@ -1,15 +1,12 @@
-@ECHO OFF
+@echo off
 rem MAKE GETTEXT
 
-set PATH=%~dp0\venv\Scripts;%PATH%
-call activate.bat
+set PATH=%~dp0venv\Scripts;%PATH%
+call "%~dp0venv\Scripts\activate.bat"
 
 sphinx-build -b gettext source build/gettext
+sphinx-intl -c source/conf.py update -l en
 
-cd source
-sphinx-intl update -p ../build/gettext -l en
-cd ..
-
-copy /Y  locale/en/sphinx.po  locale/en/LC_MESSAGES/sphinx.po
+copy /Y  locale\en\sphinx.po  locale\en\LC_MESSAGES\sphinx.po
 pause
 

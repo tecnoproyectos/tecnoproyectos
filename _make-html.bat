@@ -1,7 +1,9 @@
 @echo off
-set PATH=C:\Bin\miktex\texmfs\install\miktex\bin\x64;%PATH%
-set PATH=%~dp0\venv\Scripts;%PATH%
-call activate.bat
+rem MAKE HTML PAGES
+
+set PATH=%~dp0venv\Scripts;%PATH%
+call "%~dp0venv\Scripts\activate.bat"
+set PATH=C:\Bin\miktex\miktex\bin\x64;%PATH%
 
 sphinx-build -b html -D language="es" source build/html
 echo.

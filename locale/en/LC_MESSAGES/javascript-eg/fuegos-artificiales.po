@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-02 11:28+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/javascript-eg/fuegos-artificiales.rst:8
+msgid "Fuegos artificiales: mousePressed() y funciones auxiliares"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-artificiales.rst:14
+msgid ""
+"El programa del paso anterior funciona, pero ``draw()`` empieza a ser "
+"largo y difícil de leer: la lógica de crear chispas y la de moverlas "
+"están mezcladas en el mismo bloque. Antes de añadir más cohetes, vamos a "
+"**limpiar el código** extrayendo esa lógica a funciones auxiliares. Verás"
+" que un código más limpio es también más fácil de ampliar."
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-artificiales.rst:22
+msgid "Extraer funciones: explotar() y gestionarChispas()"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-artificiales.rst:24
+msgid ""
+"Creamos dos funciones auxiliares. Cada una recibe un cohete como "
+"parámetro (llamado ``c`` dentro de la función) y trabaja con sus "
+"propiedades:"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-artificiales.rst:35
+msgid ""
+"Localiza en el código que tenías antes de estas funciones y que ahora "
+"está dentro de ellas. Sustituye ese código por una llamada a la función "
+"correspondiente."
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-artificiales.rst:39
+msgid ""
+"Ahora ``draw()`` queda mucho más corto y legible: solo describe el flujo "
+"general, sin entrar en detalles."
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-artificiales.rst:44
+msgid "Varios cohetes con mousePressed()"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-artificiales.rst:46
+msgid ""
+"Con el código limpio, dar el salto a varios cohetes es sencillo. "
+"Cambiamos ``cohete`` por un array ``cohetes = []``. La función "
+"``mousePressed()`` añade un cohete nuevo en cada clic. ``draw()`` los "
+"gestiona todos con un bucle ``for``:"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-artificiales.rst:51
+msgid "Array de objetos frente a arrays paralelos"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-artificiales.rst:53
+msgid ""
+"En la práctica 2 teníamos ``px[]``, ``py[]``, ``pvx[]``, ``pvy[]`` y el "
+"índice ``i`` relacionaba los datos de la misma partícula. Aquí cada "
+"cohete lleva consigo todos sus datos agrupados: ``cohetes[i].x``, "
+"``cohetes[i].vy``, ``cohetes[i].chispas``... Al añadir una propiedad "
+"nueva — por ejemplo un tipo de explosión — solo hay que añadirla al "
+"objeto, sin crear un array paralelo nuevo."
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-artificiales.rst:62
+msgid "El setup y draw"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-artificiales.rst:70
+msgid "Fíjate en ==="
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-artificiales.rst:72
+msgid ""
+"``c.chispas.length === 0`` usa triple igual. En JavaScript ``===`` "
+"compara valor **y tipo** a la vez, mientras que ``==`` solo compara el "
+"valor y puede dar resultados inesperados. Es buena práctica usar siempre "
+"``===`` para comparar."
+msgstr ""
+

@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-02 11:28+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/javascript-eg/conectar-particulas.rst:8
+msgid "Conectamos partículas: dist() y for anidado"
+msgstr ""
+
+#: ../../source/javascript-eg/conectar-particulas.rst:13
+msgid ""
+"Las partículas ya se mueven y rebotan. Ahora vamos a dibujar una línea "
+"entre cada dos partículas que estén cerca. Para eso necesitamos dos "
+"cosas: la función ``dist()`` y un **bucle for dentro de otro bucle for**."
+msgstr ""
+
+#: ../../source/javascript-eg/conectar-particulas.rst:19
+msgid "dist(): la distancia entre dos puntos"
+msgstr ""
+
+#: ../../source/javascript-eg/conectar-particulas.rst:21
+msgid ""
+"``dist(x1, y1, x2, y2)`` es una función de p5.js que devuelve la "
+"distancia en píxeles entre los puntos (x1, y1) y (x2, y2). Calcula "
+"internamente lo mismo que el teorema de Pitágoras, pero sin que tengamos "
+"que escribirlo:"
+msgstr ""
+
+#: ../../source/javascript-eg/conectar-particulas.rst:32
+msgid "El for anidado: comparar cada partícula con todas las demás"
+msgstr ""
+
+#: ../../source/javascript-eg/conectar-particulas.rst:34
+msgid ""
+"Para comprobar si dos partículas están cerca necesitamos compararlas de "
+"dos en dos. Eso requiere un bucle dentro de otro: el exterior recorre la "
+"primera partícula (``i``), y el interior recorre la segunda (``j``). En "
+"lenguaje natural: «para cada partícula i, compruebo su distancia con cada"
+" partícula j»:"
+msgstr ""
+
+#: ../../source/javascript-eg/conectar-particulas.rst:46
+msgid ""
+"Este bloque va dentro de ``draw()``, después del bucle que mueve y dibuja"
+" las partículas."
+msgstr ""
+
+#: ../../source/javascript-eg/conectar-particulas.rst:50
+msgid "Vigila dónde declarar la variable dMin."
+msgstr ""
+
+#: ../../source/javascript-eg/conectar-particulas.rst:53
+msgid ""
+"Revisa no dibujar la línea entre una partícula y ella misma. Si ``i`` y "
+"``j`` son iguales, no dibujes nada. Para eso usamos un ``if``:"
+msgstr ""
+
+#: ../../source/javascript-eg/conectar-particulas.rst:66
+msgid "El programa completo"
+msgstr ""
+
+#: ../../source/javascript-eg/conectar-particulas.rst:73
+msgid "Nota de rendimiento"
+msgstr ""
+
+#: ../../source/javascript-eg/conectar-particulas.rst:75
+msgid ""
+"Con ``nb = 50`` partículas, el bucle anidado realiza 50 × 50 = 2.500 "
+"comparaciones por fotograma. Si aumentas ``nb`` a 200 o más y el programa"
+" va lento, reduce ``nb`` o ``dMin``."
+msgstr ""
+
+#: ../../source/javascript-eg/conectar-particulas.rst:79
+msgid "Experimenta"
+msgstr ""
+
+#: ../../source/javascript-eg/conectar-particulas.rst:81
+msgid ""
+"Prueba a cambiar ``dMin`` a 50 y luego a 200. ¿Qué efecto tiene sobre la "
+"red de conexiones?"
+msgstr ""
+

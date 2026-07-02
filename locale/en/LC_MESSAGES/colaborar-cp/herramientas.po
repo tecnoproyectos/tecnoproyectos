@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tecno Proyectos 2026\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"POT-Creation-Date: 2026-07-02 11:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -59,7 +59,7 @@ msgid "``sudo apt install python3``"
 msgstr ""
 
 #: ../../source/colaborar-cp/herramientas.rst:28
-#: ../../source/colaborar-cp/herramientas.rst:77
+#: ../../source/colaborar-cp/herramientas.rst:81
 msgid ""
 "**Sphinx**: generador de documentación que compila los ficheros fuente "
 "para convertirlos en html estático, epub o pdf."
@@ -70,7 +70,7 @@ msgid "``sudo apt install python3-sphinx``"
 msgstr ""
 
 #: ../../source/colaborar-cp/herramientas.rst:33
-#: ../../source/colaborar-cp/herramientas.rst:85
+#: ../../source/colaborar-cp/herramientas.rst:89
 msgid ""
 "**Furo**: es el tema de Sphinx. Sirve para definir el estilo de la página"
 " web (tipos de letra, tamaños, separaciones entre elementos, etc.)"
@@ -116,7 +116,7 @@ msgid "Herramientas en Windows"
 msgstr ""
 
 #: ../../source/colaborar-cp/herramientas.rst:60
-msgid "https://www.python.org/downloads/latest/python3.14/"
+msgid "https://www.python.org/ftp/python/3.14.6/python-3.14.6-amd64.exe"
 msgstr ""
 
 #: ../../source/colaborar-cp/herramientas.rst:62
@@ -132,58 +132,67 @@ msgid ""
 msgstr ""
 
 #: ../../source/colaborar-cp/herramientas.rst:69
-msgid "Comenzamos por borrar el directorio venv actual."
+msgid ""
+"A continuación ejecutamos las siguientes instrucciones desde la consola "
+"de comandos (ejecutando ``_bash.bat`` en el directorio del repositorio "
+"tecnoproyectos) para borrar el directorio ``venv`` actual y crear uno "
+"nuevo::"
 msgstr ""
 
-#: ../../source/colaborar-cp/herramientas.rst:71
-msgid "Ejecutamos las siguientes instrucciones desde la consola de comandos::"
-msgstr ""
-
-#: ../../source/colaborar-cp/herramientas.rst:80
-#: ../../source/colaborar-cp/herramientas.rst:88
+#: ../../source/colaborar-cp/herramientas.rst:84
+#: ../../source/colaborar-cp/herramientas.rst:92
 msgid "Abrimos la linea de comandos ejecutando ``_bash.bat`` y escribimos:"
 msgstr ""
 
-#: ../../source/colaborar-cp/herramientas.rst:82
+#: ../../source/colaborar-cp/herramientas.rst:86
 msgid "``python.exe -m pip install sphinx``"
 msgstr ""
 
-#: ../../source/colaborar-cp/herramientas.rst:90
+#: ../../source/colaborar-cp/herramientas.rst:94
 msgid "``python.exe -m pip install furo``"
 msgstr ""
 
-#: ../../source/colaborar-cp/herramientas.rst:93
+#: ../../source/colaborar-cp/herramientas.rst:97
 msgid ""
 "**MikTeX**: paquete del lenguaje LaTeX para generación de fórmulas con "
 "Sphinx."
 msgstr ""
 
-#: ../../source/colaborar-cp/herramientas.rst:96
+#: ../../source/colaborar-cp/herramientas.rst:100
 msgid ""
 "Descarga el archivo de instalación para Windows: `miktex.org/download "
 "<https://miktex.org/download>`__"
 msgstr ""
 
-#: ../../source/colaborar-cp/herramientas.rst:99
+#: ../../source/colaborar-cp/herramientas.rst:103
 msgid "Renombra el archivo de instalación a miktex-portable.exe"
 msgstr ""
 
-#: ../../source/colaborar-cp/herramientas.rst:101
+#: ../../source/colaborar-cp/herramientas.rst:105
 msgid "Instala MikTeX en el directorio ``c:/bin/miktex``"
 msgstr ""
 
-#: ../../source/colaborar-cp/herramientas.rst:105
+#: ../../source/colaborar-cp/herramientas.rst:109
 msgid "Compilando el proyecto"
 msgstr ""
 
-#: ../../source/colaborar-cp/herramientas.rst:106
+#: ../../source/colaborar-cp/herramientas.rst:110
 msgid ""
 "Para compilar el proyecto y obtener los archivos html estáticos que "
 "forman la página web es necesario ir al directorio del proyecto abrir la "
 "linea de comandos (ejecutando ``_bash.bat`` en Windows) y escribir:"
 msgstr ""
 
-#: ../../source/colaborar-cp/herramientas.rst:111
+#: ../../source/colaborar-cp/herramientas.rst:115
 msgid "``make html``"
 msgstr ""
+
+#~ msgid "https://www.python.org/downloads/latest/python3.14/"
+#~ msgstr ""
+
+#~ msgid "Comenzamos por borrar el directorio venv actual."
+#~ msgstr ""
+
+#~ msgid "Ejecutamos las siguientes instrucciones desde la consola de comandos::"
+#~ msgstr ""
 

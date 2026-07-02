@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tecno Proyectos 2026\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"POT-Creation-Date: 2026-07-02 11:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -21,94 +21,97 @@ msgstr ""
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../source/javascript-eg/primeras-formas.rst:8
-msgid "Primeras formas"
+msgid "Formas en 2D"
 msgstr ""
 
-#: ../../source/javascript-eg/primeras-formas.rst:11
+#: ../../source/javascript-eg/primeras-formas.rst:14
 msgid "El sistema de coordenadas"
 msgstr ""
 
-#: ../../source/javascript-eg/primeras-formas.rst:12
+#: ../../source/javascript-eg/primeras-formas.rst:15
 msgid ""
 "En p5.js el punto (0, 0) está en la esquina superior izquierda del "
 "lienzo. El eje X crece hacia la derecha y el eje Y crece hacia abajo (al "
 "contrario que en matemáticas)."
 msgstr ""
 
-#: ../../source/javascript-eg/primeras-formas.rst:20
+#: ../../source/javascript-eg/primeras-formas.rst:23
 msgid "Las funciones principales para dibujar formas son:"
 msgstr ""
 
-#: ../../source/javascript-eg/primeras-formas.rst:22
+#: ../../source/javascript-eg/primeras-formas.rst:25
 msgid "``ellipse(x, y, ancho, alto)`` — dibuja una elipse centrada en (x, y)"
 msgstr ""
 
-#: ../../source/javascript-eg/primeras-formas.rst:23
+#: ../../source/javascript-eg/primeras-formas.rst:26
 msgid ""
 "``rect(x, y, ancho, alto)`` — dibuja un rectángulo desde la esquina "
 "superior izquierda (x, y)"
 msgstr ""
 
-#: ../../source/javascript-eg/primeras-formas.rst:25
+#: ../../source/javascript-eg/primeras-formas.rst:28
 msgid "``circle(x, y, diametro)`` — dibuja un círculo centrado en (x, y)"
 msgstr ""
 
-#: ../../source/javascript-eg/primeras-formas.rst:27
+#: ../../source/javascript-eg/primeras-formas.rst:30
 msgid "Las funciones principales para aplicar color a las formas son:"
 msgstr ""
 
-#: ../../source/javascript-eg/primeras-formas.rst:29
+#: ../../source/javascript-eg/primeras-formas.rst:32
 msgid "``fill(r, g, b)`` — establece el color de relleno en RGB antes de dibujar"
 msgstr ""
 
-#: ../../source/javascript-eg/primeras-formas.rst:30
+#: ../../source/javascript-eg/primeras-formas.rst:33
 msgid "``noFill()`` - elimina el relleno de las formas"
 msgstr ""
 
-#: ../../source/javascript-eg/primeras-formas.rst:31
+#: ../../source/javascript-eg/primeras-formas.rst:34
 msgid "``stroke(r, g, b)`` — establece el color del borde"
 msgstr ""
 
-#: ../../source/javascript-eg/primeras-formas.rst:32
+#: ../../source/javascript-eg/primeras-formas.rst:35
 msgid "``noStroke()`` — elimina el borde de las formas"
 msgstr ""
 
-#: ../../source/javascript-eg/primeras-formas.rst:37
+#: ../../source/javascript-eg/primeras-formas.rst:40
 msgid "Añadir una forma estática"
 msgstr ""
 
-#: ../../source/javascript-eg/primeras-formas.rst:39
+#: ../../source/javascript-eg/primeras-formas.rst:42
 msgid "Añade esto dentro de ``draw()``, después de ``background()``:"
 msgstr ""
 
-#: ../../source/javascript-eg/primeras-formas.rst:55
+#: ../../source/javascript-eg/primeras-formas.rst:47
 msgid ""
 "Cambia los tres números de ``fill()`` para explorar distintos colores. "
 "Cada número va de 0 a 255 y representa Rojo, Verde y Azul "
 "respectivamente."
 msgstr ""
 
-#: ../../source/javascript-eg/primeras-formas.rst:59
+#: ../../source/javascript-eg/primeras-formas.rst:51
 msgid "Truco para encontrar colores RGB"
 msgstr ""
 
-#: ../../source/javascript-eg/primeras-formas.rst:61
+#: ../../source/javascript-eg/primeras-formas.rst:53
 msgid ""
 "Busca «selector de color RGB» en Google. Verás una rueda de colores con "
 "los valores R, G, B correspondientes que puedes copiar directamente a tu "
 "código."
 msgstr ""
 
-#: ../../source/javascript-eg/primeras-formas.rst:65
+#: ../../source/javascript-eg/primeras-formas.rst:57
 msgid ""
 "El editor p5.js también interpreta colores por su nombre en inglés. Por "
 "ejemplo::"
 msgstr ""
 
-#: ../../source/javascript-eg/primeras-formas.rst:70
+#: ../../source/javascript-eg/primeras-formas.rst:62
 msgid ""
 "Puedes ver la lista de nombres en: `https://htmlcolorcodes.com/es"
 "/nombres-de-los-colores/ <https://htmlcolorcodes.com/es/nombres-de-los-"
 "colores/>`_"
 msgstr ""
+
+#~ msgid "Primeras formas"
+#~ msgstr ""
 

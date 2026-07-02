@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tecno Proyectos 2026\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"POT-Creation-Date: 2026-07-02 11:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -21,52 +21,55 @@ msgstr ""
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../source/javascript-eg/raton-entrada.rst:8
-msgid "El ratón como entrada"
+msgid "Interacción: mouseX y mouseY"
 msgstr ""
 
-#: ../../source/javascript-eg/raton-entrada.rst:11
+#: ../../source/javascript-eg/raton-entrada.rst:14
 msgid "Variables del sistema"
 msgstr ""
 
-#: ../../source/javascript-eg/raton-entrada.rst:12
+#: ../../source/javascript-eg/raton-entrada.rst:15
 msgid ""
 "p5.js actualiza automáticamente dos variables especiales en cada "
 "fotograma:"
 msgstr ""
 
-#: ../../source/javascript-eg/raton-entrada.rst:14
+#: ../../source/javascript-eg/raton-entrada.rst:17
 msgid ""
 "``mouseX`` — contiene la posición horizontal del ratón en el lienzo (en "
 "píxeles)"
 msgstr ""
 
-#: ../../source/javascript-eg/raton-entrada.rst:16
+#: ../../source/javascript-eg/raton-entrada.rst:19
 msgid ""
 "``mouseY`` — contiene la posición vertical del ratón en el lienzo (en "
 "píxeles)"
 msgstr ""
 
-#: ../../source/javascript-eg/raton-entrada.rst:19
+#: ../../source/javascript-eg/raton-entrada.rst:22
 msgid ""
 "Puedes usar estas variables en cualquier parte de ``draw()``. Como "
 "``draw()`` se ejecuta continuamente, el valor cambia con el ratón y el "
 "resultado se actualiza en tiempo real."
 msgstr ""
 
-#: ../../source/javascript-eg/raton-entrada.rst:25
+#: ../../source/javascript-eg/raton-entrada.rst:28
 msgid "Haz que la forma siga al ratón"
 msgstr ""
 
-#: ../../source/javascript-eg/raton-entrada.rst:27
+#: ../../source/javascript-eg/raton-entrada.rst:30
 msgid ""
 "Sustituye las coordenadas fijas de ``ellipse()`` por ``mouseX`` y "
 "``mouseY``:"
 msgstr ""
 
-#: ../../source/javascript-eg/raton-entrada.rst:44
+#: ../../source/javascript-eg/raton-entrada.rst:47
 msgid ""
 "Mueve el ratón por el lienzo. El círculo te sigue. Esto ocurre porque "
 "``draw()`` redibuja el lienzo 60 veces por segundo usando el valor "
 "actualizado de ``mouseX`` y ``mouseY``."
 msgstr ""
+
+#~ msgid "El ratón como entrada"
+#~ msgstr ""
 

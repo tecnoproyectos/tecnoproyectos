@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-02 11:28+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:8
+msgid "Hazlo tuyo: fuegos artificiales"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:14
+msgid ""
+"El programa está completo. Ahora es tu turno de tomar decisiones para "
+"diferenciarlo. Ordena las ideas de menor a mayor dificultad."
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:19
+msgid "Color"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:21
+msgid ""
+"El código ya usa ``colorMode(HSB)``. Experimenta con los valores de "
+"saturación y brillo de cada chispa para conseguir efectos distintos: "
+"chispas pálidas (baja saturación) o muy brillantes (brillo 100)."
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:25
+msgid ""
+"Haz que las chispas cambien de tono según su vida, usando ``map()`` como "
+"viste en la práctica 1 `Color que cambia con el ratón <cambio-color>`_:"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:36
+msgid "Comportamiento"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:38
+msgid ""
+"Cambia el fondo de ``background(0, 0, 0, 40)`` a ``background(240, 30, "
+"10, 40)`` para un cielo oscuro con toque azulado."
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:41
+msgid ""
+"Haz que la potencia del cohete dependa de la posición vertical del clic: "
+"cuanto más abajo hagas clic, más sube el cohete:"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:48
+msgid ""
+"Lanza un cohete automáticamente cada 90 fotogramas, además de los cohetes"
+" manuales. Puedes usar ``frameCount`` como viste en la `Entrega y reto "
+"extra de la práctica 1 <entrega>`_ de la práctica 1:"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:69
+msgid "Ampliación"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:71
+msgid ""
+"Añade una propiedad ``tipo`` a cada cohete (``\"estrella\"`` o "
+"``\"cascada\"``) y cambia la distribución de velocidades de las chispas "
+"según el tipo. En ``\"cascada\"`` las chispas tienen ``vy`` siempre "
+"positiva, de modo que caen hacia abajo desde el punto de explosión:"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:83
+msgid "Entrega"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:85
+msgid "Cuando tu composición esté terminada:"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:87
+msgid ""
+"Guarda el proyecto en el editor de p5.js (necesitas cuenta para guardarlo"
+" online)."
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:89
+msgid "Copia el enlace del proyecto (botón Share en el editor)."
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:90
+msgid "Entrega el enlace respondiendo a las preguntas de la ficha:"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:96
+msgid "Título de tu composición"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:98
+msgid "¿Qué diferencia notaste al usar un objeto en lugar de variables sueltas?"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:100
+msgid "¿Qué variación añadiste en \"Hazlo tuyo\"?"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:102
+msgid "¿Qué fue lo más difícil de esta práctica?"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:104
+msgid "¿Qué añadirías si tuvieras más tiempo?"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:109
+msgid "Resumen de lo aprendido en esta práctica"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:115
+msgid "Elemento"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:116
+msgid "Para qué sirve"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:117
+#, python-brace-format
+msgid "``{ }``"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:118
+msgid "Agrupa propiedades relacionadas en un objeto literal."
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:119
+msgid "``objeto.propiedad``"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:120
+msgid "Accede o modifica una propiedad con notación de punto."
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:121
+#, python-brace-format
+msgid "``array.push({ })``"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:122
+msgid "Añade un objeto nuevo al final del array."
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:123
+msgid "``array.splice(i, 1)``"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:124
+msgid "Elimina el elemento en la posición ``i`` del array."
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:125
+msgid "``vida`` / alfa"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:126
+msgid "Hace las chispas más transparentes conforme se apagan."
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:127
+msgid "``explotado``"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:128
+msgid "Booleano que actúa como interruptor de un solo uso en ``draw()``."
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:129
+msgid "``mousePressed()``"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:130
+msgid "Se ejecuta cada vez que se hace clic; aquí lanza un cohete nuevo."
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:131
+msgid "Bucle al revés"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:132
+msgid ""
+"Recorrer el array de ``length-1`` a ``0`` permite borrar elementos sin "
+"saltarse ninguno."
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:134
+msgid "Función auxiliar"
+msgstr ""
+
+#: ../../source/javascript-eg/fuegos-entrega.rst:135
+msgid ""
+"Extraer lógica repetida a una función hace ``draw()`` más corto y el "
+"código más fácil de ampliar."
+msgstr ""
+

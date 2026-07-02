@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tecno Proyectos 2026\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"POT-Creation-Date: 2026-07-02 11:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -20,30 +20,64 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../source/javascript-eg/index.rst:16
+#: ../../source/javascript-eg/index.rst:15
 msgid "Prácticas con p5.js"
 msgstr ""
 
-#: ../../source/javascript-eg/index.rst:9
+#: ../../source/javascript-eg/index.rst:8
 msgid "JavaScript con p5.js"
 msgstr ""
 
 #: ../../source/javascript-eg/index.rst:10
 msgid ""
-"La librería p5.js es un conjunto de funciones para el lenguaje JavaScript"
-" pensada para crear arte generativo e interactivo en el navegador web. En"
-" este proyecto encontrarás una serie de prácticas guiadas, paso a paso, "
-"para aprender a programar con p5.js creando composiciones visuales que "
-"reaccionan al ratón y al teclado."
+"p5.js es una librería de JavaScript pensada para crear arte generativo e "
+"interactivo en el navegador. En este proyecto encontrarás una serie de "
+"prácticas guiadas, paso a paso, para aprender a programar con p5.js "
+"creando composiciones visuales que reaccionan al ratón y al teclado."
 msgstr ""
 
-#: ../../source/javascript-eg/index.rst:31
+#: ../../source/javascript-eg/index.rst:39
 msgid ""
-":download:`Práctica JavaScript p5.js - Lienzo interactivo. Formato PDF. "
-"<javascript-eg-practica-01.pdf>`"
+":download:`Práctica 1 — Lienzo interactivo (PDF) <javascript-eg-"
+"practica-01.pdf>`"
 msgstr ""
 
-#: ../../source/javascript-eg/index.rst:35
-msgid "Esta guía de p5.js ha sido creada por Esther Gordo."
+#: ../../source/javascript-eg/index.rst:41
+msgid ""
+":download:`Práctica 2 — Partículas conectadas (PDF) <javascript-eg-"
+"practica-02.pdf>`"
 msgstr ""
+
+#: ../../source/javascript-eg/index.rst:43
+msgid ""
+":download:`Práctica 3 — Fuegos artificiales (PDF) <javascript-eg-"
+"practica-03.pdf>`"
+msgstr ""
+
+#: ../../source/javascript-eg/index.rst:46
+msgid ""
+"Este material ha sido creado por Esther Gordo. Licencia Creative Commons "
+"Attribution-ShareAlike 4.0 International."
+msgstr ""
+
+#~ msgid ""
+#~ "La librería p5.js es un conjunto "
+#~ "de funciones para el lenguaje JavaScript"
+#~ " pensada para crear arte generativo e"
+#~ " interactivo en el navegador web. En"
+#~ " este proyecto encontrarás una serie "
+#~ "de prácticas guiadas, paso a paso, "
+#~ "para aprender a programar con p5.js "
+#~ "creando composiciones visuales que reaccionan"
+#~ " al ratón y al teclado."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":download:`Práctica JavaScript p5.js - Lienzo"
+#~ " interactivo. Formato PDF. <javascript-"
+#~ "eg-practica-01.pdf>`"
+#~ msgstr ""
+
+#~ msgid "Esta guía de p5.js ha sido creada por Esther Gordo."
+#~ msgstr ""
 

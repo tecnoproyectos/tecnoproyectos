@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-02 11:28+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/javascript-eg/explosion-destello.rst:8
+msgid "Explosión en destello: variable booleana"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-destello.rst:14
+msgid ""
+"Cuando el cohete alcanza su punto más alto (``vy > 0``, es decir, empieza"
+" a caer), queremos que explote. La primera versión es un destello simple:"
+" un círculo que crece rápidamente en el punto de explosión."
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-destello.rst:19
+msgid "Dos propiedades nuevas en el objeto"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-destello.rst:21
+msgid "Añadimos al objeto ``cohete`` dos propiedades nuevas:"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-destello.rst:23
+msgid ""
+"``explotado`` — booleano que indica si el cohete ya ha llegado al punto "
+"más alto. Empieza en ``false`` (es decir, no ha explotado) y se pone a "
+"``true`` cuando ``vy > 0``."
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-destello.rst:26
+msgid ""
+"``radioDest`` — radio del círculo de destello. Empieza en ``0`` y crece "
+"cada fotograma tras la explosión."
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-destello.rst:35
+msgid "¿Por qué necesitamos un booleano?"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-destello.rst:37
+msgid ""
+"``draw()`` se ejecuta decenas de veces por segundo. Sin "
+"``cohete.explotado``, el programa detectaría ``vy > 0`` en cada fotograma"
+" y intentaría explotar continuamente. El booleano actúa como interruptor:"
+" una vez puesto a ``true``, la explosión solo ocurre una vez."
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-destello.rst:45
+msgid "La lógica de explosión en draw()"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-destello.rst:47
+msgid ""
+"En ``draw()``, después de mover el cohete, comprobamos si ha llegado al "
+"punto más alto. Si es así, marcamos ``explotado = true``. Luego dibujamos"
+" el cohete o el destello según el estado:"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-destello.rst:51
+msgid "Mover el cohete solo si no ha explotado:"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-destello.rst:59
+msgid "Dibujar cohete o destello según el estado:"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-destello.rst:66
+msgid "Experimenta"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-destello.rst:68
+msgid ""
+"Cambia el incremento de ``radioDest`` (ahora ``4``) a ``8`` o a ``2``. "
+"¿Cómo afecta a la velocidad de expansión?"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-destello.rst:71
+msgid ""
+"Añade una condición para que el destello desaparezca cuando ``radioDest``"
+" supere 80 y el cohete se reinicie:"
+msgstr ""
+

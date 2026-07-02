@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Equipo de Tecno Proyectos
+# This file is distributed under the same license as the Tecno Proyectos
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tecno Proyectos 2026\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-02 11:28+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/javascript-eg/explosion-chispas.rst:8
+msgid "Explosión con chispas: push() y splice()"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-chispas.rst:14
+msgid ""
+"El destello del paso anterior es sencillo pero poco realista. Ahora vamos"
+" a crear una **lluvia de chispas**: cuando el cohete explote, que se "
+"generen 60 puntos que salgan disparados en todas direcciones, que caigan "
+"por la gravedad y se desvanezcan poco a poco hasta desaparecer."
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-chispas.rst:19
+msgid ""
+"Para ello necesitamos dos herramientas nuevas: ``push()`` para añadir "
+"elementos a un array, y ``splice()`` para eliminarlos."
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-chispas.rst:23
+msgid "Un array de chispas dentro del objeto cohete"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-chispas.rst:25
+msgid ""
+"Añadimos una propiedad nueva al objeto: ``cohete.chispas``, que es un "
+"array vacío. Cada chispa será a su vez un objeto con posición, velocidad "
+"y vida:"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-chispas.rst:44
+msgid "Crear las chispas con push()"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-chispas.rst:46
+msgid ""
+"Cuando el cohete alcanza su punto más alto, llenamos el array de chispas "
+"con ``push()``. Cada llamada a ``push()`` añade un elemento al final del "
+"array. Las 60 chispas se crean de golpe en un bucle ``for``:"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-chispas.rst:56
+msgid "Compara el *for* del bloque de código anterior con este:"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-chispas.rst:63
+msgid ""
+"¿Son iguales? ¿Qué diferencias ves? ¿Cuál te parece más claro y fácil de "
+"entender?"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-chispas.rst:67
+msgid "Mover y borrar chispas con splice()"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-chispas.rst:69
+msgid ""
+"En cada fotograma movemos todas las chispas, reducimos su ``vida`` y las "
+"dibujamos. Cuando ``vida`` llega a 0 las eliminamos del array con "
+"``splice()``."
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-chispas.rst:73
+msgid ""
+"El bucle recorre el array **al revés** (de ``length - 1`` hasta ``0``) "
+"para que al eliminar una chispa no se salten las siguientes:"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-chispas.rst:82
+msgid "¿Por qué al revés?"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-chispas.rst:84
+msgid ""
+"Si recorriéramos el *array* de 0 hacia adelante y elimináramos el "
+"elemento ``i``, el siguiente elemento pasaría a ocupar la posición ``i`` "
+"y el bucle lo saltaría. Recorriendo al revés, los índices que aún no "
+"hemos visitado no cambian al eliminar uno."
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-chispas.rst:90
+msgid ""
+"*splice()* recibe dos parámetros: el índice del elemento a eliminar y el "
+"número de elementos a eliminar. En nuestro caso, siempre eliminamos un "
+"solo elemento, así que el segundo parámetro es ``1``."
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-chispas.rst:95
+msgid ""
+"La función *pop()* también elimina elementos de un array, pero solo el "
+"último."
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-chispas.rst:100
+msgid "El programa completo con un cohete y chispas"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-chispas.rst:108
+msgid "Experimenta"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-chispas.rst:110
+msgid ""
+"Cambia el número de chispas de ``60`` a ``120``. ¿Qué efecto tiene? "
+"Prueba también a cambiar ``ch.vida -= 4`` a ``ch.vida -= 8``: ¿las "
+"chispas duran más o menos?"
+msgstr ""
+
+#: ../../source/javascript-eg/explosion-chispas.rst:114
+msgid ""
+"Prueba a cambiar el modo de color de RGB a HSB, necesitarías una nueva "
+"variable para variar el tono de las chispas. ¿Podrías hacer que cada "
+"chispa tenga un color distinto?"
+msgstr ""
+

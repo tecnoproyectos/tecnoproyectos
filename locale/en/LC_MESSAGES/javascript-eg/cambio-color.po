@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tecno Proyectos 2026\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-30 18:12+0200\n"
+"POT-Creation-Date: 2026-07-02 11:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -21,14 +21,14 @@ msgstr ""
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../source/javascript-eg/cambio-color.rst:8
-msgid "Color que cambia con el ratón"
+msgid "Modos de color: RGB y HSB"
 msgstr ""
 
-#: ../../source/javascript-eg/cambio-color.rst:11
+#: ../../source/javascript-eg/cambio-color.rst:14
 msgid "Color dinámico con map()"
 msgstr ""
 
-#: ../../source/javascript-eg/cambio-color.rst:12
+#: ../../source/javascript-eg/cambio-color.rst:15
 msgid ""
 "Igual que hemos traducido la posición del ratón al tamaño de una forma, "
 "podemos traducirla a los valores de un color. Si usamos ``mouseX`` para "
@@ -36,49 +36,52 @@ msgid ""
 " movemos el ratón."
 msgstr ""
 
-#: ../../source/javascript-eg/cambio-color.rst:17
+#: ../../source/javascript-eg/cambio-color.rst:20
 msgid ""
 "Hay dos formas habituales de manejar el color en p5.js. Te presentamos "
 "las dos para que elijas la que te resulte más intuitiva."
 msgstr ""
 
-#: ../../source/javascript-eg/cambio-color.rst:22
+#: ../../source/javascript-eg/cambio-color.rst:25
 msgid "Opción 1: modo RGB (Rojo, Verde, Azul)"
 msgstr ""
 
-#: ../../source/javascript-eg/cambio-color.rst:24
+#: ../../source/javascript-eg/cambio-color.rst:27
 msgid "Es el modo por defecto. Cada canal va de 0 a 255:"
 msgstr ""
 
-#: ../../source/javascript-eg/cambio-color.rst:37
+#: ../../source/javascript-eg/cambio-color.rst:40
 msgid "Opción 2: modo HSB (Tono, Saturación, Brillo)"
 msgstr ""
 
-#: ../../source/javascript-eg/cambio-color.rst:39
+#: ../../source/javascript-eg/cambio-color.rst:42
 msgid ""
 "HSB es más intuitivo para crear degradados de color. El tono (hue) va de "
 "0 a 360 y recorre el arco iris. Para usarlo hay que activarlo con "
 "``colorMode()`` en ``setup()``:"
 msgstr ""
 
-#: ../../source/javascript-eg/cambio-color.rst:61
+#: ../../source/javascript-eg/cambio-color.rst:64
 msgid ""
 "Prueba ambas opciones y quédate con la que más te guste. No hay una "
 "respuesta correcta."
 msgstr ""
 
-#: ../../source/javascript-eg/cambio-color.rst:65
+#: ../../source/javascript-eg/cambio-color.rst:68
 msgid "colorMode()"
 msgstr ""
 
-#: ../../source/javascript-eg/cambio-color.rst:67
+#: ../../source/javascript-eg/cambio-color.rst:70
 msgid ""
 "Los posibles parámetros de ``colorMode()``, y de cualquier otra función "
 "de p5.js, están ampliamente descritos en la `documentación oficial de "
 "p5.js <https://p5js.org/reference/>`__."
 msgstr ""
 
-#: ../../source/javascript-eg/cambio-color.rst:71
+#: ../../source/javascript-eg/cambio-color.rst:74
 msgid "Es buena práctica recurrir a ella siempre que quieras aprender más."
 msgstr ""
+
+#~ msgid "Color que cambia con el ratón"
+#~ msgstr ""
 
