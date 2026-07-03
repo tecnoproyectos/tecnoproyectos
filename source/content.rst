@@ -24,7 +24,8 @@ Colección de proyectos de Tecnología para el aula de Secundaria.
 
    colaborar-cp/index
    
-   Test de Tecnología <https://tecnoproyectos.github.io/test/>
-   
+   pau-cp/index 
    enlaces-cp/index
 
+
+   Test de Tecnología <https://tecnoproyectos.github.io/test/>
