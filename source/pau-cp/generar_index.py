@@ -59,9 +59,9 @@ materias = [
 
 
 tipo_examenes = [
+    ['ordinaria', 'Ordinaria'],
     ['extra', 'Extraordinaria'],
     ['modelo', 'Modelo'],
-    ['ordinaria', 'Ordinaria'],
     ['coincide', 'Coincidentes'],
     ['solucion', 'Soluciones'],
     ]

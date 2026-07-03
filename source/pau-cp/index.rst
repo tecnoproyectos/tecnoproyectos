@@ -78,26 +78,50 @@ de Bachillerato relacionadas con Tecnología.
      - 2023-24
      - `Tecnología e Ingeniería II - Titular B.pdf
        </static/pau/pau-andalucia-tein-2324-titular-b.pdf>`__
+   * - Castilla y León
+     - 2025-26
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-castillayleon-tein-2526-ordinaria.pdf>`__
+   * - Castilla y León
+     - 2024-25
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-castillayleon-tein-2425-extra.pdf>`__
+   * - Castilla y León
+     - 2024-25
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-castillayleon-tein-2425-ordinaria.pdf>`__
+   * - Castilla y León
+     - 2023-24
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-castillayleon-tein-2324-extra.pdf>`__
+   * - Castilla y León
+     - 2023-24
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-castillayleon-tein-2324-ordinaria.pdf>`__
    * - Madrid
      - 2025-26
      - `Tecnología e Ingeniería II - Modelo
        </static/pau/pau-madrid-tein-2526-modelo.pdf>`__
    * - Madrid
      - 2024-25
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-madrid-tein-2425-extra.pdf>`__
+   * - Madrid
+     - 2024-25
+     - `Tecnología e Ingeniería II - Extraordinaria Coincidentes
+       </static/pau/pau-madrid-tein-2425-extra-coincide.pdf>`__
+   * - Madrid
+     - 2024-25
      - `Tecnología e Ingeniería II - Modelo
        </static/pau/pau-madrid-tein-2425-modelo.pdf>`__
    * - Madrid
      - 2024-25
-     - `Tecnología e Ingeniería II - Ordinaria
-       </static/pau/pau-madrid-tein-2425-extra.pdf>`__
-   * - Madrid
-     - 2024-25
-     - `Tecnología e Ingeniería II - Ordinaria Coincidentes
-       </static/pau/pau-madrid-tein-2425-extra-coincide.pdf>`__
-   * - Madrid
-     - 2024-25
      - `Tecnología e Ingeniería II - Ordinaria Soluciones
        </static/pau/pau-madrid-tein-2425-ordinaria-solucion.pdf>`__
+   * - Madrid
+     - 2023-24
+     - `Tecnología e Ingeniería II - Extraordinaria Soluciones
+       </static/pau/pau-madrid-tein-2324-extra-solucion.pdf>`__
    * - Madrid
      - 2023-24
      - `Tecnología e Ingeniería II - Modelo
@@ -106,10 +130,6 @@ de Bachillerato relacionadas con Tecnología.
      - 2023-24
      - `Tecnología e Ingeniería II - Ordinaria Coincidentes Soluciones
        </static/pau/pau-madrid-tein-2324-ordinaria-coincide-solucion.pdf>`__
-   * - Madrid
-     - 2023-24
-     - `Tecnología e Ingeniería II - Ordinaria Soluciones
-       </static/pau/pau-madrid-tein-2324-extra-solucion.pdf>`__
    * - Madrid
      - 2023-24
      - `Tecnología e Ingeniería II - Ordinaria Soluciones
