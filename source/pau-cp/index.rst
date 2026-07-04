@@ -78,26 +78,182 @@ de Bachillerato relacionadas con Tecnología.
      - 2023-24
      - `Tecnología e Ingeniería II - Titular B.pdf
        </static/pau/pau-andalucia-tein-2324-titular-b.pdf>`__
+   * - Aragón
+     - 2025-26
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-aragon-tein-2526-ordinaria.pdf>`__
+   * - Aragón
+     - 2024-25
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-aragon-tein-2425-extra.pdf>`__
+   * - Aragón
+     - 2024-25
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-aragon-tein-2425-ordinaria.pdf>`__
+   * - Aragón
+     - 2023-24
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-aragon-tein-2324-extra.pdf>`__
+   * - Aragón
+     - 2023-24
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-aragon-tein-2324-ordinaria.pdf>`__
+   * - Asturias
+     - 2024-25
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-asturias-tein-2425-extra.pdf>`__
+   * - Asturias
+     - 2024-25
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-asturias-tein-2425-ordinaria.pdf>`__
+   * - Asturias
+     - 2023-24
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-asturias-tein-2324-extra.pdf>`__
+   * - Asturias
+     - 2023-24
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-asturias-tein-2324-ordinaria.pdf>`__
+   * - Canarias
+     - 2025-26
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-canarias-tein-2526-ordinaria.pdf>`__
+   * - Canarias
+     - 2024-25
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-canarias-tein-2425-extra.pdf>`__
+   * - Canarias
+     - 2024-25
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-canarias-tein-2425-ordinaria.pdf>`__
+   * - Canarias
+     - 2023-24
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-canarias-tein-2324-extra.pdf>`__
+   * - Canarias
+     - 2023-24
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-canarias-tein-2324-ordinaria.pdf>`__
+   * - Cantabria
+     - 2024-25
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-cantabria-tein-2425-extra.pdf>`__
+   * - Cantabria
+     - 2024-25
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-cantabria-tein-2425-ordinaria.pdf>`__
+   * - Cantabria
+     - 2023-24
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-cantabria-tein-2324-extra.pdf>`__
+   * - Cantabria
+     - 2023-24
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-cantabria-tein-2324-ordinaria.pdf>`__
+   * - Castilla la Mancha
+     - 2025-26
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-clm-tein-2526-ordinaria.pdf>`__
+   * - Castilla la Mancha
+     - 2024-25
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-clm-tein-2425-extra.pdf>`__
+   * - Castilla la Mancha
+     - 2024-25
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-clm-tein-2425-ordinaria.pdf>`__
+   * - Castilla la Mancha
+     - 2023-24
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-clm-tein-2324-extra.pdf>`__
+   * - Castilla la Mancha
+     - 2023-24
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-clm-tein-2324-ordinaria.pdf>`__
    * - Castilla y León
      - 2025-26
      - `Tecnología e Ingeniería II - Ordinaria
-       </static/pau/pau-castillayleon-tein-2526-ordinaria.pdf>`__
+       </static/pau/pau-cyl-tein-2526-ordinaria.pdf>`__
    * - Castilla y León
      - 2024-25
      - `Tecnología e Ingeniería II - Extraordinaria
-       </static/pau/pau-castillayleon-tein-2425-extra.pdf>`__
+       </static/pau/pau-cyl-tein-2425-extra.pdf>`__
    * - Castilla y León
      - 2024-25
      - `Tecnología e Ingeniería II - Ordinaria
-       </static/pau/pau-castillayleon-tein-2425-ordinaria.pdf>`__
+       </static/pau/pau-cyl-tein-2425-ordinaria.pdf>`__
    * - Castilla y León
      - 2023-24
      - `Tecnología e Ingeniería II - Extraordinaria
-       </static/pau/pau-castillayleon-tein-2324-extra.pdf>`__
+       </static/pau/pau-cyl-tein-2324-extra.pdf>`__
    * - Castilla y León
      - 2023-24
      - `Tecnología e Ingeniería II - Ordinaria
-       </static/pau/pau-castillayleon-tein-2324-ordinaria.pdf>`__
+       </static/pau/pau-cyl-tein-2324-ordinaria.pdf>`__
+   * - Cataluña
+     - 2024-25
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-catalunya-tein-2425-extra.pdf>`__
+   * - Cataluña
+     - 2024-25
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-catalunya-tein-2425-ordinaria.pdf>`__
+   * - Cataluña
+     - 2023-24
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-catalunya-tein-2324-extra.pdf>`__
+   * - Cataluña
+     - 2023-24
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-catalunya-tein-2324-ordinaria.pdf>`__
+   * - Comunidad Valenciana
+     - 2025-26
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-valencia-tein-2526-ordinaria.pdf>`__
+   * - Comunidad Valenciana
+     - 2024-25
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-valencia-tein-2425-extra.pdf>`__
+   * - Comunidad Valenciana
+     - 2023-24
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-valencia-tein-2324-extra.pdf>`__
+   * - Comunidad Valenciana
+     - 2023-24
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-valencia-tein-2324-ordinaria.pdf>`__
+   * - Extremadura
+     - 2024-25
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-extremadura-tein-2425-extra.pdf>`__
+   * - Extremadura
+     - 2024-25
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-extremadura-tein-2425-ordinaria.pdf>`__
+   * - Extremadura
+     - 2023-24
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-extremadura-tein-2324-extra.pdf>`__
+   * - Extremadura
+     - 2023-24
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-extremadura-tein-2324-ordinaria.pdf>`__
+   * - Galicia
+     - 2024-25
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-galicia-tein-2425-extra.pdf>`__
+   * - Galicia
+     - 2024-25
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-galicia-tein-2425-ordinaria.pdf>`__
+   * - Galicia
+     - 2023-24
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-galicia-tein-2324-extra.pdf>`__
+   * - Galicia
+     - 2023-24
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-galicia-tein-2324-ordinaria.pdf>`__
    * - Madrid
      - 2025-26
      - `Tecnología e Ingeniería II - Modelo
@@ -134,3 +290,55 @@ de Bachillerato relacionadas con Tecnología.
      - 2023-24
      - `Tecnología e Ingeniería II - Ordinaria Soluciones
        </static/pau/pau-madrid-tein-2324-ordinaria-solucion.pdf>`__
+   * - Murcia
+     - 2025-26
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-murcia-tein-2526-ordinaria.pdf>`__
+   * - Murcia
+     - 2024-25
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-murcia-tein-2425-extra.pdf>`__
+   * - Murcia
+     - 2024-25
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-murcia-tein-2425-ordinaria.pdf>`__
+   * - Murcia
+     - 2023-24
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-murcia-tein-2324-extra.pdf>`__
+   * - Murcia
+     - 2023-24
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-murcia-tein-2324-ordinaria.pdf>`__
+   * - Navarra
+     - 2024-25
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-navarra-tein-2425-extra.pdf>`__
+   * - Navarra
+     - 2024-25
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-navarra-tein-2425-ordinaria.pdf>`__
+   * - Navarra
+     - 2023-24
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-navarra-tein-2324-extra.pdf>`__
+   * - Navarra
+     - 2023-24
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-navarra-tein-2324-ordinaria.pdf>`__
+   * - País Vasco
+     - 2025-26
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-paisvasco-tein-2526-ordinaria.pdf>`__
+   * - País Vasco
+     - 2024-25
+     - `Tecnología e Ingeniería II - Extraordinaria
+       </static/pau/pau-paisvasco-tein-2425-extra.pdf>`__
+   * - País Vasco
+     - 2024-25
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-paisvasco-tein-2425-ordinaria.pdf>`__
+   * - País Vasco
+     - 2023-24
+     - `Tecnología e Ingeniería II - Ordinaria
+       </static/pau/pau-paisvasco-tein-2324-ordinaria.pdf>`__
