@@ -235,6 +235,13 @@ Tecnología e Ingeniería II
        </static/pau/pau-paisvasco-tein-2425-extra.pdf>`__
      - `Ordinaria
        </static/pau/pau-paisvasco-tein-2324-ordinaria.pdf>`__
+   * - UNED
+     - `Modelo
+       </static/pau/pau-uned-tein-2526-modelo.pdf>`__
+     - `Modelo
+       </static/pau/pau-uned-tein-2425-modelo.pdf>`__
+     - `Modelo
+       </static/pau/pau-uned-tein-2324-modelo.pdf>`__
    * - Comunidad Valenciana
      - `Ordinaria
        </static/pau/pau-valencia-tein-2526-ordinaria.pdf>`__

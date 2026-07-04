@@ -42,6 +42,7 @@ comunidades = [
    ['navarra',     'Navarra'],
    ['paisvasco',   'País Vasco'],
    ['rioja',       'Rioja'],
+   ['uned',        'UNED'],
    ]
 
 
