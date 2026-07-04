@@ -77,7 +77,11 @@ Tecnología e Ingeniería II
        `Extraordinaria
        </static/pau/pau-aragon-tein-2324-extra.pdf>`__
    * - Asturias
-     -
+     - `Ordinaria
+       </static/pau/pau-asturias-tein-2526-ordinaria.pdf>`__
+
+       `Modelo
+       </static/pau/pau-asturias-tein-2526-modelo.pdf>`__
      - `Ordinaria
        </static/pau/pau-asturias-tein-2425-ordinaria.pdf>`__
 
@@ -102,7 +106,8 @@ Tecnología e Ingeniería II
        `Extraordinaria
        </static/pau/pau-canarias-tein-2324-extra.pdf>`__
    * - Cantabria
-     -
+     - `Ordinaria
+       </static/pau/pau-cantabria-tein-2526-ordinaria.pdf>`__
      - `Ordinaria
        </static/pau/pau-cantabria-tein-2425-ordinaria.pdf>`__
 
@@ -114,7 +119,8 @@ Tecnología e Ingeniería II
        `Extraordinaria
        </static/pau/pau-cantabria-tein-2324-extra.pdf>`__
    * - Cataluña
-     -
+     - `Ordinaria
+       </static/pau/pau-catalunya-tein-2526-ordinaria.pdf>`__
      - `Ordinaria
        </static/pau/pau-catalunya-tein-2425-ordinaria.pdf>`__
 
@@ -128,6 +134,9 @@ Tecnología e Ingeniería II
    * - Castilla la Mancha
      - `Ordinaria
        </static/pau/pau-clm-tein-2526-ordinaria.pdf>`__
+
+       `Modelo
+       </static/pau/pau-clm-tein-2526-modelo.pdf>`__
      - `Ordinaria
        </static/pau/pau-clm-tein-2425-ordinaria.pdf>`__
 
@@ -152,7 +161,11 @@ Tecnología e Ingeniería II
        `Extraordinaria
        </static/pau/pau-cyl-tein-2324-extra.pdf>`__
    * - Extremadura
-     -
+     - `Ordinaria
+       </static/pau/pau-extremadura-tein-2526-ordinaria.pdf>`__
+
+       `Modelo
+       </static/pau/pau-extremadura-tein-2526-modelo.pdf>`__
      - `Ordinaria
        </static/pau/pau-extremadura-tein-2425-ordinaria.pdf>`__
 
@@ -164,7 +177,11 @@ Tecnología e Ingeniería II
        `Extraordinaria
        </static/pau/pau-extremadura-tein-2324-extra.pdf>`__
    * - Galicia
-     -
+     - `Ordinaria
+       </static/pau/pau-galicia-tein-2526-ordinaria.pdf>`__
+
+       `Modelo
+       </static/pau/pau-galicia-tein-2526-modelo.pdf>`__
      - `Ordinaria
        </static/pau/pau-galicia-tein-2425-ordinaria.pdf>`__
 
@@ -176,8 +193,14 @@ Tecnología e Ingeniería II
        `Extraordinaria
        </static/pau/pau-galicia-tein-2324-extra.pdf>`__
    * - Madrid
-     - `Modelo
-       </static/pau/pau-madrid-tein-2526-modelo.pdf>`__
+     - `Ordinaria Coincidentes
+       </static/pau/pau-madrid-tein-2526-ordinaria-coincide.pdf>`__
+
+       `Ordinaria
+       </static/pau/pau-madrid-tein-2526-ordinaria.pdf>`__
+
+       `Modelo Soluciones
+       </static/pau/pau-madrid-tein-2526-modelo-solucion.pdf>`__
      - `Ordinaria Soluciones
        </static/pau/pau-madrid-tein-2425-ordinaria-solucion.pdf>`__
 
@@ -214,7 +237,8 @@ Tecnología e Ingeniería II
        `Extraordinaria
        </static/pau/pau-murcia-tein-2324-extra.pdf>`__
    * - Navarra
-     -
+     - `Ordinaria
+       </static/pau/pau-navarra-tein-2526-ordinaria.pdf>`__
      - `Ordinaria
        </static/pau/pau-navarra-tein-2425-ordinaria.pdf>`__
 
@@ -235,6 +259,19 @@ Tecnología e Ingeniería II
        </static/pau/pau-paisvasco-tein-2425-extra.pdf>`__
      - `Ordinaria
        </static/pau/pau-paisvasco-tein-2324-ordinaria.pdf>`__
+   * - La Rioja
+     - `Ordinaria
+       </static/pau/pau-rioja-tein-2526-ordinaria.pdf>`__
+     - `Ordinaria
+       </static/pau/pau-rioja-tein-2425-ordinaria.pdf>`__
+
+       `Extraordinaria
+       </static/pau/pau-rioja-tein-2425-extra.pdf>`__
+     - `Ordinaria
+       </static/pau/pau-rioja-tein-2324-ordinaria.pdf>`__
+
+       `Extraordinaria
+       </static/pau/pau-rioja-tein-2324-extra.pdf>`__
    * - UNED
      - `Modelo
        </static/pau/pau-uned-tein-2526-modelo.pdf>`__
