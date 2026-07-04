@@ -5,6 +5,7 @@ en una tabla de reStructuredText
 
 import os
 import re
+import jinja2
 from operator import itemgetter
 
 
@@ -20,14 +21,6 @@ Exámenes de las Pruebas de Acceso a la Universidad de las materias
 de Bachillerato relacionadas con Tecnología.
 
 
-.. list-table:: Exámenes PAU
-   :header-rows: 1
-   :widths: 15 15 80
-   :align: left
-
-   * - Comunidad
-     - Curso
-     - Materia - Examen
 '''
 
 
@@ -74,20 +67,57 @@ def main():
                   ['comunidad', False],
                   ['materia', False],
                   ['curso', True],
-                  ['examen', False],                  
+                  ['examen', True],                  
                   ])
-    content = render_table(database)
+    database_tein = select(database, 'materia', 'tein')
+    content = render_table(database_tein)
     write_file('index.rst', content)
     input('Press Enter')
 
 
+def extract(database, field, reverse=False):
+    return sorted(list({fila.get(field) for fila in database}), reverse=reverse)
+
+
+def select(database, field, value):
+    return [fila for fila in database if fila.get(field) == value]
+
+
 def render_table(database):
+    comunidades = extract(database, 'comunidad')
+    cursos = extract(database, 'curso', reverse=True)
     table = [table_header]
-    for f in database:
-        table.append(f"   * - { f['comunidad'] }\n" +
-           f"     - { f['curso'] }\n" +
-           f"     - `{ f['materia'] } - { f['examen'] }\n" +
-           f"       </static/pau/{ f['file_name'] }>`__\n")
+    table.append(
+        'Tecnología e Ingeniería II\n' +
+        '--------------------------\n' +
+        '.. list-table:: Exámenes PAU\n' +
+        '   :header-rows: 1\n' +
+        '   :align: left\n' +
+        '\n' 
+        )
+
+    # Encabezados de la tabla
+    table.append('   * - Comunidad\n')
+    for curso in cursos:
+        table.append(f'     - { curso }\n')
+
+    # Tabla de contenidos
+    for comunidad in comunidades:
+        comunidad_name = rename_comunidad(comunidad)
+        table.append(f'   * - { comunidad_name }\n')
+        database_comunidad = select(database, 'comunidad', comunidad)
+        for curso in cursos:
+            db = select(database_comunidad, 'curso', curso)
+            if len(db):
+                ex = db[0]
+                table.append(f"     - `{ ex['examen'] }\n")
+                table.append(f"       </static/pau/{ ex['file_name'] }>`__\n")
+            else:
+                table.append(f"     -\n")              
+            for ex in db[1:]:
+                table.append("\n")
+                table.append(f"       `{ ex['examen'] }\n")
+                table.append(f"       </static/pau/{ ex['file_name'] }>`__\n")
     return ''.join(table)
 
 
@@ -100,11 +130,11 @@ def database_sort(database, fields):
 def extract_fields(file_names):
     database = []
     for file_name in file_names:
-        comunidad = rename_comunidad(file_name.split('-')[1])
-        materia = read_materia(file_name.split('-')[2])
+        comunidad = file_name.split('-')[1]
+        materia = file_name.split('-')[2]
         curso = file_name.split('-')[3]
         curso = f'20{curso[:2]}-{curso[2:]}'
-        examen = read_tipo_examen(file_name.split('-')[4:])
+        examen = read_tipo_examen(file_name[:-4].split('-')[4:])
         database.append({
             'file_name': file_name,
             'comunidad': comunidad,
@@ -129,7 +159,7 @@ def read_tipo_examen(tipos):
     return ' '.join(tipos)
 
 
-def read_materia(file_name):
+def rename_materia(file_name):
     for materia in materias:
         if re.search(materia[0], file_name):
             return materia[1]
