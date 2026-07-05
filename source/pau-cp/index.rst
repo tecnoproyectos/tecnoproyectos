@@ -282,7 +282,19 @@ Tecnología e Ingeniería II
    * - Comunidad Valenciana
      - `Ordinaria
        </static/pau/pau-valencia-tein-2526-ordinaria.pdf>`__
-     - `Extraordinaria
+
+       `Modelo
+       </static/pau/pau-valencia-tein-2526-modelo.pdf>`__
+     - `Ordinaria
+       </static/pau/pau-valencia-tein-2425-ordinaria.pdf>`__
+
+       `Modelo
+       </static/pau/pau-valencia-tein-2425-modelo.pdf>`__
+
+       `Extraordinaria Dana
+       </static/pau/pau-valencia-tein-2425-extra-dana.pdf>`__
+
+       `Extraordinaria
        </static/pau/pau-valencia-tein-2425-extra.pdf>`__
      - `Ordinaria
        </static/pau/pau-valencia-tein-2324-ordinaria.pdf>`__
