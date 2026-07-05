@@ -53,22 +53,24 @@ materias = [
 
 tipo_examenes = [
     ['ordinaria', 'Ordinaria'],
-    ['extra', 'Extraordinaria'],
-    ['modelo', 'Modelo'],
-    ['coincide', 'Coincidentes'],
-    ['solucion', 'Soluciones'],
+    ['extra',     'Extraordinaria'],
+    ['modelo',    'Modelo'],
+    ['coincide',  'Coincidentes'],
+    ['solucion',  'Soluciones'],
     ]
 
 
+orden_examenes = ['modelo', 'ordinaria', 'extra', 'criterios', 'titular', 'suplente1', 'suplente2']
+
+    
 def main():
-    table = [table_header]
     file_names = read_file_names('../../../static/pau')
     database = extract_fields(file_names)
     database_sort(database, [
                   ['comunidad', False],
                   ['materia', False],
                   ['curso', True],
-                  ['examen', True],                  
+                  ['examen', False],                  
                   ])
     database_tein = select(database, 'materia', 'tein')
     content = render_table(database_tein)
@@ -88,9 +90,10 @@ def render_table(database):
     comunidades = extract(database, 'comunidad')
     cursos = extract(database, 'curso', reverse=True)
     table = [table_header]
+    materia_name = rename_materia(database[0]['materia'])
     table.append(
-        'Tecnología e Ingeniería II\n' +
-        '--------------------------\n' +
+        f'{ materia_name }\n' +
+        '-' * len(materia_name) + '\n' +
         '.. list-table:: Exámenes PAU\n' +
         '   :header-rows: 1\n' +
         '   :align: left\n' +
@@ -111,20 +114,31 @@ def render_table(database):
             db = select(database_comunidad, 'curso', curso)
             if len(db):
                 ex = db[0]
-                table.append(f"     - `{ ex['examen'] }\n")
+                table.append(f"     - `{ ex['examen_name'] }\n")
                 table.append(f"       </static/pau/{ ex['file_name'] }>`__\n")
             else:
                 table.append(f"     -\n")              
             for ex in db[1:]:
                 table.append("\n")
-                table.append(f"       `{ ex['examen'] }\n")
+                table.append(f"       `{ ex['examen_name'] }\n")
                 table.append(f"       </static/pau/{ ex['file_name'] }>`__\n")
     return ''.join(table)
 
 
+def criterio_ord_examen(item):
+    valor = item['examen'][0]
+    if valor in orden_examenes:
+        return (0, orden_examenes.index(valor), valor)
+    else:
+        return (1, valor)
+
+
 def database_sort(database, fields):
     for field in reversed(fields):
-        database.sort(key=itemgetter(field[0]), reverse=field[1])
+        if field[0] == 'examen':
+            database.sort(key=criterio_ord_examen, reverse=field[1])
+        else:
+            database.sort(key=itemgetter(field[0]), reverse=field[1])
     return database
 
 
@@ -135,13 +149,15 @@ def extract_fields(file_names):
         materia = file_name.split('-')[2]
         curso = file_name.split('-')[3]
         curso = f'20{curso[:2]}-{curso[2:]}'
-        examen = read_tipo_examen(file_name[:-4].split('-')[4:])
+        examen = file_name[:-4].split('-')[4:]
+        examen_name = read_tipo_examen(examen)
         database.append({
             'file_name': file_name,
             'comunidad': comunidad,
             'materia': materia,
             'curso': curso,
             'examen': examen,
+            'examen_name': examen_name,
             })
     return database
 
@@ -152,12 +168,14 @@ def write_file(file_name, data):
 
 
 def read_tipo_examen(tipos):
-    for i in range(len(tipos)):
-        tipos[i] = tipos[i].capitalize()
+    name = []
+    for tipo in tipos:
+        tipo = tipo.capitalize()
         for tipo_examen in tipo_examenes:
-            if re.search(tipo_examen[0], tipos[i], flags=re.IGNORECASE):
-                tipos[i] = tipo_examen[1]
-    return ' '.join(tipos)
+            if re.search(tipo_examen[0], tipo, flags=re.IGNORECASE):
+                tipo = tipo_examen[1]
+        name.append(tipo)
+    return ' '.join(name)
 
 
 def rename_materia(file_name):
