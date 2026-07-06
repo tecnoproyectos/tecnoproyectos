@@ -159,6 +159,9 @@ Tecnología e Ingeniería II
    * - Castilla y León
      - `Ordinaria
        </static/pau/pau-cyl-tein-2526-ordinaria.pdf>`__
+
+       `Extraordinaria
+       </static/pau/pau-cyl-tein-2526-extra.pdf>`__
      - `Ordinaria
        </static/pau/pau-cyl-tein-2425-ordinaria.pdf>`__
 
@@ -208,11 +211,11 @@ Tecnología e Ingeniería II
      - `Modelo Soluciones
        </static/pau/pau-madrid-tein-2526-modelo-solucion.pdf>`__
 
-       `Ordinaria Coincidentes
-       </static/pau/pau-madrid-tein-2526-ordinaria-coincide.pdf>`__
-
        `Ordinaria
        </static/pau/pau-madrid-tein-2526-ordinaria.pdf>`__
+
+       `Ordinaria Coincidentes
+       </static/pau/pau-madrid-tein-2526-ordinaria-coincide.pdf>`__
 
        `Extraordinaria
        </static/pau/pau-madrid-tein-2526-extra.pdf>`__
@@ -222,11 +225,11 @@ Tecnología e Ingeniería II
        `Ordinaria Soluciones
        </static/pau/pau-madrid-tein-2425-ordinaria-solucion.pdf>`__
 
-       `Extraordinaria Coincidentes
-       </static/pau/pau-madrid-tein-2425-extra-coincide.pdf>`__
-
        `Extraordinaria
        </static/pau/pau-madrid-tein-2425-extra.pdf>`__
+
+       `Extraordinaria Coincidentes
+       </static/pau/pau-madrid-tein-2425-extra-coincide.pdf>`__
      - `Modelo
        </static/pau/pau-madrid-tein-2324-modelo.pdf>`__
 
@@ -315,11 +318,11 @@ Tecnología e Ingeniería II
        `Ordinaria
        </static/pau/pau-valencia-tein-2425-ordinaria.pdf>`__
 
-       `Extraordinaria Dana
-       </static/pau/pau-valencia-tein-2425-extra-dana.pdf>`__
-
        `Extraordinaria
        </static/pau/pau-valencia-tein-2425-extra.pdf>`__
+
+       `Extraordinaria Dana
+       </static/pau/pau-valencia-tein-2425-extra-dana.pdf>`__
      - `Ordinaria
        </static/pau/pau-valencia-tein-2324-ordinaria.pdf>`__
 

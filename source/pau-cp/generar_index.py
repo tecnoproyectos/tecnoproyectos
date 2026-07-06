@@ -60,7 +60,8 @@ tipo_examenes = [
     ]
 
 
-orden_examenes = ['modelo', 'ordinaria', 'extra', 'criterios', 'titular', 'suplente1', 'suplente2']
+orden_examenes = ['modelo', 'ordinaria', 'extra', 'criterios',
+                  'titular', 'reserva', 'suplente', 'suplente1', 'suplente2']
 
     
 def main():
@@ -70,7 +71,8 @@ def main():
                   ['comunidad', False],
                   ['materia', False],
                   ['curso', True],
-                  ['examen', False],                  
+                  ['examen', False],
+                  ['examen_name', False],
                   ])
     database_tein = select(database, 'materia', 'tein')
     content = render_table(database_tein)
