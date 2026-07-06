@@ -10,7 +10,7 @@ from operator import itemgetter
 
 
 table_header = ''':date: 2026-07-03
-:modified: 2026-07-03
+:modified: 2026-07-07
 :author: Carlos Félix Pardo Martín
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
@@ -25,24 +25,42 @@ de Bachillerato relacionadas con Tecnología.
 
 
 comunidades = [
-   ['andalucia',   'Andalucía'],
-   ['aragon',      'Aragón'],
-   ['asturias',    'Asturias'],
-   ['baleares',    'Baleares'],
-   ['canarias',    'Canarias'],
-   ['cantabria',   'Cantabria'],
-   ['clm',         'Castilla la Mancha'],
-   ['cyl',         'Castilla y León'],
-   ['catalunya',   'Cataluña'],
-   ['valencia',    'Comunidad Valenciana'],
-   ['extremadura', 'Extremadura'],
-   ['galicia',     'Galicia'],
-   ['madrid',      'Madrid'],
-   ['murcia',      'Murcia'],
-   ['navarra',     'Navarra'],
-   ['paisvasco',   'País Vasco'],
-   ['rioja',       'La Rioja'],
-   ['uned',        'UNED'],
+   ['andalucia',   'Andalucía',
+    'https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/?q=grados&d=g_b_examenes_anteriores.php'],
+   ['aragon',      'Aragón',
+    'https://academico.unizar.es/acceso-admision-grado/pau/exame'],
+   ['asturias',    'Asturias',
+    'https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/examenes'],
+   ['baleares',    'Baleares',
+    'https://estudis.uib.es/es/estudis-de-grau/Com-hi-pots-accedir/acces/batxiller/ModelsExamenPBAU/'],
+   ['canarias',    'Canarias',
+    'https://www.gobiernodecanarias.org/educacion/web/bachillerato/pau/pau/index.html'],
+   ['cantabria',   'Cantabria',
+    'http://web.unican.es/admision/acceso-a-estudios-de-grado/evaluacion-de-bachillerato-para-el-acceso-a-la-universidad'],
+   ['catalunya',   'Cataluña',
+    'http://www.selecat.cat/'],
+   ['clm',         'Castilla la Mancha',
+    'https://www.uclm.es/es/perfiles/preuniversitario/acceso/pau/modelosycriteriosdecorreccion'],
+   ['cyl',         'Castilla y León',
+    'https://pruebasdeacceso.uva.es/1.ebau/'],
+   ['extremadura', 'Extremadura',
+    'https://alumnado.unex.es/pau/'],
+   ['galicia',     'Galicia',
+    'https://www.ciug.gal/gal/pau'],
+   ['madrid',      'Madrid',
+    'https://www.ucm.es/pruebas-de-acceso'],
+   ['murcia',      'Murcia',
+    'https://www.um.es/web/estudios/acceso/estudiantes-bachillerato-y-ciclos-formativos'],
+   ['navarra',     'Navarra',
+    'https://www.unavarra.es/sites/estudios/acceso-y-admision/evau-para-estudiantes/desarrollo-de-las-pruebas.html'],
+   ['paisvasco',   'País Vasco',
+    'https://www.ehu.eus/es/web/unibertsitaterako-sarbidea/pruebas-de-acceso/examenes-de-cursos-anteriores/bachillerato-y-ciclos-formativos-de-grado-superior'],
+   ['rioja',       'La Rioja',
+    'https://www.unirioja.es/administracion-y-servicios/oficina-del-estudiante/ebau/examenes-y-criterios/'],
+   ['uned',        'UNED',
+    'https://unedasiss.uned.es/examenes'],
+   ['valencia',    'Comunidad Valenciana',
+    'https://universitats.gva.es/va/prova-acces-universitat-pau'],
    ]
 
 
@@ -63,7 +81,7 @@ tipo_examenes = [
 orden_examenes = ['modelo', 'ordinaria', 'extra', 'criterios',
                   'titular', 'reserva', 'suplente', 'suplente1', 'suplente2']
 
-    
+
 def main():
     file_names = read_file_names('../../../static/pau')
     database = extract_fields(file_names)
@@ -89,6 +107,7 @@ def select(database, field, value):
 
 
 def render_table(database):
+    numfiles = len(database)
     comunidades = extract(database, 'comunidad')
     cursos = extract(database, 'curso', reverse=True)
     table = [table_header]
@@ -96,10 +115,10 @@ def render_table(database):
     table.append(
         f'{ materia_name }\n' +
         '-' * len(materia_name) + '\n' +
-        '.. list-table:: Exámenes PAU\n' +
+        f'.. list-table:: { numfiles } exámenes y criterios PAU\n' +
         '   :header-rows: 1\n' +
         '   :align: left\n' +
-        '\n' 
+        '\n'
         )
 
     # Encabezados de la tabla
@@ -110,20 +129,22 @@ def render_table(database):
     # Tabla de contenidos
     for comunidad in comunidades:
         comunidad_name = rename_comunidad(comunidad)
-        table.append(f'   * - { comunidad_name }\n')
+        comunidad_link = linkto_comunidad(comunidad)
+        table.append(f'   * - `{ comunidad_name }\n')
+        table.append(f'       <{ comunidad_link }>`__\n')
         database_comunidad = select(database, 'comunidad', comunidad)
         for curso in cursos:
             db = select(database_comunidad, 'curso', curso)
             if len(db):
-                ex = db[0]
-                table.append(f"     - `{ ex['examen_name'] }\n")
-                table.append(f"       </static/pau/{ ex['file_name'] }>`__\n")
+                exam = db[0]
+                table.append(f"     - `{ exam['examen_name'] }\n")
+                table.append(f"       </static/pau/{ exam['file_name'] }>`__\n")
             else:
-                table.append(f"     -\n")              
-            for ex in db[1:]:
+                table.append(f"     -\n")
+            for exam in db[1:]:
                 table.append("\n")
-                table.append(f"       `{ ex['examen_name'] }\n")
-                table.append(f"       </static/pau/{ ex['file_name'] }>`__\n")
+                table.append(f"       `{ exam['examen_name'] }\n")
+                table.append(f"       </static/pau/{ exam['file_name'] }>`__\n")
     return ''.join(table)
 
 
@@ -163,7 +184,7 @@ def extract_fields(file_names):
             })
     return database
 
-    
+
 def write_file(file_name, data):
     with open(file_name, 'w', encoding='utf-8') as fo:
         fo.write(data)
@@ -189,7 +210,15 @@ def rename_materia(file_name):
 
 def rename_comunidad(text):
     for comunidad in comunidades:
-        text = re.sub(comunidad[0], comunidad[1], text)
+        if re.search(comunidad[0], text):
+            return comunidad[1]
+    return text
+
+
+def linkto_comunidad(text):
+    for comunidad in comunidades:
+        if re.search(comunidad[0], text):
+            return comunidad[2]
     return text
 
 

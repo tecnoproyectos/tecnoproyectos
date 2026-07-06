@@ -1,5 +1,5 @@
 :date: 2026-07-03
-:modified: 2026-07-03
+:modified: 2026-07-07
 :author: Carlos Félix Pardo Martín
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license_url: https://creativecommons.org/licenses/by-sa/4.0/
@@ -12,7 +12,7 @@ de Bachillerato relacionadas con Tecnología.
 
 Tecnología e Ingeniería II
 --------------------------
-.. list-table:: Exámenes PAU
+.. list-table:: 114 exámenes y criterios PAU
    :header-rows: 1
    :align: left
 
@@ -20,7 +20,8 @@ Tecnología e Ingeniería II
      - 2025-26
      - 2024-25
      - 2023-24
-   * - Andalucía
+   * - `Andalucía
+       <https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/?q=grados&d=g_b_examenes_anteriores.php>`__
      - `Titular
        </static/pau/pau-andalucia-tein-2526-titular.pdf>`__
 
@@ -63,7 +64,8 @@ Tecnología e Ingeniería II
 
        `Suplente B
        </static/pau/pau-andalucia-tein-2324-suplente-b.pdf>`__
-   * - Aragón
+   * - `Aragón
+       <https://academico.unizar.es/acceso-admision-grado/pau/exame>`__
      - `Ordinaria
        </static/pau/pau-aragon-tein-2526-ordinaria.pdf>`__
 
@@ -79,7 +81,8 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-aragon-tein-2324-extra.pdf>`__
-   * - Asturias
+   * - `Asturias
+       <https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/examenes>`__
      - `Modelo
        </static/pau/pau-asturias-tein-2526-modelo.pdf>`__
 
@@ -95,7 +98,8 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-asturias-tein-2324-extra.pdf>`__
-   * - Canarias
+   * - `Canarias
+       <https://www.gobiernodecanarias.org/educacion/web/bachillerato/pau/pau/index.html>`__
      - `Ordinaria
        </static/pau/pau-canarias-tein-2526-ordinaria.pdf>`__
 
@@ -111,7 +115,8 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-canarias-tein-2324-extra.pdf>`__
-   * - Cantabria
+   * - `Cantabria
+       <http://web.unican.es/admision/acceso-a-estudios-de-grado/evaluacion-de-bachillerato-para-el-acceso-a-la-universidad>`__
      - `Ordinaria
        </static/pau/pau-cantabria-tein-2526-ordinaria.pdf>`__
      - `Ordinaria
@@ -124,7 +129,8 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-cantabria-tein-2324-extra.pdf>`__
-   * - Cataluña
+   * - `Cataluña
+       <http://www.selecat.cat/>`__
      - `Ordinaria
        </static/pau/pau-catalunya-tein-2526-ordinaria.pdf>`__
      - `Ordinaria
@@ -137,7 +143,8 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-catalunya-tein-2324-extra.pdf>`__
-   * - Castilla la Mancha
+   * - `Castilla la Mancha
+       <https://www.uclm.es/es/perfiles/preuniversitario/acceso/pau/modelosycriteriosdecorreccion>`__
      - `Modelo
        </static/pau/pau-clm-tein-2526-modelo.pdf>`__
 
@@ -156,7 +163,8 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-clm-tein-2324-extra.pdf>`__
-   * - Castilla y León
+   * - `Castilla y León
+       <https://pruebasdeacceso.uva.es/1.ebau/>`__
      - `Ordinaria
        </static/pau/pau-cyl-tein-2526-ordinaria.pdf>`__
 
@@ -172,7 +180,8 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-cyl-tein-2324-extra.pdf>`__
-   * - Extremadura
+   * - `Extremadura
+       <https://alumnado.unex.es/pau/>`__
      - `Modelo
        </static/pau/pau-extremadura-tein-2526-modelo.pdf>`__
 
@@ -188,7 +197,8 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-extremadura-tein-2324-extra.pdf>`__
-   * - Galicia
+   * - `Galicia
+       <https://www.ciug.gal/gal/pau>`__
      - `Modelo
        </static/pau/pau-galicia-tein-2526-modelo.pdf>`__
 
@@ -207,7 +217,8 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-galicia-tein-2324-extra.pdf>`__
-   * - Madrid
+   * - `Madrid
+       <https://www.ucm.es/pruebas-de-acceso>`__
      - `Modelo Soluciones
        </static/pau/pau-madrid-tein-2526-modelo-solucion.pdf>`__
 
@@ -241,7 +252,8 @@ Tecnología e Ingeniería II
 
        `Extraordinaria Soluciones
        </static/pau/pau-madrid-tein-2324-extra-solucion.pdf>`__
-   * - Murcia
+   * - `Murcia
+       <https://www.um.es/web/estudios/acceso/estudiantes-bachillerato-y-ciclos-formativos>`__
      - `Ordinaria
        </static/pau/pau-murcia-tein-2526-ordinaria.pdf>`__
      - `Ordinaria
@@ -254,7 +266,8 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-murcia-tein-2324-extra.pdf>`__
-   * - Navarra
+   * - `Navarra
+       <https://www.unavarra.es/sites/estudios/acceso-y-admision/evau-para-estudiantes/desarrollo-de-las-pruebas.html>`__
      - `Ordinaria
        </static/pau/pau-navarra-tein-2526-ordinaria.pdf>`__
 
@@ -270,7 +283,8 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-navarra-tein-2324-extra.pdf>`__
-   * - País Vasco
+   * - `País Vasco
+       <https://www.ehu.eus/es/web/unibertsitaterako-sarbidea/pruebas-de-acceso/examenes-de-cursos-anteriores/bachillerato-y-ciclos-formativos-de-grado-superior>`__
      - `Ordinaria
        </static/pau/pau-paisvasco-tein-2526-ordinaria.pdf>`__
      - `Ordinaria
@@ -280,7 +294,8 @@ Tecnología e Ingeniería II
        </static/pau/pau-paisvasco-tein-2425-extra.pdf>`__
      - `Ordinaria
        </static/pau/pau-paisvasco-tein-2324-ordinaria.pdf>`__
-   * - La Rioja
+   * - `La Rioja
+       <https://www.unirioja.es/administracion-y-servicios/oficina-del-estudiante/ebau/examenes-y-criterios/>`__
      - `Ordinaria
        </static/pau/pau-rioja-tein-2526-ordinaria.pdf>`__
 
@@ -296,14 +311,16 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-rioja-tein-2324-extra.pdf>`__
-   * - UNED
+   * - `UNED
+       <https://unedasiss.uned.es/examenes>`__
      - `Modelo
        </static/pau/pau-uned-tein-2526-modelo.pdf>`__
      - `Modelo
        </static/pau/pau-uned-tein-2425-modelo.pdf>`__
      - `Modelo
        </static/pau/pau-uned-tein-2324-modelo.pdf>`__
-   * - Comunidad Valenciana
+   * - `Comunidad Valenciana
+       <https://universitats.gva.es/va/prova-acces-universitat-pau>`__
      - `Modelo
        </static/pau/pau-valencia-tein-2526-modelo.pdf>`__
 
