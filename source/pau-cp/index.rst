@@ -12,7 +12,7 @@ de Bachillerato relacionadas con Tecnología.
 
 Tecnología e Ingeniería II
 --------------------------
-.. list-table:: 114 exámenes y criterios PAU
+.. list-table:: 116 exámenes y criterios PAU
    :header-rows: 1
    :align: left
 
@@ -25,11 +25,17 @@ Tecnología e Ingeniería II
      - `Titular
        </static/pau/pau-andalucia-tein-2526-titular.pdf>`__
 
+       `Titular Criterios
+       </static/pau/pau-andalucia-tein-2526-titular-criterios.pdf>`__
+
        `Suplente1
        </static/pau/pau-andalucia-tein-2526-suplente1.pdf>`__
 
        `Suplente2
        </static/pau/pau-andalucia-tein-2526-suplente2.pdf>`__
+
+       `Suplente2 Criterios
+       </static/pau/pau-andalucia-tein-2526-suplente2-criterios.pdf>`__
      - `Titular A
        </static/pau/pau-andalucia-tein-2425-titular-a.pdf>`__
 
