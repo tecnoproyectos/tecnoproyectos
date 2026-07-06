@@ -66,6 +66,9 @@ Tecnología e Ingeniería II
    * - Aragón
      - `Ordinaria
        </static/pau/pau-aragon-tein-2526-ordinaria.pdf>`__
+
+       `Extraordinaria Soluciones
+       </static/pau/pau-aragon-tein-2526-extra-solucion.pdf>`__
      - `Ordinaria
        </static/pau/pau-aragon-tein-2425-ordinaria.pdf>`__
 
@@ -95,6 +98,9 @@ Tecnología e Ingeniería II
    * - Canarias
      - `Ordinaria
        </static/pau/pau-canarias-tein-2526-ordinaria.pdf>`__
+
+       `Extraordinaria
+       </static/pau/pau-canarias-tein-2526-extra.pdf>`__
      - `Ordinaria
        </static/pau/pau-canarias-tein-2425-ordinaria.pdf>`__
 
@@ -137,6 +143,9 @@ Tecnología e Ingeniería II
 
        `Ordinaria
        </static/pau/pau-clm-tein-2526-ordinaria.pdf>`__
+
+       `Extraordinaria
+       </static/pau/pau-clm-tein-2526-extra.pdf>`__
      - `Ordinaria
        </static/pau/pau-clm-tein-2425-ordinaria.pdf>`__
 
@@ -182,6 +191,9 @@ Tecnología e Ingeniería II
 
        `Ordinaria
        </static/pau/pau-galicia-tein-2526-ordinaria.pdf>`__
+
+       `Extraordinaria
+       </static/pau/pau-galicia-tein-2526-extra.pdf>`__
      - `Ordinaria
        </static/pau/pau-galicia-tein-2425-ordinaria.pdf>`__
 
@@ -201,6 +213,9 @@ Tecnología e Ingeniería II
 
        `Ordinaria
        </static/pau/pau-madrid-tein-2526-ordinaria.pdf>`__
+
+       `Extraordinaria
+       </static/pau/pau-madrid-tein-2526-extra.pdf>`__
      - `Modelo
        </static/pau/pau-madrid-tein-2425-modelo.pdf>`__
 
@@ -239,6 +254,9 @@ Tecnología e Ingeniería II
    * - Navarra
      - `Ordinaria
        </static/pau/pau-navarra-tein-2526-ordinaria.pdf>`__
+
+       `Extraordinaria
+       </static/pau/pau-navarra-tein-2526-extra.pdf>`__
      - `Ordinaria
        </static/pau/pau-navarra-tein-2425-ordinaria.pdf>`__
 
@@ -262,6 +280,9 @@ Tecnología e Ingeniería II
    * - La Rioja
      - `Ordinaria
        </static/pau/pau-rioja-tein-2526-ordinaria.pdf>`__
+
+       `Extraordinaria
+       </static/pau/pau-rioja-tein-2526-extra.pdf>`__
      - `Ordinaria
        </static/pau/pau-rioja-tein-2425-ordinaria.pdf>`__
 
