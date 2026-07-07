@@ -107,7 +107,8 @@ def select(database, field, value):
 
 
 def render_table(database):
-    numfiles = len(database)
+    num_criterios = sum('criterios' in d['file_name'] for d in database)
+    num_examenes = len(database) - num_criterios
     comunidades = extract(database, 'comunidad')
     cursos = extract(database, 'curso', reverse=True)
     table = [table_header]
@@ -115,7 +116,7 @@ def render_table(database):
     table.append(
         f'{ materia_name }\n' +
         '-' * len(materia_name) + '\n' +
-        f'.. list-table:: { numfiles } exámenes y criterios PAU\n' +
+        f'.. list-table:: { num_examenes } exámenes y { num_criterios } criterios PAU\n' +
         '   :header-rows: 1\n' +
         '   :align: left\n' +
         '\n'

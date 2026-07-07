@@ -12,7 +12,7 @@ de Bachillerato relacionadas con Tecnología.
 
 Tecnología e Ingeniería II
 --------------------------
-.. list-table:: 116 exámenes y criterios PAU
+.. list-table:: 113 exámenes y 3 criterios PAU
    :header-rows: 1
    :align: left
 
