@@ -12,7 +12,7 @@ de Bachillerato relacionadas con Tecnología.
 
 Tecnología e Ingeniería II
 --------------------------
-.. list-table:: 116 exámenes y 4 criterios PAU
+.. list-table:: 119 exámenes y 4 criterios PAU
    :header-rows: 1
    :align: left
 
@@ -20,6 +20,7 @@ Tecnología e Ingeniería II
      - 2025-26
      - 2024-25
      - 2023-24
+     - 2020-26
    * - `Andalucía
        <https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/?q=grados&d=g_b_examenes_anteriores.php>`__
      - `Titular
@@ -70,6 +71,7 @@ Tecnología e Ingeniería II
 
        `Suplente B
        </static/pau/pau-andalucia-tein-2324-suplente-b.pdf>`__
+     -
    * - `Aragón
        <https://academico.unizar.es/acceso-admision-grado/pau/exame>`__
      - `Ordinaria
@@ -87,6 +89,7 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-aragon-tein-2324-extra.pdf>`__
+     -
    * - `Asturias
        <https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/examenes>`__
      - `Modelo
@@ -104,6 +107,14 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-asturias-tein-2324-extra.pdf>`__
+     -
+   * - `Baleares
+       <https://estudis.uib.es/es/estudis-de-grau/Com-hi-pots-accedir/acces/batxiller/ModelsExamenPBAU/>`__
+     - `Extraordinaria
+       </static/pau/pau-baleares-tein-2526-extra.pdf>`__
+     -
+     -
+     -
    * - `Canarias
        <https://www.gobiernodecanarias.org/educacion/web/bachillerato/pau/pau/index.html>`__
      - `Ordinaria
@@ -121,10 +132,14 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-canarias-tein-2324-extra.pdf>`__
+     -
    * - `Cantabria
        <http://web.unican.es/admision/acceso-a-estudios-de-grado/evaluacion-de-bachillerato-para-el-acceso-a-la-universidad>`__
      - `Ordinaria
        </static/pau/pau-cantabria-tein-2526-ordinaria.pdf>`__
+
+       `Extraordinaria
+       </static/pau/pau-cantabria-tein-2526-extra.pdf>`__
      - `Modelo
        </static/pau/pau-cantabria-tein-2425-modelo.pdf>`__
 
@@ -141,6 +156,7 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-cantabria-tein-2324-extra.pdf>`__
+     -
    * - `Cataluña
        <http://www.selecat.cat/>`__
      - `Ordinaria
@@ -155,6 +171,7 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-catalunya-tein-2324-extra.pdf>`__
+     -
    * - `Castilla la Mancha
        <https://www.uclm.es/es/perfiles/preuniversitario/acceso/pau/modelosycriteriosdecorreccion>`__
      - `Modelo
@@ -175,6 +192,7 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-clm-tein-2324-extra.pdf>`__
+     -
    * - `Castilla y León
        <https://pruebasdeacceso.uva.es/1.ebau/>`__
      - `Ordinaria
@@ -192,6 +210,7 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-cyl-tein-2324-extra.pdf>`__
+     -
    * - `Extremadura
        <https://alumnado.unex.es/pau/>`__
      - `Modelo
@@ -209,6 +228,8 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-extremadura-tein-2324-extra.pdf>`__
+     - `Extraordinaria
+       </static/pau/pau-extremadura-tein-2026-extra.pdf>`__
    * - `Galicia
        <https://www.ciug.gal/gal/pau>`__
      - `Modelo
@@ -229,6 +250,7 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-galicia-tein-2324-extra.pdf>`__
+     -
    * - `Madrid
        <https://www.ucm.es/pruebas-de-acceso>`__
      - `Modelo Soluciones
@@ -264,6 +286,7 @@ Tecnología e Ingeniería II
 
        `Extraordinaria Soluciones
        </static/pau/pau-madrid-tein-2324-extra-solucion.pdf>`__
+     -
    * - `Murcia
        <https://www.um.es/web/estudios/acceso/estudiantes-bachillerato-y-ciclos-formativos>`__
      - `Ordinaria
@@ -281,6 +304,7 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-murcia-tein-2324-extra.pdf>`__
+     -
    * - `Navarra
        <https://www.unavarra.es/sites/estudios/acceso-y-admision/evau-para-estudiantes/desarrollo-de-las-pruebas.html>`__
      - `Ordinaria
@@ -298,6 +322,7 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-navarra-tein-2324-extra.pdf>`__
+     -
    * - `País Vasco
        <https://www.ehu.eus/es/web/unibertsitaterako-sarbidea/pruebas-de-acceso/examenes-de-cursos-anteriores/bachillerato-y-ciclos-formativos-de-grado-superior>`__
      - `Ordinaria
@@ -312,6 +337,7 @@ Tecnología e Ingeniería II
        </static/pau/pau-paisvasco-tein-2425-extra.pdf>`__
      - `Ordinaria
        </static/pau/pau-paisvasco-tein-2324-ordinaria.pdf>`__
+     -
    * - `La Rioja
        <https://www.unirioja.es/administracion-y-servicios/oficina-del-estudiante/ebau/examenes-y-criterios/>`__
      - `Ordinaria
@@ -329,6 +355,7 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-rioja-tein-2324-extra.pdf>`__
+     -
    * - `UNED
        <https://unedasiss.uned.es/examenes>`__
      - `Modelo
@@ -337,6 +364,7 @@ Tecnología e Ingeniería II
        </static/pau/pau-uned-tein-2425-modelo.pdf>`__
      - `Modelo
        </static/pau/pau-uned-tein-2324-modelo.pdf>`__
+     -
    * - `Comunidad Valenciana
        <https://universitats.gva.es/va/prova-acces-universitat-pau>`__
      - `Modelo
@@ -363,3 +391,4 @@ Tecnología e Ingeniería II
 
        `Extraordinaria
        </static/pau/pau-valencia-tein-2324-extra.pdf>`__
+     -
