@@ -41,6 +41,7 @@ Tarea PWM brillo
 Monta el circuito de la figura:
 
 .. figure:: _images/arduino-ft-05.png
+   :width: 240px
    :align: center
 
 Realiza el mismo programa que el de las tareas anteriores,
@@ -60,6 +61,7 @@ Sería el código equivalente a:
 
 Ajuste de brillo con bucle for
 ------------------------------
+
 |icono-video| VÍDEO: `Ajuste de brillo usando la variable "i" del bucle for()
 <https://www.youtube.com/watch?v=V_GoKMmdV4I>`__
 

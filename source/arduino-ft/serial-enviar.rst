@@ -37,6 +37,7 @@ Tarea pedir nivel de brillo
 Monta el circuito de la figura:
 
 .. figure:: _images/arduino-ft-05.png
+   :width: 240px
    :align: center
 
 realiza un programa en Arduino IDE que haga el algoritmo de los bloques
