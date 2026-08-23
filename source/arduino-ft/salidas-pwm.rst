@@ -40,7 +40,7 @@ Tarea PWM brillo
 ----------------
 Monta el circuito de la figura:
 
-.. figure:: _images/arduino-ft-03.png
+.. figure:: _images/arduino-ft-05.png
    :align: center
 
 Realiza el mismo programa que el de las tareas anteriores,
@@ -57,6 +57,46 @@ Sería el código equivalente a:
    :align: center
    :width: 420px
 
+
+Ajuste de brillo con bucle for
+------------------------------
+|icono-video| VÍDEO: `Ajuste de brillo usando la variable "i" del bucle for()
+<https://www.youtube.com/watch?v=V_GoKMmdV4I>`__
+
+
+
+
+Tarea PWM for()
+---------------
+Usando el bucle ``for()``, programa el LED para que se encienda
+progresivamente de 0 a 255 con un retardo de 20 ms entre cambios de
+intensidad.
+Fíjate en la imagen, te servirá de guía:
+
+.. figure:: _images/arduino-ft-24.png
+   :align: center
+   :width: 310px
+   
+   La variable i aumenta de 1 en 1 (i++).
+
+Sería el equivalente en código a los siguientes bloques:
+
+.. figure:: _images/arduino-ft-33.png
+   :align: center
+   :width: 420px
+
+
+Tarea brillo sube baja
+----------------------
+Usando el bucle ``for()``, programa el LED para que se encienda
+progresivamente de 0 a 255 de 5 en 5 y luego de 255 a 0 de 5 en 5,
+con un retardo de 15 ms entre cambios de intensidad.
+
+Fíjate en la imagen, te servirá de guía:
+
+.. figure:: _images/arduino-ft-35.png
+   :align: center
+   :width: 660px
 
 
 .. |icono-video| image:: _images/arduino-ft-video.png
