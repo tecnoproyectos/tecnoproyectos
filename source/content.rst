@@ -21,6 +21,7 @@ Colección de proyectos de Tecnología para el aula de Secundaria.
    arduino-ft/index
    freecad-ft/index
    javascript-eg/index
+   scratch-sc/index
 
    colaborar-cp/index
    
