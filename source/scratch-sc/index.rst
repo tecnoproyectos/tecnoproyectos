@@ -22,7 +22,10 @@ Ese conjunto de instrucciones es lo que llamamos **programa**.
    intro
    ejercicios-posicion
    ejercicios-guiados
-
+   ejercicios-dibujo
+   ejercicios-bucles
+   ejercicios-animacion
+   tutoriales
 
 
 .. note::

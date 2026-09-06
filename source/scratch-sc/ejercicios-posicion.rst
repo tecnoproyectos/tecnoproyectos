@@ -7,7 +7,7 @@
 Ejercicios de posición
 ======================
 
-#. Haz un programa como el que se muestra en al imagen y pruébalo clicando
+#. Haz un programa como el que se muestra en la imagen y pruébalo clicando
    la bandera verde e intenta comprender el código.
 
    .. figure:: _images/scratch-sc-01.gif
